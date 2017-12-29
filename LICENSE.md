@@ -1,1 +1,1 @@
-CC-BY-SA
+GFDL 1.3
