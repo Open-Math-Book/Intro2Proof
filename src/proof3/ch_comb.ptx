@@ -1,0 +1,13 @@
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="ch_comb">
+  <title>Proof techniques III <mdash /> Combinatorics</title>
+  <introduction>
+    <p>
+      <em>Tragedy is when I cut my finger. Comedy is when you fall into an open sewer and die. <ndash />Mel Brooks </em>
+    </p>
+  </introduction>
+  <xi:include  href="sec_counting.ptx" />
+  <xi:include  href="sec_parity.ptx" />
+  <xi:include  href="sec_pigeonhole.ptx" />
+  <xi:include  href="sec_alg_comb.ptx" />
+</chapter>
