@@ -421,28 +421,30 @@
     we'll have modus ponens.
   </p>
   <exercises>
-    <exercise>
-    <statement>
+    <exercisegroup>
+    <introduction>
       <p>
-        Determine the logical form of the following arguments. Use symbols
-        to express that form and determine whether the form is valid or invalid.
+        In <xref first="guilt_arg" last="politics_arg" />, determine the logical form of the arguments. 
+        Use symbols to express that form and determine whether the form is valid or invalid.
         If the form is invalid, determine the type of error made. Comment on the
         soundness of the argument as well, in particular, determine whether any of
         the premises are questionable.
-        <ol>
-          \end{exercise}
-          <exercise>
-            <p>
-              All who are guilty are in prison.
-              George is not in prison.
-              Therefore, George is not guilty.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              This looks like modus tollens. Let <m>G</m> refer to <q>guilt</q> and <m>P</m> refer to <q>in prison</q>
-            </p>
-            <tabular>
+      </p>
+    </introduction>
+    <exercise xml:id="guilt_arg">
+      <statement>
+        <p>
+          All who are guilty are in prison.
+          George is not in prison.
+          Therefore, George is not guilty.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          This looks like modus tollens. Let <m>G</m> refer to <q>guilt</q> 
+          and <m>P</m> refer to <q>in prison</q>
+        </p>
+        <p><tabular>
               <row>
                 <cell></cell>
                 <cell><m>\forall x, G(x) \implies P(x)</m></cell>
@@ -459,7 +461,7 @@
                 <cell><m>\therefore</m></cell>
                 <cell><m>{\lnot}G(\mbox{George} )</m></cell>
               </row>
-            </tabular>
+            </tabular></p>
             <p>
               You should note that while the form is valid, there is something terribly wrong with this argument. Is it really true that everyone who is guilty of a crime is in prison?
             </p>
@@ -492,7 +494,7 @@
             </p>
           </statement>
         </exercise>
-        <exercise>
+        <exercise xml:id="octopus_arg">
           <statement>
             <p>
               All fish live in water.
@@ -501,12 +503,16 @@
             </p>
           </statement>
         </exercise>
-        \begin{exercise} If a person goes into politics, they are a scoundrel.
-          Harold has gone into politics. 
-          Therefore, Harold is a scoundrel.
-      </ol>
-    </p>
-    </exercise>
+        <exercise xml:id="politics_arg">
+          <statement>
+            <p>
+              If a person goes into politics, they are a scoundrel.
+              Harold has gone into politics. 
+              Therefore, Harold is a scoundrel.
+            </p>
+          </statement>
+        </exercise>
+    </exercisegroup>
     <exercise>
       <statement>
         <p>
@@ -781,17 +787,17 @@
         </p>
 
         <p>
-          Reexamine the arguments from problem (1), determine their forms
+          Reexamine the arguments in <xref first="guilt_arg" last="politics_arg" />, determine their forms
           (including quantifiers) and whether they are universal or particular.
         </p>
       </statement>
       <hint>
         <p>
-          Hint: All of them except for one are the particular form <mdash /> number 4 is the exception.
+          Hint: All of them except for one are the particular form.
         </p>
 
         <p>
-          Here's an analysis of number 5:
+          Here's an analysis of <xref ref="octopus_arg" />:
         </p>
 
         <p>
@@ -830,103 +836,103 @@
         </p>
       </hint>
     </exercise>
-    <exercise>
-    <statement>
+  <exercisegroup>
+    <introduction>
       <p>
-        Identify the rule of inference being used.
-        <ol>
-          \end{exercise}
-          <exercise>
-            <p>
-              The Buley Library is very tall.
-            </p>
-
-            <p>
-              Therefore, either the Buley Library is very tall or it has many
-              levels underground.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              disjunctive addition
-            </p>
-          </hint>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              The grass is green.
-            </p>
-
-            <p>
-              The sky is blue.
-            </p>
-
-            <p>
-              Therefore, the grass is green and the sky is blue.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              conjunctive addition
-            </p>
-          </hint>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              <m>g</m> has order 3 or it has order 4.
-            </p>
-
-            <p>
-              If <m>g</m> has order 3, then <m>g</m> has an inverse.
-            </p>
-
-            <p>
-              If <m>g</m> has order 4, then <m>g</m> has an inverse.
-            </p>
-
-            <p>
-              Therefore, <m>g</m> has an inverse.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              constructive dilemma
-            </p>
-          </hint>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              <m>x</m> is greater than 5 and <m>x</m> is less than 53.
-            </p>
-
-            <p>
-              Therefore, <m>x</m> is less than 53.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              conjunctive simplification
-            </p>
-          </hint>
-        </exercise>
-        \begin{exercise} If <m>a|b</m>, then <m>a</m> is a perfect square.
-
-        If <m>a|b</m>, then <m>b</m> is a perfect square.
-
-        Therefore, if <m>a|b</m>, then <m>a</m> is a perfect square and <m>b</m> is
-        a perfect square.
-        <hint>
-          <p>
-            Note that the conclusion could be re-expressed as the conjunction of the two conditionals that
-            are found in the premises. This is conjunctive addition with a bit of <q>window dressing.</q>
-          </p>
-        </hint>
-      </ol>
-    </p>
+        In <xref first="buley_arg" last="square_arg" />, identify the rule of inference being used.
+      </p>
+    </introduction>
+    <exercise>
+      <statement>
+        <p>
+          The Buley Library is very tall.
+        </p>
+        <p>
+          Therefore, either the Buley Library is very tall or it has many
+          levels underground.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          disjunctive addition
+        </p>
+      </hint>
     </exercise>
+    <exercise>
+      <statement>
+        <p>
+          The grass is green.
+        </p>
+        <p>
+          The sky is blue.
+        </p>
+        <p>
+          Therefore, the grass is green and the sky is blue.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          conjunctive addition
+        </p>
+      </hint>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>g</m> has order 3 or it has order 4.
+        </p>
+        <p>
+          If <m>g</m> has order 3, then <m>g</m> has an inverse.
+        </p>
+        <p>
+          If <m>g</m> has order 4, then <m>g</m> has an inverse.
+        </p>
+        <p>
+          Therefore, <m>g</m> has an inverse.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          constructive dilemma
+        </p>
+      </hint>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>x</m> is greater than 5 and <m>x</m> is less than 53.
+        </p>
+        <p>
+          Therefore, <m>x</m> is less than 53.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          conjunctive simplification
+        </p>
+      </hint>
+    </exercise>
+    <exercise xml:id="square_arg">
+      <statement>
+        <p>
+          If <m>a|b</m>, then <m>a</m> is a perfect square.
+        </p>
+        <p>
+          If <m>a|b</m>, then <m>b</m> is a perfect square.
+        </p>
+        <p>
+          Therefore, if <m>a|b</m>, then <m>a</m> is a perfect square and <m>b</m> is
+        a perfect square.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Note that the conclusion could be re-expressed as the conjunction of the two conditionals that
+          are found in the premises. This is conjunctive addition with a bit of <q>window dressing.</q>
+        </p>
+      </hint>
+    </exercise>
+  </exercisegroup>
     <exercise>
       <statement>
         <p>

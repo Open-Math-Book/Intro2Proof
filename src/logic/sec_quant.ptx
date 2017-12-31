@@ -381,86 +381,84 @@
         The order in which quantifiers appear is important. Let <m>L(x,y)</m>
         be the open sentence <q><m>x</m> is in love with <m>y</m>.</q> Discuss the meanings of the
         following quantified statements and find their negations.
-        <ol>
-          \end{exercise}
-          <exercise>
-            <p>
-              <m>\forall x \, \exists y \; L(x,y)</m>.
-            </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              <m>\exists x \, \forall y \; L(x, y)</m>.
-            </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              <m>\forall x \, \forall y \; L(x, y)</m>.
-            </p>
-          </statement>
-        </exercise>
-        \begin{exercise}  <m>\exists x \, \exists y \; L(x, y)</m>.
-      </ol>
-    </p>
-    <hint>
-      <p>
-        <ol>
-          \end{exercise}
-          <exercise>
-            <statement>
-            <p>
-              <m>\forall x \, \exists y \; L(x,y)</m>.
-            </p>
-
-            <p>
-              This is a fairly optimistic statement <q>For everyone out there, there's somebody that they are in love with.</q>
-            </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <statement>
-            <p>
-              <m>\exists x \, \forall y \; L(x, y)</m>.
-            </p>
-
-            <p>
-              This one, on the other hand, says something fairly strange: <q>There's someone who has fallen in love with every other human being.</q> I don't know, maybe the Dalai Lama? Mother Theresa?...
-              Anyway, do the last two for yourself.
-            </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <statement>
-            <p>
-              <m>\forall x \, \forall y \; L(x, y)</m>.
-            </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <statement>
-            <p>
-              <m>\exists x \, \exists y \; L(x, y)</m>.
-            </p>
-
-            <p>
-              Here's a couple of bonus questions. Two of the statements above have different meanings if you just interchange the order that the quantifiers appear in. What do the following mean (in contrast to the ones above)?
-            </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <statement>
-            <p>
-              <m>\exists y \, \forall x \; L(x, y)</m>.
-            </p>
-            </statement>
-          </exercise>
-          \begin{exercise} <m>\forall y \, \exists x \; L(x,y)</m>.
-        </ol>
       </p>
+      <ol>
+        <li>
+          <p>
+            <m>\forall x \, \exists y \; L(x,y)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\exists x \, \forall y \; L(x, y)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\forall x \, \forall y \; L(x, y)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\exists x \, \exists y \; L(x, y)</m>.
+          </p>
+        </li>
+      </ol>
+    </statement>
+    <hint>
+      <ol>
+        <li>
+          <p>
+            <m>\forall x \, \exists y \; L(x,y)</m>.
+          </p>
+
+          <p>
+            This is a fairly optimistic statement <q>For everyone out there, 
+           there's somebody that they are in love with.</q>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\exists x \, \forall y \; L(x, y)</m>.
+          </p>
+
+          <p>
+            This one, on the other hand, says something fairly strange: 
+            <q>There's someone who has fallen in love with every other human being.</q> 
+            I don't know, maybe the Dalai Lama? Mother Theresa?...
+          </p>
+          <p>
+              Anyway, do the last two for yourself.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\forall x \, \forall y \; L(x, y)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\exists x \, \exists y \; L(x, y)</m>.
+          </p>
+        </li>
+      </ol>
+      <p>
+           Here's a couple of bonus questions. Two of the statements above have 
+           different meanings if you just interchange the order that the quantifiers 
+           appear in. What do the following mean (in contrast to the ones above)?
+      </p>
+      <ol>
+        <li>
+          <p>
+            <m>\exists y \, \forall x \; L(x, y)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\forall y \, \exists x \; L(x,y)</m>.
+          </p>
+        </li>
+      </ol>
     </hint>
     </exercise>
     <exercise>
@@ -505,8 +503,11 @@
         </p>
       </hint>
     </exercise>
-    <exercise>
-    <statement>
+    <exercisegroup>
+    <introduction>
+      <p>
+        The following setup is used in <xref ref="negated"></xref> through <xref ref="summary"></xref>.
+      </p>
       <p>
         Alvin, Betty, and Charlie enter a cafeteria which offers three different
         entrees, turkey sandwich, veggie burger, and pizza; four different
@@ -515,95 +516,101 @@
         Betty takes a veggie burger, a soda, and a pie. Charlie takes a pizza
         and a soda. Based on this information, determine whether the following
         statements are true or false.
-        <ol>
-          \end{exercise}
-          <exercise xml:id="negated">
-            <p>
-              <m>\forall</m> people <m>p</m>, <m>\exists</m> dessert <m>d</m> such that <m>p</m>
-              took <m>d</m>.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              false
-            </p>
-          </hint>
-        </exercise>
-        <exercise xml:id="compare">
-          <statement>
-            <p>
-              <m>\exists</m> person <m>p</m> such that <m>\forall</m> desserts
-              <m>d</m>, <m>p</m> did not take <m>d</m>.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              true
-            </p>
-          </hint>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              <m>\forall</m> entrees <m>e</m>, <m>\exists</m> person <m>p</m> such that <m>p</m> took
-              <m>e</m>.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              true
-            </p>
-          </hint>
-        </exercise>
-        <exercise xml:id="entree">
-          <statement>
-            <p>
-              <m>\exists</m> entree <m>e</m> such that <m>\forall</m> people
-              <m>p,\ p</m> took <m>e</m>.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              false
-            </p>
-          </hint>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              <m>\forall</m> people <m>p</m>, <m>p</m> took a dessert <m>\iff p</m> did not take
-              a pizza.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              true
-            </p>
-          </hint>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              Change one word of <xref ref="entree">statement</xref> so that it becomes true.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              entree <m>\longrightarrow</m> beverage
-            </p>
-          </hint>
-        </exercise>
-        \begin{exercise}  Write down the negation of <xref ref="negated"></xref> and compare it to <xref ref="compare">statement</xref>. Hopefully you will see that they are the same! Does
-        this make you want to modify one or both of your answers to <xref ref="negated"></xref>
-        and <xref ref="compare"></xref>?
-        <hint>
-          <p>
-            <m>\exists</m> person <m>p</m> such that <m>\forall</m> desserts
-            <m>d</m>, <m>p</m> did not take <m>d</m>. Yes I do. No, I got them right in the first place!
-          </p>
-        </hint>
-      </ol>
-    </p>
+      </p>
+    </introduction>
+    <exercise xml:id="negated">
+      <statement>
+        <p>
+          <m>\forall</m> people <m>p</m>, <m>\exists</m> dessert <m>d</m> such that <m>p</m>
+          took <m>d</m>.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          false
+        </p>
+      </hint>
     </exercise>
+    <exercise xml:id="compare">
+      <statement>
+        <p>
+          <m>\exists</m> person <m>p</m> such that <m>\forall</m> desserts
+          <m>d</m>, <m>p</m> did not take <m>d</m>.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          true
+        </p>
+      </hint>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\forall</m> entrees <m>e</m>, <m>\exists</m> person <m>p</m> such that <m>p</m> took
+          <m>e</m>.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          true
+        </p>
+      </hint>
+    </exercise>
+    <exercise xml:id="entree">
+      <statement>
+        <p>
+          <m>\exists</m> entree <m>e</m> such that <m>\forall</m> people
+          <m>p,\ p</m> took <m>e</m>.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          false
+        </p>
+      </hint>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\forall</m> people <m>p</m>, <m>p</m> took a dessert <m>\iff p</m> did not take
+          a pizza.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          true
+        </p>
+      </hint>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Change one word of <xref ref="entree">statement</xref> so that it becomes true.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          entree <m>\longrightarrow</m> beverage
+        </p>
+      </hint>
+    </exercise>
+    <exercise xml:id="summary">
+      <statement>
+        <p>
+          Write down the negation of <xref ref="negated"></xref> and compare it to 
+          <xref ref="compare">statement</xref>. Hopefully you will see that they are 
+          the same! Does this make you want to modify one or both of your answers to 
+          <xref ref="negated"></xref> and <xref ref="compare"></xref>?
+        </p>
+      </statement>
+      <hint>
+        <p>
+          <m>\exists</m> person <m>p</m> such that <m>\forall</m> desserts
+          <m>d</m>, <m>p</m> did not take <m>d</m>. Yes I do. No, I got them right in the first place!
+        </p>
+      </hint>
+    </exercise>
+    </exercisegroup>
   </exercises>
 </section>

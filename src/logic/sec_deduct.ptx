@@ -724,44 +724,47 @@
         </p>
       </hint>
     </exercise>
-    <exercise>
-    <statement>
+    <exercisegroup>
+    <introduction>
       <p>
         For each of the following arguments, write it in symbolic form and determine
         which rules of inference are used.
-        <ol>
-          \end{exercise}
-          <exercise>
-            <p>
-              You are either with us, or you're against us. And you don't appear to be with us.
-              So, that means you're against us!
-            </p>
-          </statement>
-          <hint>
-            <tabular>
-              <row>
-                <cell></cell>
-                <cell><m>W \lor A</m></cell>
-              </row>
-              <row>
-                <cell></cell>
-                <cell><m>{\lnot}W</m></cell>
-              </row>
-              <row bottom="minor">
-                <cell></cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell><m>\therefore</m></cell>
-                <cell><m>A</m></cell>
-              </row>
-            </tabular>
-            <p>
-              This is <q>disjunctive syllogism.</q>
-            </p>
-          </hint>
-        </exercise>
-        <exercise>
+      </p>
+    </introduction>
+    <exercise>
+      <statement>  
+        <p>
+            You are either with us, or you're against us. And you don't appear to be with us.
+            So, that means you're against us!
+        </p>
+      </statement>
+      <hint>
+        <p>
+          <tabular>
+            <row>
+              <cell></cell>
+              <cell><m>W \lor A</m></cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell><m>{\lnot}W</m></cell>
+            </row>
+            <row bottom="minor">
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><m>\therefore</m></cell>
+              <cell><m>A</m></cell>
+            </row>
+          </tabular>
+        </p>
+        <p>
+          This is <q>disjunctive syllogism.</q>
+        </p>
+      </hint>
+    </exercise>
+    <exercise>
           <statement>
             <p>
               All those who had cars escaped the flooding. Sandra had a car <mdash /> therefore, Sandra
@@ -770,9 +773,12 @@
           </statement>
           <hint>
             <p>
-              Let <m>C(x)</m> be the open sentence <q>x has a car</q> and let <m>E(x)</m> be the open sentence <q>x escaped the flooding.</q>
-              This argument is actually the particular form of universal modus ponens: (See the final question in the next set of exercises.)
+              Let <m>C(x)</m> be the open sentence <q>x has a car</q> and let <m>E(x)</m> 
+              be the open sentence <q>x escaped the flooding.</q>
+              This argument is actually the particular form of universal modus ponens: 
+              (See the final question in the next set of exercises.)
             </p>
+            <p>
             <tabular>
               <row>
                 <cell></cell>
@@ -791,8 +797,10 @@
                 <cell><m>E(\mbox{Sandra} )</m></cell>
               </row>
             </tabular>
+            </p>
             <p>
-              At this stage in the game it would be perfectly fine to just identify this as modus ponens and not worry about the quantifiers that appear.
+              At this stage in the game it would be perfectly fine to just identify this as 
+              modus ponens and not worry about the quantifiers that appear.
             </p>
           </hint>
         </exercise>
@@ -804,20 +812,22 @@
             </p>
           </statement>
         </exercise>
-        \begin{exercise}  (A non-constructive proof that there are 
-        irrational numbers <m>a</m> and <m>b</m> such that <m>a^b</m> is rational.)  
-        Either <m>\sqrt{2}^{\sqrt{2}}</m> is rational or it is irrational.
-        If <m>\sqrt{2}^{\sqrt{2}}</m> is rational, we let <m>a=b=\sqrt{2}</m>.
-        Otherwise, we let <m>a=\sqrt{2}^{\sqrt{2}}</m> and <m>b=\sqrt{2}</m>.
-        (Since <m>\sqrt{2}^{\sqrt{2}^{\sqrt{2}}} = 2</m>, which is rational.) It follows that in either case, there
-        are irrational numbers <m>a</m> and <m>b</m> such that <m>a^b</m> is rational.
-      </ol>
-    </p>
-    <hint>
-      <p>
-        I'm leaving the last two for you to do. One small hint: both are valid forms.
-      </p>
-    </hint>
-    </exercise>
+        <exercise>
+          <statement>
+            <p>
+              (A non-constructive proof that there are 
+              irrational numbers <m>a</m> and <m>b</m> such that <m>a^b</m> is rational.)
+            </p>
+            <p>  
+              Either <m>\sqrt{2}^{\sqrt{2}}</m> is rational or it is irrational.
+              If <m>\sqrt{2}^{\sqrt{2}}</m> is rational, we let <m>a=b=\sqrt{2}</m>.
+              Otherwise, we let <m>a=\sqrt{2}^{\sqrt{2}}</m> and <m>b=\sqrt{2}</m>.
+              (Since <m>\sqrt{2}^{\sqrt{2}^{\sqrt{2}}} = 2</m>, which is rational.) 
+              It follows that in either case, there are irrational numbers <m>a</m> and 
+              <m>b</m> such that <m>a^b</m> is rational.
+            </p>
+          </statement>
+        </exercise>
+    </exercisegroup>
   </exercises>
 </section>

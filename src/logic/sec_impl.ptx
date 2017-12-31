@@ -504,76 +504,67 @@
     <statement>
       <p>
         Find the contrapositives of the following sentences.
-        <ol>
-          \end{exercise}
-          <exercise>
-            <p>
-              If you can't do the time, don't do the crime.
-            </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              If you do well in school, you'll get a good job.
-            </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              If you wish others to treat you in a certain way, you must
-              treat others in that fashion.
-            </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              If it's raining, there must be clouds.
-            </p>
-          </statement>
-        </exercise>
-        \begin{exercise}  If <m>a_n \leq b_n</m>, for all <m>n</m> and <m>\sum_{n=0}^\infty b_n</m> is a 
-        convergent series, then <m>\sum_{n=0}^\infty a_n</m> is a convergent series.
+      </p>
+      <ol>
+        <li>
+          <p>
+            If you can't do the time, don't do the crime.
+          </p>
+        </li>
+        <li>
+          <p>
+            If you do well in school, you'll get a good job.
+          </p>
+        </li>
+        <li>
+          <p>
+            If you wish others to treat you in a certain way, you must
+            treat others in that fashion.
+          </p>
+        </li>
+        <li>
+          <p>
+            If it's raining, there must be clouds.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>a_n \leq b_n</m>, for all <m>n</m> and <m>\sum_{n=0}^\infty b_n</m> is a 
+            convergent series, then <m>\sum_{n=0}^\infty a_n</m> is a convergent series.
+          </p>
+        </li>
       </ol>
-    </p>
+    </statement>
     <hint>
-      <p>
         <ol>
-          \end{exercise}
-          <exercise>
-            <statement>
+          <li>
             <p>
               If you do the crime, you must do the time.
             </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <statement>
+          </li>
+          <li>
             <p>
               If you don't have a good job, you must've done poorly in school.
             </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <statement>
+          </li>
+          <li>
             <p>
               If you don't treat others in a certain way, you can't hope for others to treat you in that fashion,
             </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <statement>
+          </li>
+          <li>
             <p>
               If there are no clouds, it can't be raining.
             </p>
-            </statement>
-          </exercise>
-          \begin{exercise} If  <m>\sum_{n=0}^\infty a_n</m> is not a convergent series, then either <m>a_n \leq b_n</m>, for some <m>n</m> or 
-          <m>\sum_{n=0}^\infty b_n</m> is not a convergent series.
+          </li>
+          <li>
+            <p>
+              If  <m>\sum_{n=0}^\infty a_n</m> is not a convergent series, then either 
+              <m>a_n \leq b_n</m>, for some <m>n</m> or <m>\sum_{n=0}^\infty b_n</m> is 
+              not a convergent series.
+            </p>
+          </li>
         </ol>
-      </p>
     </hint>
     </exercise>
     <exercise>
