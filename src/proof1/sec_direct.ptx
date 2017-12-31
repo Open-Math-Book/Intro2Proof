@@ -533,20 +533,17 @@
         <m>6k+1</m> or <m>6k+5</m>. What statement(s) could be used as hypotheses in
         proving this theorem?
       </p>
-      <hint>
+    </statement>
+    <hint>
       <p>
         Fill in the blanks:
-        <ul>
-          \end{exercise}
-          <exercise>
-            <p>
-              <m>p</m> is a <fillin /> number, and
-            </p>
-          </statement>
-        </exercise>
-        \begin{exercise} <m>p</m> is greater than <fillin />.
-      </ul>
-    </p>
+      </p>
+      <p>
+        <m>p</m> is a <fillin /> number, and
+      </p>
+      <p>
+        <m>p</m> is greater than <fillin />.
+      </p>
     </hint>
     </exercise>
     <exercise>

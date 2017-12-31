@@ -333,10 +333,16 @@
   </p>
 
   <blockquote>
+<p>
   If a rhinoceros sees something on fire, it will stomp on it. 
-  A rhinoceros stomped on my duck. 
+</p>
+<p>
+  A rhinoceros stomped on my duck.
+</p>
+<p>
   Therefore, the rhino must have thought that my duck was on fire.
   <index><main>duck, flaming</main></index>
+</p>
   </blockquote>
 
   <p>
@@ -362,10 +368,16 @@
   </p>
 
   <blockquote>
+<p>
   You will get an A in your Foundations class if and only if you 
   read Dr.<nbsp />Fields' book.
+</p>
+<p>
   You read Dr.<nbsp />Fields' book. 
+</p>
+<p>
   Therefore, you will get an A in Foundations.
+</p>
   </blockquote>
 
   <p>
@@ -374,9 +386,15 @@
   </p>
 
   <blockquote>
-  If you read Dr.<nbsp />Fields' book, you will pass your Foundations class. 
-  You did not read Dr.<nbsp />Fields' book. 
+<p>
+  If you read Dr.<nbsp />Fields' book, you will pass your Foundations class.
+</p>
+<p>
+  You did not read Dr.<nbsp />Fields' book.
+</p>
+<p>
   Therefore, you will not pass Foundations.
+</p>
   </blockquote>
 
   <p>
@@ -842,7 +860,7 @@
         In <xref first="buley_arg" last="square_arg" />, identify the rule of inference being used.
       </p>
     </introduction>
-    <exercise>
+    <exercise xml:id="buley_arg">
       <statement>
         <p>
           The Buley Library is very tall.

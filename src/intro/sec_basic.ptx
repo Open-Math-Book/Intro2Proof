@@ -75,14 +75,14 @@
   </p>
 
   <p>
-    To describe the <index><main>rationals</main></index> rational numbers precisely we'll have to wait until <xref ref="sec_rat">Section</xref>.
+    To describe the <index><main>rationals</main></index> rational numbers precisely we'll have to wait until <xref ref="sec_rat" />.
     In the interim, we can use an intuitively appealing, but somewhat imprecise
     definition for the set of rationals. A rational number is a fraction built out
     of integers. This also provides us with
     a chance to give an example of using the main other way of describing
     the contents of a set <mdash /> so-called <index><main>set-builder notation</main></index> set-builder notation.
     <me>
-      \Rationals = \{ \frac{a}{b} \suchthat a \in \Integers \; \mbox{and}  \;
+      \Rationals = \{ \frac{a}{b} \vert a \in \Integers \; \mbox{and}  \;
       b \in \Integers \; \mbox{and}  \; b \neq 0 \}
     </me>
   </p>
@@ -102,13 +102,13 @@
       equality test.  This may be technically correct but it isn't how
       most people think of things.</fn>
     Let's dissect the rest of that line now. There are only 4
-    characters whose meaning may be in doubt, <m>\{</m>, <m>\}</m>, <m>\in</m> and <m>\suchthat</m>.
+    characters whose meaning may be in doubt, <m>\{</m>, <m>\}</m>, <m>\in</m> and <m>\vert</m>.
     The curly braces (a.k.a. <em>french braces</em>) are almost universally
     reserved to denote sets, anything appearing between curly braces is
     meant to define a set. In translating from <q>math</q> to English,
     replace the initial brace with the phrase <q>the set of all.</q> The
     next arcane symbol to appear is the vertical bar. As we will see in
-    <xref ref="div">Section</xref> this symbol has (at least) two meanings <mdash /> it will
+    <xref ref="div" /> this symbol has (at least) two meanings <mdash /> it will
     always be clear from context which is meant. In the sentence we are
     analyzing, it stands for the words <q>such that.</q> The last bit of
     arcana to be deciphered is the symbol <m>\in</m>, it stands for the English
@@ -139,7 +139,7 @@
   <tabular>
     <row>
       <cell><m>\displaystyle \frac{a}{b}</m></cell>
-      <cell><m>\suchthat</m></cell>
+      <cell><m>\vert</m></cell>
     </row>
     <row bottom="minor">
       <cell></cell>
@@ -244,7 +244,7 @@
     <m>\Complexes</m> of <index><main>complex numbers</main></index>complex numbers with precision
     (modulo the fact that we define them in terms of <m>\Reals</m>).
     <me>
-      \Complexes = \{ a + bi \suchthat a \in \Reals \; \mbox{and}  \; b \in
+      \Complexes = \{ a + bi \vert a \in \Reals \; \mbox{and}  \; b \in
       \Reals \; \mbox{and}  \; i^2 = -1 \}
     </me>
   </p>
@@ -272,7 +272,7 @@
   <tabular>
     <row>
       <cell><m>a+bi</m></cell>
-      <cell><m>\suchthat</m></cell>
+      <cell><m>\vert</m></cell>
     </row>
     <row bottom="minor">
       <cell></cell>
@@ -389,16 +389,16 @@
   <p>
     So
     <me>
-      \Integers^+ \; = \; \{ x \in \Integers \suchthat x > 0 \}
+      \Integers^+ \; = \; \{ x \in \Integers \vert x > 0 \}
     </me>
     and
     <me>
-      \Integers^- \; = \; \{ x \in \Integers \suchthat x \lt  0 \}
+      \Integers^- \; = \; \{ x \in \Integers \vert x \lt  0 \}
     </me>
     and
     <me>
       \Znoneg \; = \; 
-      \{ x \in \Integers \suchthat x \geq 0 \}.
+      \{ x \in \Integers \vert x \geq 0 \}.
     </me>
   </p>
 
