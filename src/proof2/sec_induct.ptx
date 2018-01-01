@@ -418,13 +418,13 @@
       <p>
         For each of the following theorems, write the statement that must be
         proved for the basis <mdash /> then prove it, if you can!
+      </p>
         <ol>
-          \end{exercise}
-          <exercise>
+          <li>
             <p>
               The sum of the first <m>n</m> positive integers is <m>(n^2+n)/2</m>.
             </p>
-          </statement>
+          </li>
           <hint>
             <p>
               The sum of the first <m>0</m> positive integers is <m>(0^2 + 0)/2</m>. Or, if you
@@ -432,26 +432,22 @@
               is <m>(1^2+1)/2</m>.
             </p>
           </hint>
-        </exercise>
-        <exercise>
-          <statement>
+          <li>
             <p>
               The sum of the first <m>n</m> (positive) odd numbers is <m>n^2</m>.
             </p>
-          </statement>
+          </li>
           <hint>
             <p>
               The sum of the first <m>0</m> positive odd numbers is <m>0^2</m>. Or, the sum of the first <m>1</m> positive odd numbers is <m>1^2</m>.
             </p>
           </hint>
-        </exercise>
-        <exercise>
-          <statement>
+          <li>
             <p>
               If <m>n</m> coins are flipped, the probability that all of them
               are <q>heads</q> is <m>1/2^n</m>.
             </p>
-          </statement>
+          </li>
           <hint>
             <p>
               If <m>1</m> coin is flipped, the the probability that it is <q>heads</q> is <m>1/2</m>. Or if we try it
@@ -460,8 +456,9 @@
               are heads in a set that doesn't contain <em>any</em> coins?
             </p>
           </hint>
-        </exercise>
-        \begin{exercise} Every <m>2^n \times 2^n</m> chessboard <mdash /> with one square removed <mdash /> can 
+          <li>
+            <p>
+        Every <m>2^n \times 2^n</m> chessboard <mdash /> with one square removed <mdash /> can 
         be tiled perfectly<fn>Here, <q>perfectly tiled</q> means that every trominoe
         covers 3 squares of the chessboard (nothing hangs over the edge) and that every
         square of the chessboard is covered by some trominoe.</fn> by L-shaped trominoes.  
@@ -481,9 +478,9 @@
           \selectfont}\fi
         <image source="images/ef5a3af217fede2bf378cd606b250701c2c65ae7.png"/>
         . This problem is only concerned with
-        the L-shaped trominoes.)
-      </ol>
+        the L-shaped trominoes.)   
     </p>
+    </li>
     <hint>
       <p>
         If <m>n=1</m> we have: ``Every <m>2 \times 2</m> chessboard <mdash /> with one square removed
@@ -491,6 +488,8 @@
         the <m>n=0</m> case.
       </p>
     </hint>
+    </ol>
+    </statement>
     </exercise>
     <exercise>
     <statement>
@@ -498,28 +497,32 @@
         Suppose that the rules of the game for PMI were changed so that one
         did the following:
         <ul>
-          \end{exercise}
-          <exercise>
+          <li>
             <p>
               Basis. Prove that <m>P(0)</m> is true.
             </p>
-          </statement>
-        </exercise>
-        \begin{exercise} Inductive step.  Prove that for all <m>k</m>, <m>P_k</m> implies <m>P_{k+2}</m>
-      </ul>
-    </p>
+          </li>
+          <li>
+            <p> 
+              Inductive step.  Prove that for all <m>k</m>, <m>P_k</m> implies <m>P_{k+2}</m>.
+            </p>
+          </li>
+        </ul>
+      </p>
 
-    <p>
+      <p>
       Explain why this would not constitute a valid proof that <m>P_n</m> holds
       for all natural numbers <m>n</m>.
       How could we change the basis in this outline to obtain a valid proof?
-    </p>
+      </p>
+    </statement>
     <hint>
       <p>
-        In this modified version, <m>P(0)</m> is not going to imply <m>P(1)</m>. and in fact, none of the odd numbered
-        statements will be proven. If we change the
-        basis so that we prove both <m>P(0)</m> and <m>P(1)</m>, all the even statements will be implied by
-        <m>P(0)</m> being true and all the odd statements get forced because <m>P(1)</m> is true.
+        In this modified version, <m>P(0)</m> is not going to imply <m>P(1)</m>. 
+        And in fact, none of the odd numbered statements will be proven. If we 
+        change the basis so that we prove both <m>P(0)</m> and <m>P(1)</m>, all 
+        the even statements will be implied by <m>P(0)</m> being true and all the 
+        odd statements get forced because <m>P(1)</m> is true.
       </p>
     </hint>
     </exercise>
@@ -535,9 +538,10 @@
       </statement>
       <hint>
         <p>
-          A quick change would be to replace <m>\forall k, \; P_k \implies P_{k+1}</m> in the inductive
-          step with <m>\forall k, \; P_k \iff P_{k+1}</m>. While this would do the trick, a slight improvement
-          is possible, if we treat the positive and negative cases for <m>k</m> separately.
+          A quick change would be to replace <m>\forall k, \; P_k \implies P_{k+1}</m> 
+          in the inductive step with <m>\forall k, \; P_k \iff P_{k+1}</m>. While this 
+          would do the trick, a slight improvement is possible, if we treat the positive and 
+          negative cases for <m>k</m> separately.
         </p>
       </hint>
     </exercise>
