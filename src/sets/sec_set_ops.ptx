@@ -516,25 +516,25 @@
     </row>
   </tabular>
   <exercises>
-    <exercise>
-    <statement>
+    <exercisegroup>
+      <introduction>
       <p>
-        Let <m>A = \{1, 2, \{1, 2\}, b\}</m> and let <m>B=\{a, b, \{1, 2\} \}</m>.
-        Find the following:
-        <ol>
-          \end{exercise}
-          <exercise>
-            <p>
-              <m>A \cap B</m>
-            </p>
-          </statement>
-          <hint>
-            <p>
-              <m>\{ b,  \{1, 2\} \}</m>
-            </p>
-          </hint>
-        </exercise>
-        <exercise>
+        In <xref first="intersect_op" last="symmetric_diff_op" />, let <m>A = \{1, 2, \{1, 2\}, b\}</m> and let <m>B=\{a, b, \{1, 2\} \}</m>.
+      </p>
+      </introduction>
+      <exercise xml:id="intersect_op">
+        <statement>
+          <p>
+            <m>A \cap B</m>
+          </p>
+        </statement>
+        <hint>
+          <p>
+            <m>\{ b,  \{1, 2\} \}</m>
+          </p>
+        </hint>
+      </exercise>
+      <exercise>
           <statement>
             <p>
               <m>A \cup B</m>
@@ -570,15 +570,19 @@
             </p>
           </hint>
         </exercise>
-        \begin{exercise}  <m>A \triangle B</m>
-        <hint>
-          <p>
-            <m>\{ 1, 2, a \}</m>
-          </p>
-        </hint>
-      </ol>
-    </p>
-    </exercise>
+        <exercise xml:id="symmetric_diff_op">
+          <statement>
+            <p>
+              <m>A \triangle B</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>\{ 1, 2, a \}</m>
+            </p>
+          </hint>
+        </exercise>
+      </exercisegroup>
     <exercise>
     <statement>
       <p>
@@ -586,81 +590,76 @@
         based on face-value and/or suit. Let <m>A, 2, \ldots 9, 10, J, Q</m> and <m>K</m>
         represent the sets of cards having the various face-values. Also, let
         <m>\heartsuit</m>, <m>\spadesuit</m>, <m>\clubsuit</m> and <m>\diamondsuit</m> be the
-        sets of cards having the possible suits. Find the following
+        sets of cards having the possible suits. Find the following:
+      </p>
         <ol>
-          \end{exercise}
-          <exercise>
-            <p>
-              <m>A \cap \heartsuit</m>
-            </p>
-          </statement>
+         <li>
+           <p>
+             <m>A \cap \heartsuit</m>
+           </p>
+          </li>
           <hint>
             <p>
               This is just the ace of hearts.
             </p>
           </hint>
-        </exercise>
-        <exercise>
-          <statement>
+          <li>
             <p>
               <m>A \cup \heartsuit</m>
             </p>
-          </statement>
+          </li>
           <hint>
             <p>
               All of the hearts and the other three aces
             </p>
           </hint>
-        </exercise>
-        <exercise>
-          <statement>
+          <li>
             <p>
               <m>J \cap (\spadesuit \cup \heartsuit)</m>
             </p>
-          </statement>
+          </li>
           <hint>
             <p>
               These two cards are known as the one-eyed jacks.
             </p>
           </hint>
-        </exercise>
-        <exercise>
-          <statement>
+          <li>
             <p>
               <m>K \cap \heartsuit</m>
             </p>
-          </statement>
+          </li>
           <hint>
             <p>
               The king of hearts, a.k.a. the suicide king.
             </p>
           </hint>
-        </exercise>
-        <exercise>
-          <statement>
+          <li>
             <p>
               <m>A \cap K</m>
             </p>
-          </statement>
+          </li>
           <hint>
             <p>
               <m>\emptyset</m>
             </p>
           </hint>
-        </exercise>
-        \begin{exercise} <m>A \cup K</m>
+         <li>
+           <p>
+             <m>A \cup K</m>
+           </p>
+         </li>
         <hint>
           <p>
             Eight cards: all four kings and all four aces.
           </p>
         </hint>
       </ol>
-    </p>
+    </statement>
     </exercise>
     <exercise>
       <statement>
         <p>
-          The following is a screenshot from the computational geometry program OpenSCAD (very hand for making models for 3-d printing<ellipsis />) In computational geometry we use the basice set operations together
+          The following is a screenshot from the computational geometry program OpenSCAD (very hand for making models for 3-d printing<ellipsis />) In computational geometry we use the basic set operations together
           with a few other types of transformations to create interesting models using simple components. Across the top of the image below we see 3 sets of points in <m>\Reals^3</m>, a ball, a sort of 3-dimensional plus sign, and a disk. Let's call the ball <m>A</m>, the plus sign <m>B</m> and the disk <m>C</m>. The nine shapes shown below them are made from <m>A</m>, <m>B</m> and <m>C</m> using union, intersection and set difference. Identify them!
         </p>
 
@@ -673,31 +672,30 @@
     <statement>
       <p>
         Do element-chasing proofs (show that an element is in the left-hand side if and only if it is in the right-hand side) to prove each of the following set equalities.
-        <ol>
-          \end{exercise}
-          <exercise>
-            <p>
-              <m>\overline{A\cap B} \; = \; \overline{A}\cup\overline{B}</m>
-            </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              <m>A\cup B \; = \; A\cup(\overline{A}\cap B)</m>
-            </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
-            <p>
-              <m>A\triangle B \; = \; (A\cup B)\setminus(A\cap B)</m>
-            </p>
-          </statement>
-        </exercise>
-        \begin{exercise} <m>(A\cup B)\setminus C \; = \; (A\setminus C)\cup(B\setminus C)</m>
+      </p>
+      <ol>
+        <li>
+          <p>
+            <m>\overline{A\cap B} \; = \; \overline{A}\cup\overline{B}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>A\cup B \; = \; A\cup(\overline{A}\cap B)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>A\triangle B \; = \; (A\cup B)\setminus(A\cap B)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>(A\cup B)\setminus C \; = \; (A\setminus C)\cup(B\setminus C)</m>
+          </p>
+        </li>
       </ol>
-    </p>
+    </statement>
     <hint>
       <p>
         Here's the first one (although I'm omiting justifications for each step.
@@ -737,7 +735,7 @@
           To better understand what is going on, first figure out what the first three or four
           intervals actually are.
           <me>
-            I_1 \; = \; \underline{}
+            I_1 \; = \; <fillin />
           </me>
           <me>
             I_2 \; = \; \underline{}
@@ -869,6 +867,7 @@
         </p>
 
         <blockquote>
+<p>
         Suppose <m>x \in  A \triangle B</m>.  
  
         Then, by definition, <m>x \in (A\setminus B) \cup (B\setminus A)</m>.
@@ -876,6 +875,7 @@
          So, <m>x \in (A \cap \overline{B}) \cup (B \cap \overline{A})</m>.
    
         <m>\vdots</m>
+</p>
         </blockquote>
       </hint>
     </exercise>

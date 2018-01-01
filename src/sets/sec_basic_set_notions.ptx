@@ -291,17 +291,20 @@
     <statement>
       <p>
         Determine the following cardinalities.
-        <ol>
-          \end{exercise}
-          <exercise>
-            <p>
-              <m>A = \{ 1, 2, \{3, 4, 5\}\}  |A| =</m>\rule{36pt}{1pt}
-            </p>
-          </statement>
-        </exercise>
-        \begin{exercise} <m>B = \{ \{1, 2, 3, 4, 5\} \}  |B| =</m>\rule{36pt}{1pt}
+      </p>
+      <ol>
+        <li>
+          <p>
+            <m>A = \{ 1, 2, \{3, 4, 5\}\}  |A| =</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>B = \{ \{1, 2, 3, 4, 5\} \}  |B| =</m>
+          </p>
+        </li>
       </ol>
-    </p>
+    </statement>
     <hint>
       <p>
         Three and one
