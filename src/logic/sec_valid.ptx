@@ -442,7 +442,7 @@
     <exercisegroup>
     <introduction>
       <p>
-        In <xref first="guilt_arg" last="politics_arg" />, determine the logical form of the arguments. 
+        In <xref text="type-local" first="guilt_arg" last="politics_arg" />, determine the logical form of the arguments. 
         Use symbols to express that form and determine whether the form is valid or invalid.
         If the form is invalid, determine the type of error made. Comment on the
         soundness of the argument as well, in particular, determine whether any of
