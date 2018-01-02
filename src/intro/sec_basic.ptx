@@ -82,7 +82,7 @@
     a chance to give an example of using the main other way of describing
     the contents of a set <mdash /> so-called <index><main>set-builder notation</main></index> set-builder notation.
     <me>
-      \Rationals = \{ \frac{a}{b} \vert a \in \Integers \; \mbox{and}  \;
+      \Rationals = \{ \frac{a}{b} \suchthat a \in \Integers \; \mbox{and}  \;
       b \in \Integers \; \mbox{and}  \; b \neq 0 \}
     </me>
   </p>
@@ -102,7 +102,7 @@
       equality test.  This may be technically correct but it isn't how
       most people think of things.</fn>
     Let's dissect the rest of that line now. There are only 4
-    characters whose meaning may be in doubt, <m>\{</m>, <m>\}</m>, <m>\in</m> and <m>\vert</m>.
+    characters whose meaning may be in doubt, <m>\{</m>, <m>\}</m>, <m>\in</m> and <m>\suchthat</m>.
     The curly braces (a.k.a. <em>french braces</em>) are almost universally
     reserved to denote sets, anything appearing between curly braces is
     meant to define a set. In translating from <q>math</q> to English,
@@ -119,11 +119,12 @@
     Let's parse the entire mathematical sentence we've been discussing
     with an English translation in parallel.
   </p>
+  <p>
   <tabular>
     <row>
-      <cell><m>\Rationals</m></cell>
-      <cell><m>=</m></cell>
-      <cell><m>\{</m></cell>
+      <cell halign="center"><m>\Rationals</m></cell>
+      <cell halign="center"><m>=</m></cell>
+      <cell halign="center"><m>\{</m></cell>
     </row>
     <row bottom="minor">
       <cell></cell>
@@ -131,48 +132,34 @@
       <cell></cell>
     </row>
     <row>
-      <cell>The rational numbers</cell>
-      <cell>are defined to be</cell>
-      <cell>the set of all</cell>
+      <cell halign="center"><nbsp />The rational numbers<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp />are defined to be<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp />the set of all<nbsp /></cell>
     </row>
   </tabular>
+  </p>
+  <p>
   <tabular>
     <row>
-      <cell><m>\displaystyle \frac{a}{b}</m></cell>
-      <cell><m>\vert</m></cell>
+      <cell halign="center"><m>\displaystyle \frac{a}{b}</m></cell>
+      <cell halign="center"><m>\suchthat</m></cell>
     </row>
     <row bottom="minor">
       <cell></cell>
       <cell></cell>
     </row>
     <row>
-      <cell>fractions of the form <m>a</m> over <m>b</m></cell>
-      <cell>such that</cell>
+      <cell halign="center"><nbsp />fractions of the form <m>a</m> over <m>b</m><nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp />such that<nbsp /></cell>
     </row>
   </tabular>
+  </p>
+  <p>
   <tabular>
     <row>
-      <cell><m>a \in \Integers</m></cell>
-      <cell>and</cell>
-      <cell><m>b \in \Integers</m></cell>
-    </row>
-    <row bottom="minor">
-      <cell></cell>
-      <cell></cell>
-      <cell></cell>
-    </row>
-    <row>
-      <cell><m>a</m> is an element of the integers</cell>
-      <cell>and</cell>
-      <cell><m>b</m> is an
-      element of the integers</cell>
-    </row>
-  </tabular>
-  <tabular>
-    <row>
-      <cell>and</cell>
-      <cell><m>b \neq 0</m></cell>
-      <cell><m>\}</m></cell>
+      <cell halign="center"><m>a \in \Integers</m></cell>
+      <cell halign="center">and</cell>
+      <cell halign="center"><m>b \in \Integers</m></cell>
     </row>
     <row bottom="minor">
       <cell></cell>
@@ -180,12 +167,32 @@
       <cell></cell>
     </row>
     <row>
-      <cell>and</cell>
-      <cell><m>b</m> is nonzero.</cell>
-      <cell>(the final curly brace
-      is silent)</cell>
+      <cell halign="center"><nbsp /><m>a</m> is an element of the integers<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp />and<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp /><m>b</m> is an element of the integers<nbsp /></cell>
     </row>
   </tabular>
+  </p>
+  <p>
+  <tabular>
+    <row>
+      <cell halign="center">and</cell>
+      <cell halign="center"><m>b \neq 0</m></cell>
+      <cell halign="center"><m>\}</m></cell>
+    </row>
+    <row bottom="minor">
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell halign="center"><nbsp />and<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp /><m>b</m> is nonzero.<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp />(the final curly brace is silent)<nbsp /></cell>
+    </row>
+  </tabular>
+  </p>
+
   <p>
     It is quite apparent that the mathematical notation represents a huge
     improvement as regards brevity.
@@ -244,7 +251,7 @@
     <m>\Complexes</m> of <index><main>complex numbers</main></index>complex numbers with precision
     (modulo the fact that we define them in terms of <m>\Reals</m>).
     <me>
-      \Complexes = \{ a + bi \vert a \in \Reals \; \mbox{and}  \; b \in
+      \Complexes = \{ a + bi \suchthat a \in \Reals \; \mbox{and}  \; b \in
       \Reals \; \mbox{and}  \; i^2 = -1 \}
     </me>
   </p>
@@ -252,73 +259,82 @@
   <p>
     Translating this bit of mathematics into English we get:
   </p>
+
+  <p>
   <tabular>
     <row>
-      <cell><m>\Complexes</m></cell>
-      <cell><m>=</m></cell>
-      <cell><m>\{</m></cell>
+      <cell halign="center"><m>\Complexes</m></cell>
+      <cell halign="center"><m>=</m></cell>
+      <cell halign="center"><m>\{</m></cell>
     </row>
     <row bottom="minor">
-      <cell></cell>
-      <cell></cell>
-      <cell></cell>
+      <cell halign="center"></cell>
+      <cell halign="center"></cell>
+      <cell halign="center"></cell>
     </row>
     <row>
-      <cell>The complex numbers</cell>
-      <cell>are defined to be</cell>
-      <cell>the set of all</cell>
+      <cell halign="center"><nbsp />The complex numbers<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp />are defined to be<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp />the set of all<nbsp /></cell>
     </row>
   </tabular>
+  </p>
+  <p>
   <tabular>
     <row>
-      <cell><m>a+bi</m></cell>
-      <cell><m>\vert</m></cell>
+      <cell halign="center"><m>a+bi</m></cell>
+      <cell halign="center"><m>\suchthat</m></cell>
     </row>
     <row bottom="minor">
-      <cell></cell>
-      <cell></cell>
+      <cell halign="center"></cell>
+      <cell halign="center"></cell>
     </row>
     <row>
-      <cell>expressions of the form <m>a</m> plus <m>b</m> times <m>i</m></cell>
-      <cell>such that</cell>
+      <cell halign="center"><nbsp />expressions of the form <m>a</m> plus <m>b</m> times <m>i</m><nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp />such that<nbsp /></cell>
     </row>
   </tabular>
+  </p>
+  <p>
   <tabular>
     <row>
-      <cell><m>a \in \Reals</m></cell>
-      <cell>and</cell>
-      <cell><m>b \in \Reals</m></cell>
+      <cell halign="center"><m>a \in \Reals</m></cell>
+      <cell halign="center">and</cell>
+      <cell halign="center"><m>b \in \Reals</m></cell>
     </row>
     <row bottom="minor">
-      <cell></cell>
-      <cell></cell>
-      <cell></cell>
+      <cell halign="center"></cell>
+      <cell halign="center"></cell>
+      <cell halign="center"></cell>
     </row>
     <row>
-      <cell><m>a</m> is an element of the reals</cell>
-      <cell>and</cell>
-      <cell><m>b</m> is an
-      element of the reals</cell>
+      <cell halign="center"><nbsp /><m>a</m> is an element of the reals<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp />and<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp /><m>b</m> is an element of the reals<nbsp /></cell>
     </row>
   </tabular>
+  </p>
+  <p>
   <tabular>
     <row>
-      <cell>and</cell>
-      <cell><m>i^2 = -1</m></cell>
-      <cell><m>\}</m></cell>
+      <cell halign="center">and</cell>
+      <cell halign="center"><m>i^2 = -1</m></cell>
+      <cell halign="center"><m>\}</m></cell>
     </row>
     <row bottom="minor">
-      <cell></cell>
-      <cell></cell>
-      <cell></cell>
+      <cell halign="center"></cell>
+      <cell halign="center"></cell>
+      <cell halign="center"></cell>
     </row>
     <row>
-      <cell>and</cell>
-      <cell><m>i</m> has the property that its
-      square is negative one.</cell>
-      <cell></cell>
+      <cell halign="center"><nbsp />and<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp /><m>i</m> has the property that its
+      square is negative one.<nbsp /></cell>
+      <cell halign="center"><nbsp /></cell>
     </row>
   </tabular>
+  </p>
+
   <p>
     We sometimes denote a complex number using a single variable (by
     convention, either late alphabet Roman letters or Greek letters.
@@ -389,16 +405,16 @@
   <p>
     So
     <me>
-      \Integers^+ \; = \; \{ x \in \Integers \vert x > 0 \}
+      \Integers^+ \; = \; \{ x \in \Integers \suchthat x > 0 \}
     </me>
     and
     <me>
-      \Integers^- \; = \; \{ x \in \Integers \vert x \lt  0 \}
+      \Integers^- \; = \; \{ x \in \Integers \suchthat x \lt  0 \}
     </me>
     and
     <me>
       \Znoneg \; = \; 
-      \{ x \in \Integers \vert x \geq 0 \}.
+      \{ x \in \Integers \suchthat x \geq 0 \}.
     </me>
   </p>
 
