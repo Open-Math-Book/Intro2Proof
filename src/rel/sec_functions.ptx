@@ -74,7 +74,7 @@
 
   <figure xml:id="fig_generic_function" >
     <caption>The sets related to an arbitrary function.</caption>
-    <image source=""/>
+    <image source="images/generic_function.svg"/>
   </figure>
 
   <p>
@@ -499,45 +499,40 @@
     <statement>
       <p>
         For each of the following functions, give its domain, range and a possible codomain.
+      </p>
         <ol>
-          \end{exercise}
-          <exercise>
+          <li>
             <p>
               <m>f(x) = \sin{(x)}</m>
             </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
+          </li>
+          <li>
             <p>
               <m>g(x) = e^x</m>
             </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
+          </li>
+          <li>
             <p>
               <m>h(x) = x^2</m>
             </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
+          </li>
+          <li>
             <p>
               <m>m(x) = \frac{x^2+1}{x^2-1}</m>
             </p>
-          </statement>
-        </exercise>
-        <exercise>
-          <statement>
+          </li>
+          <li>
             <p>
               <m>n(x) = \lfloor x \rfloor</m>
             </p>
-          </statement>
-        </exercise>
-        \begin{exercise}  <m>p(x) = \langle \cos{(x)}, \sin{(x)} \rangle</m>
+          </li>
+          <li>
+            <p>
+              <m>p(x) = \langle \cos{(x)}, \sin{(x)} \rangle</m>
+            </p>
+          </li>
       </ol>
-    </p>
+    </statement>
     </exercise>
     <exercise>
       <statement>

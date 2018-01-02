@@ -300,130 +300,97 @@
       </p>
       <tabular>
         <row>
-          <cell></cell>
-          <cell>\begin{minipage}[b]{.4\textwidth}
-          <ol>
-            \end{exercise}
-            <exercise>
-              <title>1.</title>
+          <cell>
+          <ol label="a">
+            <li>
               <p>
                 An (non-maximal) antichain
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>2.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 A maximal antichain
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>3.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 A maximal element
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>4.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 A (non-maximal) chain
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>5.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 A maximal chain
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>6.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 A cover for <q>Worms</q>
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>7.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 A least element
               </p>
-            </statement>
-          </exercise>
-          \begin{exercise}[8.] A minimal element
-        </ol></cell>
-        <cell>\begin{minipage}[b]{.4\textwidth}
-        <ol>
-          \end{exercise}
-          <exercise>
-            <title>a.</title>
-            <statement>
+            </li>
+            <li>
+              <p>
+          A minimal element
+              </p>
+            </li>
+        </ol>
+      </cell>
+      <cell>
+        <ol label="1">
+            <li>
               <p>
                 Grass
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>b.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 Goose
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>c.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 Fox
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>d.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 <m>\{ \mbox{Grass} , \mbox{Duck}  \}</m>
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>e.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 There isn't one!
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>f.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 <m>\{ \mbox{Fox} , \mbox{Alligator} , \mbox{Cow}  \}</m>
               </p>
-            </statement>
-          </exercise>
-          <exercise>
-            <title>g.</title>
-            <statement>
+            </li>
+            <li>
               <p>
                 <m>\{ \mbox{Cow} , \mbox{Duck} ,  \mbox{Goose}  \}</m>
               </p>
-            </statement>
-          </exercise>
-          \begin{exercise}[h.] <m>\{ \mbox{Worms} , \mbox{Robin} , \mbox{Fox}  \}</m>
-        </ol></cell>
+            </li>
+            <li>
+              <p>
+                <m>\{ \mbox{Worms} , \mbox{Robin} , \mbox{Fox}  \}</m>
+              </p>
+            </li>
+          </ol>
+        </cell>
       </row>
     </tabular>
+    </statement>
     </exercise>
     <exercise>
       <statement>
