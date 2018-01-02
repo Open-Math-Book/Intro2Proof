@@ -453,22 +453,16 @@
           is in one or more of the sets which index the columns. Place a
           check mark in a table entry if the quantity is in the set.
         </p>
+        <p>
         <tabular>
-          <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
+          <col right="minor"></col> <col right="minor"></col> <col right="minor"></col> <col right="minor"></col> <col right="minor"></col> <col right="minor"></col>
           <row>
             <cell></cell>
-            <cell><m>\Naturals</m></cell>
-            <cell><m>\Integers</m></cell>
-            <cell><m>\Rationals</m></cell>
-            <cell><m>\Reals</m></cell>
-            <cell><m>\Complexes</m></cell>
+            <cell><nbsp /><nbsp /><m>\Naturals</m><nbsp /><nbsp /></cell>
+            <cell><nbsp /><nbsp /><m>\Integers</m><nbsp /><nbsp /></cell>
+            <cell><nbsp /><nbsp /><m>\Rationals</m><nbsp /><nbsp /></cell>
+            <cell><nbsp /><nbsp /><m>\Reals</m><nbsp /><nbsp /></cell>
+            <cell><nbsp /><nbsp /><m>\Complexes</m><nbsp /><nbsp /></cell>
           </row>
           <row bottom="medium">
             <cell></cell>
@@ -479,7 +473,7 @@
             <cell></cell>
           </row>
           <row>
-            <cell  ><m>17</m></cell>
+            <cell halign="center"><nbsp /><m>17</m><nbsp /></cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -495,7 +489,7 @@
             <cell></cell>
           </row>
           <row>
-            <cell><m>\pi</m></cell>
+            <cell halign="center"><nbsp /><m>\pi</m><nbsp /></cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -511,7 +505,7 @@
             <cell></cell>
           </row>
           <row>
-            <cell><m>22/7</m></cell>
+            <cell halign="center"><nbsp /><m>22/7</m><nbsp /></cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -527,7 +521,7 @@
             <cell></cell>
           </row>
           <row>
-            <cell><m>-6</m></cell>
+            <cell halign="center"><nbsp /><m>-6</m><nbsp /></cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -543,7 +537,7 @@
             <cell></cell>
           </row>
           <row>
-            <cell><m>e^0</m></cell>
+            <cell halign="center"><nbsp /><m>e^0</m><nbsp /></cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -559,7 +553,7 @@
             <cell></cell>
           </row>
           <row>
-            <cell><m>1+i</m></cell>
+            <cell halign="center"><nbsp /><m>1+i</m><nbsp /></cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -575,7 +569,7 @@
             <cell></cell>
           </row>
           <row>
-            <cell><m>\sqrt{3}</m></cell>
+            <cell halign="center"><nbsp /><m>\sqrt{3}</m><nbsp /></cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -591,7 +585,7 @@
             <cell></cell>
           </row>
           <row>
-            <cell><m>i^2</m></cell>
+            <cell halign="center"><nbsp /><m>i^2</m><nbsp /></cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -607,6 +601,7 @@
             <cell></cell>
           </row>
         </tabular>
+        </p>
       </statement>
       <hint>
         <p>
