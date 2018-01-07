@@ -3,7 +3,7 @@
 
 *.swp
 
-dtd-errors.txt
+validation_errors.txt
 
 pdf/*.tex
 
