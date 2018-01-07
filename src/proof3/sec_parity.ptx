@@ -13,8 +13,8 @@
 
   <p>
     In (very) early computers and business machines, paper cards were used to
-    store information. A so-called <index><main>punch card</main></index><q>punch card</q> or
-    <index><main>Hollerith card</main></index> <q>Hollerith card</q> was used to store
+    store information. A so-called <idx><h>punch card</h></idx><q>punch card</q> or
+    <idx><h>Hollerith card</h></idx> <q>Hollerith card</q> was used to store
     binary information by means of holes punched into it. Paper tape
     was also used in a similar fashion. A typical paper tape format would
     involve 8 positions in rows across the tape that might or might not be
@@ -34,12 +34,12 @@
   <p>
     Paper media was ideally suited to storing binary information, but of course
     most of the real data people needed to store and process would be
-    <index><main>alphanumeric</main></index>alphanumeric<fn><q>Alphanumeric</q> is a somewhat
+    <idx><h>alphanumeric</h></idx>alphanumeric<fn><q>Alphanumeric</q> is a somewhat
     antiquated term that refers to information containing both alphabetic 
     characters and numeric characters <mdash /> as well as punctuation marks, etc.</fn>.
     There were several encoding schemes that served to translate between the
     character sets that people commonly used and the binary numerals that could
-    be stored on paper. One of these schemes still survives today <mdash /> <index><main>ASCII</main></index>ASCII.
+    be stored on paper. One of these schemes still survives today <mdash /> <idx><h>ASCII</h></idx>ASCII.
     The American Standard Code for Information Interchange uses 7-bit binary
     numerals to represent characters, so it contains 128 different symbols.
     This is more than enough to represent both upper- and lower-case
@@ -55,133 +55,198 @@
     control characters have a 2 or 3 letter mnemonic designation.
   </p>
   <tabular>
-    \=0  \=0000 0000   \=<c>NUL</c>   \=64  \=0100 0000  \=<c>@</c>  
+<col></col><col></col><col></col><col></col><col></col><col></col><col></col>
+<row><cell>   0 </cell><cell> 0000<nbsp />0000  </cell><cell> <c>NUL</c> </cell><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /></cell>
+     <cell>  64 </cell><cell> 0100<nbsp />0000  </cell><cell> <c>@</c> </cell></row>
  
-    \>1 \>0000 0001 \><c>SOH</c>   \>65 \>0100 0001 \><c>A</c>  
+<row><cell>   1 </cell><cell> 0000<nbsp />0001 </cell><cell> <c>SOH</c>  </cell><cell></cell>
+     <cell>  65 </cell><cell> 0100<nbsp />0001 </cell><cell> <c>A</c>  </cell></row>
  
-    \>2 \>0000 0010 \><c>STX</c>   \>66 \>0100 0010 \><c>B</c>  
+<row><cell>   2 </cell><cell> 0000<nbsp />0010 </cell><cell> <c>STX</c> </cell><cell></cell>
+     <cell>  66 </cell><cell> 0100<nbsp />0010 </cell><cell> <c>B</c>  </cell></row>
  
-    \>3 \>0000 0011 \><c>ETX</c>   \>67 \>0100 0011 \><c>C</c>  
+<row><cell>   3 </cell><cell> 0000<nbsp />0011 </cell><cell> <c>ETX</c> </cell><cell></cell>
+     <cell>  67 </cell><cell> 0100<nbsp />0011 </cell><cell> <c>C</c>  </cell></row>
  
-    \>4 \>0000 0100 \><c>EOT</c>   \>68 \>0100 0100 \><c>D</c>  
+<row><cell>   4 </cell><cell> 0000<nbsp />0100 </cell><cell> <c>EOT</c>  </cell><cell> </cell>
+     <cell>  68 </cell><cell> 0100<nbsp />0100 </cell><cell> <c>D</c>  </cell></row>
  
-    \>5 \>0000 0101 \><c>ENQ</c>   \>69 \>0100 0101 \><c>E</c>  
+<row><cell>   5 </cell><cell> 0000<nbsp />0101 </cell><cell> <c>ENQ</c>  </cell><cell> </cell>
+     <cell>  69 </cell><cell> 0100<nbsp />0101 </cell><cell> <c>E</c>  </cell></row>
  
-    \>6 \>0000 0110 \><c>ACK</c>   \>70 \>0100 0110 \><c>F</c>  
+<row><cell>   6 </cell><cell> 0000<nbsp />0110 </cell><cell> <c>ACK</c> </cell><cell> </cell>
+     <cell>  70 </cell><cell> 0100<nbsp />0110 </cell><cell> <c>F</c>  </cell></row>
  
-    \>7 \>0000 0111 \><c>BEL</c>   \>71 \>0100 0111 \><c>G</c>  
+<row><cell>   7 </cell><cell> 0000<nbsp />0111 </cell><cell> <c>BEL</c> </cell><cell> </cell>
+     <cell>  71 </cell><cell> 0100<nbsp />0111 </cell><cell> <c>G</c>  </cell></row>
  
-    \>8 \>0000 1000 \><c>BS</c>    \>72 \>0100 1000 \><c>H</c>  
+<row><cell>   8 </cell><cell> 0000<nbsp />1000 </cell><cell> <c>BS</c> </cell><cell> </cell>
+     <cell>  72 </cell><cell> 0100<nbsp />1000 </cell><cell> <c>H</c>  </cell></row>
  
-    \>9 \>0000 1001 \><c>TAB</c>   \>73 \>0100 1001 \><c>I</c>  
+<row><cell>   9 </cell><cell> 0000<nbsp />1001 </cell><cell> <c>TAB</c> </cell>
+     <cell>  73 </cell><cell> 0100<nbsp />1001 </cell><cell> <c>I</c>  </cell></row>
  
-    \>10 \>0000 1010 \><c>LF</c>   \>74 \>0100 1010 \><c>J</c>  
+<row><cell>  10 </cell><cell> 0000<nbsp />1010 </cell><cell> <c>LF</c> </cell><cell></cell>
+     <cell>  74 </cell><cell> 0100<nbsp />1010 </cell><cell> <c>J</c>  </cell></row>
  
-    \>11 \>0000 1011 \><c>VT</c>   \>75 \>0100 1011 \><c>K</c>  
+<row><cell>  11 </cell><cell> 0000<nbsp />1011 </cell><cell> <c>VT</c> </cell><cell></cell>
+     <cell>  75 </cell><cell> 0100<nbsp />1011 </cell><cell> <c>K</c>  </cell></row>
  
-    \>12 \>0000 1100 \><c>FF</c>   \>76 \>0100 1100 \><c>L</c>  
+<row><cell>  12 </cell><cell> 0000<nbsp />1100 </cell><cell> <c>FF</c> </cell><cell></cell>
+     <cell>  76 </cell><cell> 0100<nbsp />1100 </cell><cell> <c>L</c>  </cell></row>
  
-    \>13 \>0000 1101 \><c>CR</c>   \>77 \>0100 1101 \><c>M</c>  
+<row><cell>  13 </cell><cell> 0000<nbsp />1101 </cell><cell> <c>CR</c> </cell><cell></cell>
+     <cell>  77 </cell><cell> 0100<nbsp />1101 </cell><cell> <c>M</c>  </cell></row>
  
-    \>14 \>0000 1110 \><c>SO</c>   \>78 \>0100 1110 \><c>N</c>  
+<row><cell>  14 </cell><cell> 0000<nbsp />1110 </cell><cell> <c>SO</c> </cell><cell></cell>
+     <cell>  78 </cell><cell> 0100<nbsp />1110 </cell><cell> <c>N</c>  </cell></row>
  
-    \>15 \>0000 1111 \><c>SI</c>   \>79 \>0100 1111 \><c>O</c>  
+<row><cell>  15 </cell><cell> 0000<nbsp />1111 </cell><cell> <c>SI</c> </cell><cell></cell>
+     <cell>  79 </cell><cell> 0100<nbsp />1111 </cell><cell> <c>O</c>  </cell></row>
  
-    \>16 \>0001 0000 \><c>DLE</c>  \>80 \>0101 0000 \><c>P</c>  
+<row><cell>  16 </cell><cell> 0001<nbsp />0000 </cell><cell> <c>DLE</c> </cell><cell></cell>
+     <cell>  80 </cell><cell> 0101<nbsp />0000 </cell><cell> <c>P</c>  </cell></row>
  
-    \>17 \>0001 0001 \><c>DC1</c>  \>81 \>0101 0001 \><c>Q</c>  
+<row><cell>  17 </cell><cell> 0001<nbsp />0001 </cell><cell> <c>DC1</c> </cell><cell></cell>
+     <cell>  81 </cell><cell> 0101<nbsp />0001 </cell><cell> <c>Q</c>  </cell></row>
  
-    \>18 \>0001 0010 \><c>DC2</c>  \>82 \>0101 0010 \><c>R</c>  
+<row><cell>  18 </cell><cell> 0001<nbsp />0010 </cell><cell> <c>DC2</c> </cell><cell></cell>
+     <cell>  82 </cell><cell> 0101<nbsp />0010 </cell><cell> <c>R</c>  </cell></row>
  
-    \>19 \>0001 0011 \><c>DC3</c>  \>83 \>0101 0011 \><c>S</c>  
+<row><cell>  19 </cell><cell> 0001<nbsp />0011 </cell><cell> <c>DC3</c> </cell><cell></cell>
+     <cell>  83 </cell><cell> 0101<nbsp />0011 </cell><cell> <c>S</c>  </cell></row>
  
-    \>20 \>0001 0100 \><c>DC4</c>  \>84 \>0101 0100 \><c>T</c>  
+<row><cell>  20 </cell><cell> 0001<nbsp />0100 </cell><cell> <c>DC4</c> </cell><cell></cell>
+     <cell>  84 </cell><cell> 0101<nbsp />0100 </cell><cell> <c>T</c>  </cell></row>
  
-    \>21 \>0001 0101 \><c>NAK</c>  \>85 \>0101 0101 \><c>U</c>  
+<row><cell>  21 </cell><cell> 0001<nbsp />0101 </cell><cell> <c>NAK</c> </cell><cell></cell>
+     <cell>  85 </cell><cell> 0101<nbsp />0101 </cell><cell> <c>U</c>  </cell></row>
  
-    \>22 \>0001 0110 \><c>SYN</c>  \>86 \>0101 0110 \><c>V</c>  
+<row><cell>  22 </cell><cell> 0001<nbsp />0110 </cell><cell> <c>SYN</c> </cell><cell></cell>
+     <cell>  86 </cell><cell> 0101<nbsp />0110 </cell><cell> <c>V</c>  </cell></row>
  
-    \>23 \>0001 0111 \><c>ETB</c>  \>87 \>0101 0111 \><c>W</c>  
+<row><cell>  23 </cell><cell> 0001<nbsp />0111 </cell><cell> <c>ETB</c> </cell><cell></cell>
+     <cell>  87 </cell><cell> 0101<nbsp />0111 </cell><cell> <c>W</c>  </cell></row>
  
-    \>24 \>0001 1000 \><c>CAN</c>  \>88 \>0101 1000 \><c>X</c>  
+<row><cell>  24 </cell><cell> 0001<nbsp />1000 </cell><cell> <c>CAN</c> </cell><cell></cell>
+     <cell>  88 </cell><cell> 0101<nbsp />1000 </cell><cell> <c>X</c>  </cell></row>
  
-    \>25 \>0001 1001 \><c>EM</c>   \>89 \>0101 1001 \><c>Y</c>  
+<row><cell>  25 </cell><cell> 0001<nbsp />1001 </cell><cell> <c>EM</c> </cell><cell></cell>
+     <cell>  89 </cell><cell> 0101<nbsp />1001 </cell><cell> <c>Y</c>  </cell></row>
  
-    \>26 \>0001 1010 \><c>SUB</c>  \>90 \>0101 1010 \><c>Z</c>  
+<row><cell>  26 </cell><cell> 0001<nbsp />1010 </cell><cell> <c>SUB</c> </cell><cell></cell>
+     <cell>  90 </cell><cell> 0101<nbsp />1010 </cell><cell> <c>Z</c>  </cell></row>
  
-    \>27 \>0001 1011 \><c>ESC</c>  \>91 \>0101 1011 \><c>[</c>  
+<row><cell>  27 </cell><cell> 0001<nbsp />1011 </cell><cell> <c>ESC</c> </cell><cell></cell>
+     <cell>  91 </cell><cell> 0101<nbsp />1011 </cell><cell> <c>[</c>  </cell></row>
  
-    \>28 \>0001 1100 \><c>FS</c>   \>92 \>0101 1100 \><c>\</c>  
+<row><cell>  28 </cell><cell> 0001<nbsp />1100 </cell><cell> <c>FS</c> </cell><cell></cell>
+     <cell>  92 </cell><cell> 0101<nbsp />1100 </cell><cell> <c>\</c>  </cell></row>
  
-    \>29 \>0001 1101 \><c>GS</c>   \>93 \>0101 1101 \><c>]</c>  
+<row><cell>  29 </cell><cell> 0001<nbsp />1101 </cell><cell> <c>GS</c> </cell><cell></cell>
+     <cell>  93 </cell><cell> 0101<nbsp />1101 </cell><cell> <c>]</c>  </cell></row>
  
-    \>30 \>0001 1110 \><c>RS</c>   \>94 \>0101 1110 \><c>^</c>  
+<row><cell>  30 </cell><cell> 0001<nbsp />1110 </cell><cell> <c>RS</c> </cell><cell></cell>
+     <cell>  94 </cell><cell> 0101<nbsp />1110 </cell><cell> <c>^</c>  </cell></row>
  
-    \>31 \>0001 1111 \><c>US</c>   \>95 \>0101 1111 \><c>_</c>  
+<row><cell>  31 </cell><cell> 0001<nbsp />1111 </cell><cell> <c>US</c> </cell><cell></cell>
+     <cell>  95 </cell><cell> 0101<nbsp />1111 </cell><cell> <c>_</c>  </cell></row>
  
-    \>32 \>0010 0000 \>    \>96 \>0110 0000 \><c>`</c>  
+<row><cell>  32 </cell><cell> 0010<nbsp />0000 </cell><cell>   </cell><cell></cell>
+     <cell>  96 </cell><cell> 0110<nbsp />0000 </cell><cell><c>`</c>  </cell></row>
  
-    \>33 \>0010 0001 \><c>!</c>    \>97 \>0110 0001 \><c>a</c>  
+<row><cell>  33 </cell><cell> 0010<nbsp />0001 </cell><cell> <c>!</c> </cell><cell></cell>
+     <cell>  97 </cell><cell> 0110<nbsp />0001 </cell><cell> <c>a</c>  </cell></row>
  
-    \>34 \>0010 0010 \><c>"</c>    \>98 \>0110 0010 \><c>b</c>  
+<row><cell>  34 </cell><cell> 0010<nbsp />0010 </cell><cell> <c>"</c> </cell><cell></cell>
+     <cell>  98 </cell><cell> 0110<nbsp />0010 </cell><cell> <c>b</c> </cell></row>
  
-    \>35 \>0010 0011 \><c>#</c>    \>99 \>0110 0011 \><c>c</c>  
+<row><cell>  35 </cell><cell> 0010<nbsp />0011 </cell><cell> <c>#</c> </cell><cell></cell>
+     <cell>  99 </cell><cell> 0110<nbsp />0011 </cell><cell> <c>c</c>  </cell></row>
  
-    \>36 \>0010 0100 \><c>$</c>   \>100 \>0110 0100 \><c>d</c>  
+<row><cell>  36 </cell><cell> 0010<nbsp />0100 </cell><cell> <c>$</c> </cell><cell></cell>
+     <cell> 100 </cell><cell> 0110<nbsp />0100 </cell><cell> <c>d</c>  </cell></row>
  
-    \>37 \>0010 0101 \><c>%</c>   \>101 \>0110 0101 \><c>e</c>  
+<row><cell>  37 </cell><cell> 0010<nbsp />0101 </cell><cell> <c>%</c> </cell><cell></cell>
+     <cell> 101 </cell><cell> 0110<nbsp />0101 </cell><cell> <c>e</c>  </cell></row>
  
-    \>38 \>0010 0110 \><c>&amp;</c>   \>102 \>0110 0110 \><c>f</c>  
+<row><cell>  38 </cell><cell> 0010<nbsp />0110 </cell><cell> <c>&amp;</c> </cell><cell></cell>
+     <cell> 102 </cell><cell> 0110<nbsp />0110 </cell><cell> <c>f</c>  </cell></row>
  
-    \>39 \>0010 0111 \><c>'</c>   \>103 \>0110 0111 \><c>g</c>  
+<row><cell>  39 </cell><cell> 0010<nbsp />0111 </cell><cell> <c>'</c> </cell><cell></cell>
+     <cell> 103 </cell><cell> 0110<nbsp />0111 </cell><cell> <c>g</c>  </cell></row>
  
-    \>40 \>0010 1000 \><c>(</c>   \>104 \>0110 1000 \><c>h</c>  
+<row><cell>  40 </cell><cell> 0010<nbsp />1000 </cell><cell> <c>(</c> </cell><cell></cell>
+     <cell> 104 </cell><cell> 0110<nbsp />1000 </cell><cell> <c>h</c>  </cell></row>
  
-    \>41 \>0010 1001 \><c>)</c>   \>105 \>0110 1001 \><c>i</c>  
+<row><cell>  41 </cell><cell> 0010<nbsp />1001 </cell><cell> <c>)</c> </cell><cell></cell>
+     <cell> 105 </cell><cell> 0110<nbsp />1001 </cell><cell> <c>i</c>  </cell></row>
  
-    \>42 \>0010 1010 \><c>*</c>   \>106 \>0110 1010 \><c>j</c>  
+<row><cell>  42 </cell><cell> 0010<nbsp />1010 </cell><cell> <c>*</c> </cell><cell></cell>
+     <cell> 106 </cell><cell> 0110<nbsp />1010 </cell><cell> <c>j</c>  </cell></row>
  
-    \>43 \>0010 1011 \>+   \>107 \>0110 1011 \><c>k</c>  
+<row><cell>  43 </cell><cell> 0010<nbsp />1011 </cell><cell> + </cell><cell></cell>
+     <cell> 107 </cell><cell> 0110<nbsp />1011 </cell><cell> <c>k</c>  </cell></row>
  
-    \>44 \>0010 1100 \><c>,</c>   \>108 \>0110 1100 \><c>l</c>  
+<row><cell>  44 </cell><cell> 0010<nbsp />1100 </cell><cell> <c>,</c> </cell><cell></cell>
+     <cell> 108 </cell><cell> 0110<nbsp />1100 </cell><cell> <c>l</c> </cell></row>
  
-    \>45 \>0010 1101 \><c>-</c>   \>109 \>0110 1101 \><c>m</c>  
+<row><cell>  45 </cell><cell> 0010<nbsp />1101 </cell><cell> <c>-</c> </cell><cell></cell>
+     <cell> 109 </cell><cell> 0110<nbsp />1101 </cell><cell> <c>m</c>  </cell></row>
  
-    \>46 \>0010 1110 \><c>.</c>   \>110 \>0110 1110 \><c>n</c>  
+<row><cell>  46 </cell><cell> 0010<nbsp />1110 </cell><cell> <c>.</c> </cell><cell></cell>
+     <cell> 110 </cell><cell> 0110<nbsp />1110 </cell><cell> <c>n</c> </cell></row>
  
-    \>47 \>0010 1111 \><c>/</c>   \>111 \>0110 1111 \><c>o</c>  
+<row><cell>  47 </cell><cell> 0010<nbsp />1111 </cell><cell> <c>/</c> </cell><cell></cell>
+     <cell> 111 </cell><cell> 0110<nbsp />1111 </cell><cell> <c>o</c> </cell></row>
  
-    \>48 \>0011 0000 \><c>0</c>   \>112 \>0111 0000 \><c>p</c>  
+<row><cell>  48 </cell><cell> 0011<nbsp />0000 </cell><cell> <c>0</c> </cell><cell></cell>
+     <cell> 112 </cell><cell> 0111<nbsp />0000 </cell><cell> <c>p</c> </cell></row>
  
-    \>49 \>0011 0001 \><c>1</c>   \>113 \>0111 0001 \><c>q</c>  
+<row><cell>  49 </cell><cell> 0011<nbsp />0001 </cell><cell> <c>1</c> </cell><cell></cell>
+     <cell> 113 </cell><cell> 0111<nbsp />0001 </cell><cell> <c>q</c> </cell></row>
  
-    \>50 \>0011 0010 \><c>2</c>   \>114 \>0111 0010 \><c>r</c>  
+<row><cell>  50 </cell><cell> 0011<nbsp />0010 </cell><cell> <c>2</c> </cell><cell></cell>
+     <cell> 114 </cell><cell> 0111<nbsp />0010 </cell><cell> <c>r</c> </cell></row>
  
-    \>51 \>0011 0011 \><c>3</c>   \>115 \>0111 0011 \><c>s</c>  
+<row><cell>  51 </cell><cell> 0011<nbsp />0011 </cell><cell> <c>3</c> </cell><cell></cell>
+     <cell> 115 </cell><cell> 0111<nbsp />0011 </cell><cell> <c>s</c>  </cell></row>
  
-    \>52 \>0011 0100 \><c>4</c>   \>116 \>0111 0100 \><c>t</c>  
+<row><cell>  52 </cell><cell> 0011<nbsp />0100 </cell><cell> <c>4</c> </cell><cell></cell>
+     <cell> 116 </cell><cell> 0111<nbsp />0100 </cell><cell> <c>t</c> </cell></row>
  
-    \>53 \>0011 0101 \><c>5</c>   \>117 \>0111 0101 \><c>u</c>  
+<row><cell>  53 </cell><cell> 0011<nbsp />0101 </cell><cell> <c>5</c> </cell><cell></cell>
+     <cell> 117 </cell><cell> 0111<nbsp />0101 </cell><cell> <c>u</c> </cell></row>
  
-    \>54 \>0011 0110 \><c>6</c>   \>118 \>0111 0110 \><c>v</c>  
+<row><cell>  54 </cell><cell> 0011<nbsp />0110 </cell><cell> <c>6</c> </cell><cell></cell>
+     <cell> 118 </cell><cell> 0111<nbsp />0110 </cell><cell> <c>v</c> </cell></row>
  
-    \>55 \>0011 0111 \><c>7</c>   \>119 \>0111 0111 \><c>w</c>  
+<row><cell>  55 </cell><cell> 0011<nbsp />0111 </cell><cell> <c>7</c> </cell><cell></cell>
+     <cell> 119 </cell><cell> 0111<nbsp />0111 </cell><cell> <c>w</c> </cell></row>
  
-    \>56 \>0011 1000 \><c>8</c>   \>120 \>0111 1000 \><c>x</c>  
+<row><cell>  56 </cell><cell> 0011<nbsp />1000 </cell><cell> <c>8</c> </cell><cell></cell>
+     <cell> 120 </cell><cell> 0111<nbsp />1000 </cell><cell> <c>x</c> </cell></row>
  
-    \>57 \>0011 1001 \><c>9</c>   \>121 \>0111 1001 \><c>y</c>  
+<row><cell>  57 </cell><cell> 0011<nbsp />1001 </cell><cell> <c>9</c> </cell><cell></cell>
+     <cell> 121 </cell><cell> 0111<nbsp />1001 </cell><cell> <c>y</c> </cell></row>
  
-    \>58 \>0011 1010 \><c>:</c>   \>122 \>0111 1010 \><c>z</c>  
+<row><cell>  58 </cell><cell> 0011<nbsp />1010 </cell><cell> <c>:</c> </cell><cell></cell>
+     <cell> 122 </cell><cell> 0111<nbsp />1010 </cell><cell> <c>z</c> </cell></row>
  
-    \>59 \>0011 1011 \><c>;</c>   \>123 \>0111 1011 \><c>{</c>  
+<row><cell>  59 </cell><cell> 0011<nbsp />1011 </cell><cell> <c>;</c> </cell><cell></cell>
+     <cell> 123 </cell><cell> 0111<nbsp />1011 </cell><cell> <c>{</c> </cell></row>
  
-    \>60 \>0011 1100 \><c>&lt;</c>   \>124 \>0111 1100 \><c>|</c>  
+<row><cell>  60 </cell><cell> 0011<nbsp />1100 </cell><cell> <c>&lt;</c> </cell><cell></cell>
+     <cell> 124 </cell><cell> 0111<nbsp />1100 </cell><cell> <c>|</c> </cell></row>
  
-    \>61 \>0011 1101 \><c>=</c>   \>125 \>0111 1101 \><c>}</c>  
+<row><cell>  61 </cell><cell> 0011<nbsp />1101 </cell><cell> <c>=</c> </cell><cell></cell>
+     <cell> 125 </cell><cell> 0111<nbsp />1101 </cell><cell> <c>}</c> </cell></row>
  
-    \>62 \>0011 1110 \><c>></c>   \>126 \>0111 1110 \><c>&#126;</c>  
+<row><cell>  62 </cell><cell> 0011<nbsp />1110 </cell><cell> <c>></c> </cell><cell></cell>
+     <cell> 126 </cell><cell> 0111<nbsp />1110 </cell><cell> <c>&#126;</c> </cell></row>
  
-    \>63 \>0011 1111 \><c>?</c>   \>127 \>0111 1111 \><c>DEL</c>
+<row><cell>  63 </cell><cell> 0011<nbsp />1111 </cell><cell> <c>?</c> </cell><cell></cell>
+     <cell> 127 </cell><cell> 0111<nbsp />1111 </cell><cell> <c>DEL</c> </cell></row>
   </tabular>
   <p>
     Now it only takes 7 bits to encode the 128 possible values in the
@@ -193,8 +258,8 @@
     seven bits of an ASCII encoding have an odd number of 1's, the parity
     check bit is set to 1 <mdash /> otherwise, it is set to 0. The result of this
     is that, subsequently, all of the 8 bit words that encode ASCII data will have
-    an even number of 1's. This is an example of a so-called <index><main>error detecting code</main></index> error detecting
-    code known as the <q>even code</q> or the <index><main>parity check code</main></index><q>parity check code.</q> If
+    an even number of 1's. This is an example of a so-called <idx><h>error detecting code</h></idx> error detecting
+    code known as the <q>even code</q> or the <idx><h>parity check code</h></idx><q>parity check code.</q> If
     data is sent over a noisy telecommunications channel, or is stored in
     fallible computer memory, there is some small but calculable probability
     that there will be a <q>bit error.</q> For instance, one computer might
@@ -217,11 +282,11 @@
 
   <p>
     In <xref ref="sec_eq_rel">Section</xref> we introduced the idea of a graph. This
-    notion was first used by <index><main>Euler, Leonhard</main></index> Leonhard Euler to solve
+    notion was first used by <idx><h>Euler, Leonhard</h></idx> Leonhard Euler to solve
     a recreational math problem posed by the citizens of
-    <index><main>K&#xf6;nigsberg</main></index>K&#xf6;nigsberg, Prussia (this is the city now known
-    as <index><main>Kaliningrad</main></index> Kaliningrad, Russia.) K&#xf6;nigsberg was situated
-    at a place where two branches of the <index><main>Pregel, Pregolya</main></index> Pregel river<fn>Today, this river is known as the Pregolya.</fn> come together <mdash /> there is also
+    <idx><h>K&#xf6;nigsberg</h></idx>K&#xf6;nigsberg, Prussia (this is the city now known
+    as <idx><h>Kaliningrad</h></idx> Kaliningrad, Russia.) K&#xf6;nigsberg was situated
+    at a place where two branches of the <idx><h>Pregel, Pregolya</h></idx> Pregel river<fn>Today, this river is known as the Pregolya.</fn> come together <mdash /> there is also
     a large island situated near this confluence. By Euler's time, the city of
     K&#xf6;nigsberg covered this island as well as the north and south banks of the
     river and also the promontory where the branches came together. A network of
@@ -241,7 +306,7 @@
   <p>
     Euler settled the question (it can't be done) be converting the map of
     K&#xf6;nigsberg into a graph and then making some simple observations about
-    the parities of the nodes in this graph. The <index><main>degree</main></index> degree of a node
+    the parities of the nodes in this graph. The <idx><h>degree</h></idx> degree of a node
     in a graph is the number of edges that are incident with it (if a so-called
     <q>loop edge</q> is present it adds two to the node's degree). The <q>parity
     of a node</q> is shorthand for the <q>parity of the <em>degree</em> of the node.</q>
@@ -509,7 +574,7 @@
   </p>
 
   <p>
-    A <index><main>magic square</main></index> magic square of order <m>n</m> is a square
+    A <idx><h>magic square</h></idx> magic square of order <m>n</m> is a square
     <m>n \times n</m> array
     containing the numbers <m>1, 2, 3, \ldots , n^2</m>. The numbers must
     be arranged in such a way that every row and every column sum to
@@ -606,8 +671,8 @@
           A walking tour of K&#xf6;nigsberg such as is described in this section,
           or more generally, a circuit through an arbitrary graph that crosses each
           edge precisely once and begins and ends at the same node is known as
-          an <index><main>Eulerian circuit</main></index> <em>Eulerian circuit</em>. An <index><main>Eulerian
-          path</main></index> <em>Eulerian path</em> also crosses every edge of a graph exactly
+          an <idx><h>Eulerian circuit</h></idx> <em>Eulerian circuit</em>. An <idx><h>Eulerian
+          path</h></idx> <em>Eulerian path</em> also crosses every edge of a graph exactly
           once but it begins and ends at distinct nodes. For each of the following
           graphs determine whether an Eulerian circuit or path is possible, and if so,
           draw it.
@@ -659,7 +724,7 @@
     <exercise>
       <statement>
         <p>
-          The five <index><main>tetromino</main></index> tetrominoes (familiar to players of the video game
+          The five <idx><h>tetromino</h></idx> tetrominoes (familiar to players of the video game
           Tetris) are relatives of dominoes made up of four small squares.
         </p>
         <image source="images/11ff9b9516b6755feae7776cdfcca33b4a4ccfc9.png"/>

@@ -7,7 +7,7 @@
     and determined by the formula <m>\frac{n!}{k!(n-k)!}</m> are known as binomial
     coefficients. It seems likely that you will have already seen the arrangement
     of these binomial coefficients into a triangular array <mdash /> known as
-    <index><main>Pascal's triangle</main></index> Pascal's triangle, but if not<ellipsis />
+    <idx><h>Pascal's triangle</h></idx> Pascal's triangle, but if not<ellipsis />
   </p>
   <tabular>
     <row>
@@ -128,7 +128,7 @@
   </p>
 
   <p>
-    A <index><main>binomial</main></index><em>binomial</em> is a polynomial with two terms.
+    A <idx><h>binomial</h></idx><em>binomial</em> is a polynomial with two terms.
     Things like <m>(x+y)</m>, <m>(x+1)</m> and <m>(x^7+x^3)</m> all count as binomials
     but to keep things simple just think about <m>(x+y)</m>. If you need to
     compute a large power of <m>(x+y)</m> you can just multiply it out, for

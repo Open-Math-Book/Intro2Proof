@@ -2,7 +2,7 @@
 <section xml:id="sec_alg">
   <title>Some algorithms of elementary number theory</title>
   <p>
-    An <index><main>algorithm</main></index><em>algorithm</em> is simply a set of clear
+    An <idx><h>algorithm</h></idx><em>algorithm</em> is simply a set of clear
     instructions for achieving
     some task. The Persian mathematician and astronomer
     Al-Khwarizmi<fn>Abu Ja'far Muhammad ibn Musa al-Khwarizmi</fn> was a
@@ -37,7 +37,7 @@
       Perhaps in the not-too-distant future machines will be capable of
       understanding instruction sets that currently require human interpreters.</fn>.
     The two favored human-readable forms for describing
-    algorithms are <index><main>pseudocode</main></index> pseudocode and <index><main>flowchart</main></index>
+    algorithms are <idx><h>pseudocode</h></idx> pseudocode and <idx><h>flowchart</h></idx>
     flowcharts. The former is text-based
     and the latter is visual. There are many different modules from which
     one can build algorithmic structures: for-next loops, do-while loops, if-then
@@ -147,7 +147,7 @@
     While this brief introduction to the means of notating algorithms is by no
     means complete, it is hopefully sufficient for our purpose which is
     solely to introduce two algorithms that are important in elementary
-    number theory. The <index><main>division algorithm</main></index> division algorithm,
+    number theory. The <idx><h>division algorithm</h></idx> division algorithm,
     as presented here, is simply
     an explicit version of the process one follows to calculate a quotient
     and remainder using long division. The procedure we give is unusually
@@ -221,7 +221,7 @@
 
   <figure xml:id="fig_div_alg" >
     <caption>The division algorithm in flowchart form.</caption>
-    <image source=""/>
+    <image><latex-image>\input{figures/div_alg_flowchart.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -239,9 +239,9 @@
     Before we move on to describe the Euclidean algorithm it might be
     useful to describe more explicitly what exactly it's <em>for</em>.
     Given a pair of integers, <m>a</m> and <m>b</m>, there are two quantities that
-    it is important to be able to compute, the <index><main>least common multiple</main></index>
+    it is important to be able to compute, the <idx><h>least common multiple</h></idx>
     <em>least common multiple</em>
-    or lcm, and the <index><main>greatest common divisor</main></index>
+    or lcm, and the <idx><h>greatest common divisor</h></idx>
     <em>greatest common divisor</em> or gcd. The lcm also
     goes by the name <em>lowest common denominator</em> because it is the
     smallest denominator that could be used as a common denominator in the
@@ -255,7 +255,7 @@
   </p>
 
   <p>
-    The <index><main>Euclidean algorithm</main></index> Euclidean algorithm depends
+    The <idx><h>Euclidean algorithm</h></idx> Euclidean algorithm depends
     on a rather extraordinary property of
     the gcd. Suppose that we are trying to compute <m>\gcd{a}{b}</m> and that
     <m>a</m> is the larger of the two numbers. We first feed <m>a</m> and <m>b</m> into
@@ -275,8 +275,8 @@
     pseudocode. A flowchart version is given in <xref ref="fig_Euc_alg">Figure</xref>.
   </p>
 
-  <p>
-    \begin{minipage}[b]{.7\textwidth}
+<blockquote>
+<p>
     Algorithm: Euclidean
   </p>
 
@@ -319,10 +319,11 @@
   <p>
     Goto 1.
   </p>
+</blockquote>
 
   <figure xml:id="fig_Euc_alg" >
     <caption>The Euclidean algorithm in flowchart form.</caption>
-    <image source=""/>
+    <image><latex-image>\input{figures/Euc_alg_flowchart.tex}</latex-image></image>
   </figure>
 
   <p>

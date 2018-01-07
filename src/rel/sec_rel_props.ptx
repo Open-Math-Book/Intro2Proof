@@ -16,19 +16,19 @@
     <ol>
       <li>
         <p>
-          <index><main>reflexivity</main></index> reflexivity
+          <idx><h>reflexivity</h></idx> reflexivity
         </p>
       </li>
 
       <li>
         <p>
-          <index><main>symmetry</main></index>symmetry
+          <idx><h>symmetry</h></idx>symmetry
         </p>
       </li>
 
       <li>
         <p>
-          <index><main>transitivity</main></index>transitivity
+          <idx><h>transitivity</h></idx>transitivity
         </p>
       </li>
     </ol>
@@ -44,19 +44,19 @@
     <ol>
       <li>
         <p>
-          <index><main>reflexivity</main></index>reflexivity
+          <idx><h>reflexivity</h></idx>reflexivity
         </p>
       </li>
 
       <li>
         <p>
-          <index><main>anti-symmetry</main></index>anti-symmetry
+          <idx><h>anti-symmetry</h></idx>anti-symmetry
         </p>
       </li>
 
       <li>
         <p>
-          <index><main>transitivity</main></index>transitivity
+          <idx><h>transitivity</h></idx>transitivity
         </p>
       </li>
     </ol>
@@ -116,7 +116,7 @@
         <cell></cell>
       </row>
     </tabular>
-    <index><main>Properties of relations</main></index>
+    <idx><h>Properties of relations</h></idx>
   </table>
 
   <p>

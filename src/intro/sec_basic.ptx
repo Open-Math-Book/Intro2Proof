@@ -2,7 +2,7 @@
 <section xml:id="sec_basic">
   <title>Basic sets</title>
   <p>
-    It has been said<index><main>Kronecker, Leopold</main></index><fn>Usually attributed to 
+    It has been said<idx><h>Kronecker, Leopold</h></idx><fn>Usually attributed to 
     Kronecker <mdash /> <q>Die ganze Zahl schuf der liebe Gott, alles \</q>Ubrige 
     ist Menschenwerk.''</fn> that <q>God invented
     the integers, all else is the work of Man.</q> This is
@@ -16,7 +16,7 @@
 
   <p>
     Probably most people will agree that the
-    <index><main>natural numbers</main></index> natural numbers <em>are</em> a natural construct <mdash /> they are the numbers we use to count things. Traditionally, the natural numbers are denoted <m>\Naturals</m>.
+    <idx><h>natural numbers</h></idx> natural numbers <em>are</em> a natural construct <mdash /> they are the numbers we use to count things. Traditionally, the natural numbers are denoted <m>\Naturals</m>.
   </p>
 
   <p>
@@ -66,7 +66,7 @@
   </p>
 
   <p>
-    The <index><main>integers</main></index> integers (<m>\Integers</m>) are just the set of natural numbers
+    The <idx><h>integers</h></idx> integers (<m>\Integers</m>) are just the set of natural numbers
     together with the negatives of naturals and zero. We can use
     a doubly infinite list to denote this set.
     <me>
@@ -75,12 +75,12 @@
   </p>
 
   <p>
-    To describe the <index><main>rationals</main></index> rational numbers precisely we'll have to wait until <xref ref="sec_rat" />.
+    To describe the <idx><h>rationals</h></idx> rational numbers precisely we'll have to wait until <xref ref="sec_rat" />.
     In the interim, we can use an intuitively appealing, but somewhat imprecise
     definition for the set of rationals. A rational number is a fraction built out
     of integers. This also provides us with
     a chance to give an example of using the main other way of describing
-    the contents of a set <mdash /> so-called <index><main>set-builder notation</main></index> set-builder notation.
+    the contents of a set <mdash /> so-called <idx><h>set-builder notation</h></idx> set-builder notation.
     <me>
       \Rationals = \{ \frac{a}{b} \suchthat a \in \Integers \; \mbox{and}  \;
       b \in \Integers \; \mbox{and}  \; b \neq 0 \}
@@ -119,7 +119,8 @@
     Let's parse the entire mathematical sentence we've been discussing
     with an English translation in parallel.
   </p>
-  <p>
+  
+<p>
   <tabular>
     <row>
       <cell halign="center"><m>\Rationals</m></cell>
@@ -137,7 +138,8 @@
       <cell halign="center"><nbsp /><nbsp />the set of all<nbsp /></cell>
     </row>
   </tabular>
-  </p>
+</p>
+
   <p>
   <tabular>
     <row>
@@ -208,14 +210,14 @@
 
   <p>
     Let's proceed with our menagerie of sets of numbers. The next set
-    we'll consider is <m>\Reals</m>, the set of<index><main>reals</main></index> real numbers. To someone
+    we'll consider is <m>\Reals</m>, the set of<idx><h>reals</h></idx> real numbers. To someone
     who has completed Calculus, the reals are perhaps the most obvious and
     natural notion of what is meant by <q>number.</q> It may be surprising to
     learn that the actual definition of what is meant by a real number is
     extremely difficult. In fact, the first reasonable formulation of a
     precise definition of the reals came around 1858, more than 180 years
     after the development of the
-    Calculus<index><main>Newton, Isaac</main></index><fn>Although it was not
+    Calculus<idx><h>Newton, Isaac</h></idx><fn>Although it was not
       published until 1736, Newton's book (De Methodis Serierum et
       Fluxionum) describing both differential and integral Calculus was
       written in 1671.</fn>. A precise
@@ -228,7 +230,7 @@
     distance <m>\sqrt{ (0-1)^2 + (0-1)^2} = \sqrt{2}</m>, thus <m>\sqrt{2}</m> is
     a real number. Any rational number is clearly a real number <mdash /> slope
     is a physical quantity, and the line from <m>(0,0)</m> to <m>(b,a)</m> has slope
-    <m>a/b</m>. In ancient Greece, <index><main>Pythagoras</main></index>Pythagoras <mdash /> who has sometimes been
+    <m>a/b</m>. In ancient Greece, <idx><h>Pythagoras</h></idx>Pythagoras <mdash /> who has sometimes been
     described as the first pure Mathematician, believed that
     every real quantity was in fact rational, a belief that we now know to
     be false. The numbers <m>\pi</m> and <m>\sqrt{2}</m> mentioned above are not
@@ -248,7 +250,7 @@
   <p>
     Given that we can't give a precise definition of a real number at this
     point it is perhaps surprising that we <em>can</em> define the set
-    <m>\Complexes</m> of <index><main>complex numbers</main></index>complex numbers with precision
+    <m>\Complexes</m> of <idx><h>complex numbers</h></idx>complex numbers with precision
     (modulo the fact that we define them in terms of <m>\Reals</m>).
     <me>
       \Complexes = \{ a + bi \suchthat a \in \Reals \; \mbox{and}  \; b \in
@@ -341,8 +343,8 @@
     Suppose that we've defined <m>z = a + bi</m>. The single letter <m>z</m>
     denotes the entire complex number. We can extract the individual
     components of this complex number by talking about the
-    <index><main>real part</main></index>real and
-    <index><main>imaginary part</main></index>imaginary parts of <m>z</m>.
+    <idx><h>real part</h></idx>real and
+    <idx><h>imaginary part</h></idx>imaginary parts of <m>z</m>.
     Specifically, <m>Re(z) = a</m> is called the
     real part of <m>z</m>, and <m>Im(z) = b</m> is called the imaginary part of
     <m>z</m>.
@@ -358,7 +360,7 @@
     first, but this is just a convention. The sum of those binomials
     would be <m>4-4x</m> and so the sum of the given complex numbers is <m>4-4i</m>.
     This sort of operation is fairly typical and is called
-    <index><main>component-wise operations</main></index><em>component-wise</em> addition.
+    <idx><h>component-wise operations</h></idx><em>component-wise</em> addition.
     To multiply complex numbers we have to
     recall how it is that we multiply binomials. This is the well-known
     FOIL rule (first, outer, inner, last). For example the product of
@@ -381,7 +383,7 @@
     other sets that are contained in <m>\Reals</m>. The complex numbers
     can't really be put into a well-defined order <mdash /> which should be
     bigger, <m>1</m> or <m>i</m>? But we do have a way to, at least partially,
-    accomplish this task. The <index><main>modulus, of a complex number</main></index>
+    accomplish this task. The <idx><h>modulus, of a complex number</h></idx>
     <em>modulus</em> of a complex number is a real number that gives the
     distance from the origin (<m>0+0i</m>) of the complex plane, to a given
     complex number. We indicate the modulus using absolute value bars,
@@ -393,13 +395,13 @@
 
   <p>
     Several of the sets of numbers we've been discussing can be split
-    up based on the so-called <index><main>trichotomy</main></index><em>trichotomy property</em>:
+    up based on the so-called <idx><h>trichotomy</h></idx><em>trichotomy property</em>:
     every real number is either positive, negative or zero. In particular,
     <m>\Integers</m>, <m>\Rationals</m> and <m>\Reals</m> can have modifiers stuck on so
     that we can discuss (for example) the negative real numbers, or the
     positive rational numbers or the integers that aren't negative.
     To do this, we put superscripts on the set symbols, either a <m>+</m>
-    or a <m>-</m> or the word <index><main>noneg</main></index><q>noneg.</q>
+    or a <m>-</m> or the word <idx><h>noneg</h></idx><q>noneg.</q>
   </p>
 
   <p>
@@ -445,6 +447,7 @@
     sprinkled very evenly over that line. Every point on the line
     has bits of sand nearby, but not (necessarily) on top of it.
   </p>
+
   <exercises>
     <exercise>
       <statement>
@@ -455,7 +458,7 @@
         </p>
         <p>
         <tabular>
-          <col right="minor"></col> <col right="minor"></col> <col right="minor"></col> <col right="minor"></col> <col right="minor"></col> <col right="minor"></col>
+          <col right="medium"></col> <col right="minor"></col> <col right="minor"></col> <col right="minor"></col> <col right="minor"></col> <col right="minor"></col>
           <row>
             <cell></cell>
             <cell><nbsp /><nbsp /><m>\Naturals</m><nbsp /><nbsp /></cell>
@@ -628,54 +631,45 @@
         </p>
       </hint>
     </exercise>
-    <exercisegroup>
-    <introduction>
+    <exercise>
+    <statement>
       <p>
         Identify each as rational or irrational.
       </p>
-    </introduction>
-    <exercise>
-      <statement>
-            <p>
-              <m>5021.2121212121\ldots</m>
-            </p>
-      </statement>
-    </exercise>
-    <exercise>
-          <statement>
+      <ol>
+        <li>
+          <p>
+            <m>5021.2121212121\ldots</m>
+          </p>
+        </li>
+        <li>
             <p>
               <m>0.2340000000\ldots</m>
             </p>
-          </statement>
-    </exercise>
-    <exercise>
-          <statement>
+        </li>
+        <li>
             <p>
               <m>12.31331133311133331111\ldots</m>
             </p>
-          </statement>
-    </exercise>
-    <exercise>
-          <statement>
+        </li>
+        <li>
             <p>
               <m>\pi</m>
             </p>
-          </statement>
-    </exercise>
-    <exercise>
-          <statement>
+        </li>
+        <li>
             <p>
               <m>2.987654321987654321987654321\ldots</m>
             </p>
-          </statement>
-    </exercise>
-
+        </li>
+      </ol>
+    </statement>
     <hint>
       <p>
         rat,rat,irr,irr,rat
       </p>
     </hint>
-    </exercisegroup>
+    </exercise>
     <exercise>
       <statement>
         <p>
@@ -828,3 +822,4 @@
     </exercise>
   </exercises>
 </section>
+

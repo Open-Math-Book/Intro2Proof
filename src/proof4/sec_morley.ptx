@@ -25,7 +25,7 @@
     If you allow yourself to use a <em>ruler</em> <mdash /> i.e. a straight-edge with
     marks on it (indeed you really only need two marks a unit distance apart)
     then angle trisection <em>can</em> be done via what is known as a
-    <index><main>neusis construction</main></index>neusis construction.
+    <idx><h>neusis construction</h></idx>neusis construction.
     Nevertheless, because of the central place of Euclid's <em>Elements</em> in
     mathematical training throughout the centuries, and thereby, a very
     strong predilection towards that which <em>is</em> possible via compass and straight-edge
@@ -35,7 +35,7 @@
     state here <mdash /> so much more that the name <q>Morley's Miracle</q> that has been
     given to the Trisector theorem is truly justified <mdash /> but even the simple,
     initial part of this beautiful theory is arguably miraculous! To learn more
-    about <index><main>Morley's theorem</main></index>Morley's theorem and its extension see<nbsp /><nbsp /><xref ref="lighthouse" />.
+    about <idx><h>Morley's theorem</h></idx>Morley's theorem and its extension see<nbsp /><nbsp /><xref ref="lighthouse" />.
   </p>
 
   <p>
@@ -113,14 +113,14 @@
     (<c>http://www.cut-the-knot.org/</c>) exposits no less than nine different
     proofs. The proof by Satyanarayana used trigonometry. The proof we'll
     look at here is arguably the shortest ever produced and it is due to
-    <index><main>Conway, John</main></index>John Conway. It is definitely a <q>Book proof</q>!
+    <idx><h>Conway, John</h></idx>John Conway. It is definitely a <q>Book proof</q>!
   </p>
 
   <p>
     Let us suppose that an arbitrary triangle <m>{\triangle}ABC</m> is given.
     We want to show that the triangle whose vertices are the intersections
     of the adjacent trisectors is equilateral <mdash /> this triangle will be
-    referred to as the <index><main>Morley triangle</main></index><em>Morley triangle</em>.
+    referred to as the <idx><h>Morley triangle</h></idx><em>Morley triangle</em>.
     Let's also denote by
     <m>A</m>, <m>B</m> and <m>C</m> the measures of the angles of <m>{\triangle}ABC</m>. (This
     is what is generally known as an <q>abuse of notation</q> <mdash /> we are intentionally
@@ -131,14 +131,14 @@
     following plan sound: suppose we construct a triangle, that definitely
     <em>does</em> have an equilateral Morley triangle, whose angles also happen
     to be <m>A</m>, <m>B</m> and <m>C</m>. Such a triangle would be
-    <index><main>similarity transform</main></index>
+    <idx><h>similarity transform</h></idx>
     similar<fn>In Geometry, two objects are said to be <em>similar</em> 
     if one can be made to exactly coincide with the other after a series of 
     rigid translations, rotations and scalings.  In other words, they have 
     the same shape if you allow for differences in scale and are allowed to 
     slide them around and spin them about as needed.</fn>
     to the original
-    triangle <m>{\triangle}ABC</m> <mdash /> if we follow the <index><main>similarity transform</main></index>
+    triangle <m>{\triangle}ABC</m> <mdash /> if we follow the <idx><h>similarity transform</h></idx>
     similarity transform from the
     constructed triangle back to <m>{\triangle}ABC</m> we will see that their
     Morley triangles must coincide; thus if one is equilateral so is the other!

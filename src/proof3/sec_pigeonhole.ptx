@@ -2,7 +2,7 @@
 <section xml:id="sec_pigeonhole">
   <title>The pigeonhole principle</title>
   <p>
-    The word <index><main>pigeonhole</main></index> <q>pigeonhole</q> can refer to a hole in which a pigeon roosts
+    The word <idx><h>pigeonhole</h></idx> <q>pigeonhole</q> can refer to a hole in which a pigeon roosts
     (i.e. pretty much what it sounds like) or a series of roughly square
     recesses in a desk in which one could sort correspondence (see <xref ref="fig_roll_top">Figure</xref>).
   </p>
@@ -15,7 +15,7 @@
 
   <p>
     Whether you prefer to think of roosting birds or letters being sorted,
-    the first and easiest version of the <index><main>pigeonhole principle</main></index> pigeonhole principle is that if you
+    the first and easiest version of the <idx><h>pigeonhole principle</h></idx> pigeonhole principle is that if you
     have more <q>things</q> than you have <q>containers</q> there must be a container
     holding at least two things.
   </p>
@@ -123,7 +123,7 @@
 
   <p>
     There is an even stronger version, which ordinarily is known as the
-    <index><main>pigeonhole principle, strong form</main></index> <q>strong form of the pigeonhole
+    <idx><h>pigeonhole principle, strong form</h></idx> <q>strong form of the pigeonhole
     principle.</q> In the strong form, we have pigeonholes with an assortment
     of capacities.
   </p>

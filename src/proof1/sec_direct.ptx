@@ -36,7 +36,7 @@
   <p>
     Generally, the first thing to do in proving a universal statement like
     this is to rephrase it as a conditional. The resulting statement is a
-    <index><main>universal conditional statement</main></index><em>Universal Conditional Statement</em>
+    <idx><h>universal conditional statement</h></idx><em>Universal Conditional Statement</em>
     or a UCS. The reason for taking
     this step is that the <em>hypotheses</em> will then be clear <mdash /> they form
     the antecedent of the UCS. So, while you won't have really made any
@@ -134,7 +134,7 @@
 
   <p>
     This seems like a good time to make a comment on polynomial arithmetic.
-    <index><main>polynomial multiplication</main></index>
+    <idx><h>polynomial multiplication</h></idx>
     Many people give up (or go searching for a computer algebra system)
     when dealing with products of anything bigger than binomials. This
     is a shame because there is an easy method using a table for performing
@@ -269,7 +269,7 @@
 
   <p>
     In this section we are concerned with
-    <index><main>direct proofs</main></index>direct proofs of universal statements.
+    <idx><h>direct proofs</h></idx>direct proofs of universal statements.
     Such statements come in two flavors <mdash /> those that appear to involve
     conditionals, and those that don't:
   </p>
@@ -290,7 +290,7 @@
     These two forms can readily be transformed one into the other, so
     we will always concentrate on the latter. A direct proof of a UCS
     always follows a form known as
-    <index><main>generalizing from the generic particular</main></index>
+    <idx><h>generalizing from the generic particular</h></idx>
     <q>generalizing from the generic particular.</q>
     We are trying to prove that <m>\forall x \in U, P(x) \implies Q(x)</m>.
     The argument (in skeletal outline) will look like:
@@ -493,7 +493,7 @@
           Mark off the beginning and the end of your proofs as a hint to your
           readers.  In this book we start off a proof by writing <em>Proof:</em> in 
           italics and we end every proof with the abbreviation 
-          <index><main>quod erat demonstrandum</main></index>
+          <idx><h>quod erat demonstrandum</h></idx>
           Q.E.D.<fn><em>Quod erat demonstrandum</em> or <q>(that) which was to 
           be demonstrated.</q> some authors prefer placing a small rectangle at 
           the end of their proofs, but Q.E.D. seems more pompous.</fn>
@@ -674,7 +674,7 @@
     <exercise>
       <statement>
         <p>
-          Define the <index><main>evenness</main></index><em>evenness</em> of an integer <m>n</m> by:
+          Define the <idx><h>evenness</h></idx><em>evenness</em> of an integer <m>n</m> by:
           <me>
             \mbox{evenness}  (n) = k \; \iff \;  
              2^k \divides n \, \land \, 2^{k+1} \nmid n

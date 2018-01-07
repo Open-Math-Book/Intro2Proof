@@ -3,7 +3,7 @@
   <title>Venn diagrams</title>
   <p>
     Hopefully, you've seen
-    <index><main>Venn diagram</main></index>Venn diagrams before, but possibly
+    <idx><h>Venn diagram</h></idx>Venn diagrams before, but possibly
     you haven't thought deeply about them. Venn diagrams take
     advantage of an obvious but important property of closed
     curves drawn in the plane. They divide the points in the
@@ -11,9 +11,9 @@
     those that are outside! (Forget for a moment about the points
     that are on the curve.) This seemingly obvious statement
     is known as the
-    <index><main>Jordan curve theorem</main></index><em>Jordan curve theorem</em>, and actually
+    <idx><h>Jordan curve theorem</h></idx><em>Jordan curve theorem</em>, and actually
     requires some details. A
-    <index><main>Jordan curve</main></index><em>Jordan curve</em> is the sort
+    <idx><h>Jordan curve</h></idx><em>Jordan curve</em> is the sort
     of curve you might draw if you are required to end where
     you began and you are required not to cross-over any portion
     of the curve that has already been drawn. In technical
@@ -22,7 +22,7 @@
     The Jordan curve theorem is one of those statements that hardly
     seems like it needs a proof, but nevertheless, the proof of this
     statement is probably the best-remembered work of the famous
-    French mathematician <index><main>Jordan, Camille</main></index>Camille Jordan.
+    French mathematician <idx><h>Jordan, Camille</h></idx>Camille Jordan.
   </p>
 
   <p>
@@ -39,7 +39,7 @@
   <image source="images/46d7069f16459bd3f24cc1e83d9514f52a9c56cc.png"/>
   <p>
     In a Venn diagram the
-    <index><main>universe of discourse</main></index>universe of discourse is normally drawn as
+    <idx><h>universe of discourse</h></idx>universe of discourse is normally drawn as
     a rectangular region inside of which all the action occurs. Each
     set in a Venn diagram is depicted by drawing a simple closed curve <mdash /> typically a circle, but not necessarily! For instance, if you
     want to draw a Venn diagram that shows all the possible intersections
@@ -169,7 +169,7 @@
   <p>
     However, both of these situations can also be dealt with
     by working with Venn diagrams in which the sets are in
-    <index><main>general position</main></index> <em>general position</em> <mdash /> which
+    <idx><h>general position</h></idx> <em>general position</em> <mdash /> which
     in this situation means that every possible intersection is
     shown <mdash /> and then marking any empty regions with <m>\emptyset</m>.
   </p>
@@ -208,7 +208,7 @@
     There is a connection, perhaps obvious, between the regions we
     see in a Venn diagram with sets in general position and the recognizers
     we studied in the section on digital logic circuits. In fact both
-    of these topics have to do with <index><main>disjunctive normal form</main></index><em>disjunctive normal form</em>. In a Venn diagram with <m>k</m> sets, we are seeing the universe
+    of these topics have to do with <idx><h>disjunctive normal form</h></idx><em>disjunctive normal form</em>. In a Venn diagram with <m>k</m> sets, we are seeing the universe
     of discourse broken up into the union of <m>2^k</m> regions each of which
     corresponds to an intersection of either one of the sets or its complement.
     An arbitrary expression involving set-theoretic symbols and these <m>k</m> sets

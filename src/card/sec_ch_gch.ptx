@@ -165,7 +165,7 @@
     what axioms you allow yourself to work with. The usual axioms for mathematics
     are called ZFC; the Zermelo-Frankel set theory axioms together with the
     axiom of choice. The <q>ultimate weirdness</q> we've been describing about
-    the continuum hypothesis is a result due to a gentleman named <index><main>Cohen, Paul</main></index> Paul Cohen that says <q>CH is independent of ZFC.</q> More pedantically <mdash /> it is impossible to either prove or disprove the continuum hypothesis within
+    the continuum hypothesis is a result due to a gentleman named <idx><h>Cohen, Paul</h></idx> Paul Cohen that says <q>CH is independent of ZFC.</q> More pedantically <mdash /> it is impossible to either prove or disprove the continuum hypothesis within
     the framework of the ZFC axiom system.
   </p>
 

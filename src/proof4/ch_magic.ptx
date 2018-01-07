@@ -9,12 +9,12 @@
 
     <p>
       The famous mathematician
-      <index><main>Erdos, Paul</main></index> Paul Erd&#xf6;s is said to have believed that
+      <idx><h>Erdos, Paul</h></idx> Paul Erd&#xf6;s is said to have believed that
       God has a Book in which all the really elegant proofs are written.
       The greatest praise that a collaborator<fn>The collaborators
       of Paul Erd&#xf6;s were legion.  His collaborators, and their collaborators,
       and <em>their</em> collaborators, etc. are organized into a tree structure 
-      according to their so-called <index><main>Erdos number</main></index>Erd&#xf6;s number,
+      according to their so-called <idx><h>Erdos number</h></idx>Erd&#xf6;s number,
       see<nbsp /><nbsp /><xref ref="wiki-Erdos_number" />.</fn> could receive from Erd&#xf6;s
       was that they had discovered a <q>Book proof.</q> It is not
       easy or straightforward for a mere mortal to come up with a Book

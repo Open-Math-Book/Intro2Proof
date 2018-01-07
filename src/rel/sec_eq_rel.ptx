@@ -17,7 +17,7 @@
   <definition>
     <statement>
       <p>
-        A relation <m>\relR</m> on a set <m>S</m> is an <index><main>equivalence relation</main></index><term>equivalence relation</term>
+        A relation <m>\relR</m> on a set <m>S</m> is an <idx><h>equivalence relation</h></idx><term>equivalence relation</term>
         iff <m>\relR</m> is reflexive, symmetric and transitive.
       </p>
     </statement>
@@ -28,7 +28,7 @@
     is <q>congruence mod <m>m</m></q> which we will denote using the symbol <m>\equiv_m</m>.
     This relation may even be more interesting than
     actual equality! The reason for this seemingly odd statement is that
-    <q>congruence mod <m>m</m></q> gives us non-trivial <index><main>equivalence class</main></index> equivalence classes. Equivalence
+    <q>congruence mod <m>m</m></q> gives us non-trivial <idx><h>equivalence class</h></idx> equivalence classes. Equivalence
     classes are one of the most potent ideas in modern mathematics and it's essential
     that you understand them, so we'll start with an example. Consider congruence
     mod <m>5</m>. What other numbers is (say) 11 equivalent to? There are many! Any
@@ -65,7 +65,7 @@
   </p>
 
   <p>
-    What we've been discussing here is one of the first examples of a <index><main>quotient structure</main></index>
+    What we've been discussing here is one of the first examples of a <idx><h>quotient structure</h></idx>
     <em>quotient structure</em>.
     We start with the integers and <q>mod out</q> by an equivalence relation. In doing so, we
     <q>move to the quotient</q> which means (in this instance) that we go from <m>\Integers</m> to a much simpler set
@@ -86,7 +86,7 @@
 
   <p>
     The set of equivalence
-    classes forms a <index><main>partition</main></index> <em>partition</em> of the set <m>S</m>.
+    classes forms a <idx><h>partition</h></idx> <em>partition</em> of the set <m>S</m>.
   </p>
 
   <definition>
@@ -123,9 +123,9 @@
   </p>
 
   <p>
-    In Number Theory, the <index><main>square-free part, of an integer</main></index> square-free part of an integer is what remains after we divide-out
+    In Number Theory, the <idx><h>square-free part, of an integer</h></idx> square-free part of an integer is what remains after we divide-out
     the largest perfect square that divides it. (This is also known as the
-    <index><main>radical, of an integer</main></index><em>radical</em> of an integer.)
+    <idx><h>radical, of an integer</h></idx><em>radical</em> of an integer.)
     The following table gives the
     square-free part, <m>sf(n)</m>, for the first several values of <m>n</m>.
   </p>
@@ -295,11 +295,11 @@
   </p>
 
   <p>
-    A <index><main>graph</main></index> <em>graph</em> is a mathematical structure consisting of
+    A <idx><h>graph</h></idx> <em>graph</em> is a mathematical structure consisting of
     two sets, a set <m>V</m> of points (a.k.a. vertices) and a set<fn>Technically, <m>E</m> is a so-called
     multiset in many instances <mdash /> there may be several edges that connect the same pair of vertices.</fn> <m>E</m> of edges.
     The elements of <m>E</m> may be either ordered or unordered pairs from <m>V</m>.
-    If <m>E</m> consists of ordered pairs we have a <index><main>digraph</main></index>
+    If <m>E</m> consists of ordered pairs we have a <idx><h>digraph</h></idx>
     <em>directed graph</em> or <em>digraph</em> <mdash /> the diagrams we have been using to visualize
     relations! If <m>E</m> consists of unordered
     pairs then we are dealing with an <em>undirected graph</em>. Since the
@@ -324,7 +324,7 @@
   </p>
   <image source="images/3c4bbf2578307a7c7ce180abc9364fb510a30aed.png"/>
   <p>
-    Two graphs are said to be <index><main>graph isomorphism</main></index> <em>isomorphic</em> if they
+    Two graphs are said to be <idx><h>graph isomorphism</h></idx> <em>isomorphic</em> if they
     represent the same connections. There must first of all be a one-to-one correspondence
     between the vertices of the two graphs, and further, a pair of vertices in one
     graph are connected by some number of edges if and only if the corresponding vertices in the other graph
@@ -406,7 +406,7 @@
       <statement>
         <p>
           The two diagrams below both show a famous graph known as the
-          <index><main>Petersen graph</main></index>Petersen graph. The picture on the
+          <idx><h>Petersen graph</h></idx>Petersen graph. The picture on the
           left is the usual representation which emphasizes its five-fold symmetry. The picture on the right
           highlights the fact that the Petersen graph also has a three-fold symmetry. Label the right-hand diagram
           using the same letters (A through J) in order to show that these two representations are truly isomorphic.

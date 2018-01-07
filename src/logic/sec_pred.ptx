@@ -2,7 +2,7 @@
 <section xml:id="sec_pred">
   <title>Predicates and Logical Connectives</title>
   <p>
-    In every branch of Mathematics there are special, <index><main>atomic concepts</main></index>
+    In every branch of Mathematics there are special, <idx><h>atomic concepts</h></idx>
     atomic, notions that
     defy precise definition. In Geometry, for example, the atomic notions
     are points, lines and their incidence. Euclid defines a point as
@@ -15,14 +15,14 @@
     The notion of <q>point</q> can't really <em>be</em> defined. All we can do
     is point (no joke intended) at a variety of points and hope that our
     audience will absorb the same concept of point that we hold via the
-    process of <index><main>induction</main></index>induction<fn>inference of a 
+    process of <idx><h>induction</h></idx>induction<fn>inference of a 
     generalized conclusion from particular instances <mdash /> compare DEDUCTION</fn>.
   </p>
 
   <p>
     The atomic concepts in Set Theory are <q>set</q>, <q>element</q> and <q>membership</q>.
-    The atomic concepts in Logic are <q>true</q>, <q>false</q>, <index><main>sentence</main></index>
-    <q>sentence</q> and <index><main>statement</main></index> <q>statement</q>.
+    The atomic concepts in Logic are <q>true</q>, <q>false</q>, <idx><h>sentence</h></idx>
+    <q>sentence</q> and <idx><h>statement</h></idx> <q>statement</q>.
   </p>
 
   <p>
@@ -52,8 +52,8 @@
     we consider more complex sentences, it may be the case that the truth
     value of a given sentence simply cannot be decided. One of the most
     celebrated mathematical results of the 20th century is
-    <index><main>G&#xf6;del, Kurt</main></index>Kurt G&#xf6;del's
-    <index><main>Incompleteness Theorem</main></index><q>Incompleteness Theorem.</q>
+    <idx><h>G&#xf6;del, Kurt</h></idx>Kurt G&#xf6;del's
+    <idx><h>Incompleteness Theorem</h></idx><q>Incompleteness Theorem.</q>
     An important aspect of this theory is
     the proof that in any axiomatic system of mathematical thought
     there must be undecidable sentences <mdash /> statements which can neither be proved
@@ -78,32 +78,35 @@
     with the Greek letter <m>\phi</m> (which is basically a Greek F, and is a lot harder
     to mistake for a T than an F is.)
   </p>
+  <p>
   <tabular>
+    <col right="minor"></col><col></col>
     <row>
-      <cell>The sun is shining</cell>
-      <cell>It is raining</cell>
+      <cell halign="center"><nbsp />The sun is shining<nbsp /><nbsp /></cell>
+      <cell halign="center"><nbsp /><nbsp />It is raining<nbsp /></cell>
     </row>
     <row bottom="minor">
       <cell></cell>
       <cell></cell>
     </row>
     <row>
-      <cell>T</cell>
-      <cell>T</cell>
+      <cell halign="center">T</cell>
+      <cell halign="center">T</cell>
     </row>
     <row>
-      <cell>T</cell>
-      <cell><m>\phi</m></cell>
+      <cell halign="center">T</cell>
+      <cell halign="center"><m>\phi</m></cell>
     </row>
     <row>
-      <cell><m>\phi</m></cell>
-      <cell>T</cell>
+      <cell halign="center"><m>\phi</m></cell>
+      <cell halign="center">T</cell>
     </row>
     <row>
-      <cell><m>\phi</m></cell>
-      <cell><m>\phi</m></cell>
+      <cell halign="center"><m>\phi</m></cell>
+      <cell halign="center"><m>\phi</m></cell>
     </row>
   </tabular>
+  </p>
   <p>
     Each row of the above table represents a possible state of the outside
     world. Suppose you observe the conditions given in the last row, namely
@@ -111,7 +114,7 @@
     that I am not to be trusted. I.e. my statement, the compounding of
     <q>The sun is shining</q> and <q>It is raining</q> (with the word <q>but</q> in between
     as a connector) is false. If you think about it a bit, you'll agree that
-    this so-called <index><main>compound sentence</main></index><em>compound sentence</em> is true
+    this so-called <idx><h>compound sentence</h></idx><em>compound sentence</em> is true
     only in the case that both
     of its component pieces are true. This underscores an amusing linguistic
     point: <q>but</q> and <q>and</q> have exactly the same meaning! More precisely,
@@ -122,10 +125,10 @@
 
   <p>
     In Mathematics we distinguish two main connectives for hooking-up simple
-    sentences into compound ones. The <index><main>conjunction</main></index><em>conjunction</em>
+    sentences into compound ones. The <idx><h>conjunction</h></idx><em>conjunction</em>
     of two sentences is
     the compound sentence made by sticking the word <q>and</q> between them.
-    The <index><main>disjunction</main></index><em>disjunction</em> of two sentences is
+    The <idx><h>disjunction</h></idx><em>disjunction</em> of two sentences is
     formed by placing an <q>or</q>
     between them. Conjunctions are true only when both components are true.
     Disjunctions are false only when both components are false.
@@ -137,7 +140,7 @@
     mathematicians form an unusually lazy sub-species of humanity.</fn>
     First, we represent an
     entire sentence by a single letter <mdash /> traditionally, a capital letter.
-    This is called a <index><main>predicate variable</main></index><em>predicate variable</em>.
+    This is called a <idx><h>predicate variable</h></idx><em>predicate variable</em>.
     For example, following the example above, we could denote the sentence
     <q>The sun is shining</q> by the letter <m>S</m>. Similarly, we could make the
     assignment <m>R =</m> <q>It is raining.</q> The conjunction and disjunction
@@ -148,17 +151,18 @@
 
   <p>
     To display, very succinctly, the effect of these two connectives we can
-    use so-called <index><main>truth table</main></index>truth tables. In a truth table we list
+    use so-called <idx><h>truth table</h></idx>truth tables. In a truth table we list
     all possible truth
     values of the predicate variables and then enumerate the truth values
     of some compound sentence. For the conjunction and disjunction
     connectors we have (respectively):
   </p>
   <tabular>
+    <col halign="center" right="minor"></col><col halign="center" right="minor"></col><col halign="center" ></col>
     <row>
-      <cell><m>A</m></cell>
-      <cell><m>B</m></cell>
-      <cell><m>A \land B</m></cell>
+      <cell><nbsp /><nbsp /><m>A</m><nbsp /><nbsp /></cell>
+      <cell><nbsp /><nbsp /><m>B</m><nbsp /><nbsp /></cell>
+      <cell><nbsp /><nbsp /><m>A \land B</m><nbsp /><nbsp /></cell>
     </row>
     <row bottom="minor">
       <cell></cell>
@@ -190,10 +194,11 @@
     and
   </p>
   <tabular>
+<col halign="center" right="minor"></col><col halign="center" right="minor"></col><col halign="center" ></col>
     <row>
-      <cell><m>A</m></cell>
-      <cell><m>B</m></cell>
-      <cell><m>A \lor B</m></cell>
+      <cell><nbsp /><nbsp /><m>A</m><nbsp /><nbsp /></cell>
+      <cell><nbsp /><nbsp /><m>B</m><nbsp /><nbsp /></cell>
+      <cell><nbsp /><nbsp /><m>A \lor B</m><nbsp /><nbsp /></cell>
     </row>
     <row bottom="minor">
       <cell></cell>
@@ -223,7 +228,7 @@
   </tabular>
   <p>
     In addition to these connectors we need a modifier (called
-    <index><main>negation</main></index><em>negation</em>)
+    <idx><h>negation</h></idx><em>negation</em>)
     that acts on individual sentences. The negation of a sentence <m>A</m> is
     denoted by <m>{\lnot}A</m>, and its truth value is exactly the opposite of
     <m>A</m>'s truth value. The negation of a sentence is also known as the
@@ -232,9 +237,10 @@
     trivial but we include it here for completeness.
   </p>
   <tabular>
+    <col halign="center" right="minor"></col><col halign="center"></col>
     <row>
-      <cell><m>A</m></cell>
-      <cell><m>{\lnot}A</m></cell>
+      <cell><nbsp /><nbsp /><m>A</m><nbsp /><nbsp /></cell>
+      <cell><nbsp /><nbsp /><m>{\lnot}A</m><nbsp /><nbsp /></cell>
     </row>
     <row bottom="minor">
       <cell></cell>
@@ -254,7 +260,7 @@
     create extraordinarily complex sentences out of basic components.
     The way these pieces interrelate is a bit reminiscent of algebra,
     in fact the study of these logical operators (or any
-    operators that act like them) is called <index><main>Boole, George</main></index>
+    operators that act like them) is called <idx><h>Boole, George</h></idx>
     <em>Boolean Algebra</em><fn>In honor of George Boole, whose 1854 
      book <em>An investigation into the Laws of Thought</em> inaugurated the 
      subject.</fn>. There are distinct differences
@@ -285,9 +291,9 @@
   <p>
     While there are many differences between Boolean algebra and the
     usual, garden-variety algebra, there are also many similarities.
-    For instance, the <index><main>associative law</main></index>associative,
-    <index><main>commutative law</main></index>commutative and
-    <index><main>distributive law</main></index>distributive laws
+    For instance, the <idx><h>associative law</h></idx>associative,
+    <idx><h>commutative law</h></idx>commutative and
+    <idx><h>distributive law</h></idx>distributive laws
     of Algebra all have versions that work in the Boolean case.
   </p>
 
@@ -295,10 +301,10 @@
     A very handy way of visualizing Boolean expressions is given by
     digital logic circuit diagrams. To discuss these diagrams we
     must make a brief digression into Electronics. One of the most
-    basic components inside an electronic device is a <index><main>transistor</main></index>
+    basic components inside an electronic device is a <idx><h>transistor</h></idx>
     transistor,
     this is a component that acts like a switch for electricity,
-    but the switch itself is controlled by electricity. In <xref ref="fig_trans">Figure</xref>
+    but the switch itself is controlled by electricity. In <xref ref="fig_trans" />
     we see the usual schematic representation of a transistor. If voltage
     is applied to the wire labeled z, the transistor becomes conductive,
     and current may flow from x to y.
@@ -306,12 +312,12 @@
 
   <figure xml:id="fig_trans" >
     <caption>A schematic representation of a transistor.</caption>
-    <image source=""/>
+    <image><latex-image>\input{figures/transistor.tex}</latex-image></image>
   </figure>
 
   <p>
-    Suppose that two transistors are connected as in <xref ref="fig_series">Figure</xref>
-    (this is called a <index><main>series connection</main></index><em>series</em> connection).
+    Suppose that two transistors are connected as in <xref ref="fig_series" />
+    (this is called a <idx><h>series connection</h></idx><em>series</em> connection).
     In order for current to flow
     from x to y we must have voltage applied to <em>both</em> the wires labeled
     z and w. In other words, this circuit effectively creates the <em>and</em>
@@ -322,38 +328,31 @@
   <figure xml:id="fig_series" >
     <caption>The connection of two transistors in series provides 
     an implementation of the <em>and</em> operator.</caption>
-    <image source=""/>
+    <image><latex-image>\input{figures/series.tex}</latex-image></image>
   </figure>
 
   <p>
-    When two transistors are connected in <index><main>parallel connection</main></index>parallel (this is illustrated in
-    <xref ref="fig_par">Figure</xref>) current can flow from x to y when either (or <em>both</em>)
+    When two transistors are connected in <idx><h>parallel connection</h></idx>parallel (this is illustrated in
+    <xref ref="fig_par" />) current can flow from x to y when either (or <em>both</em>)
     of the wires at z and w have voltage applied. This brings up a point
     which is confusing for some: in common speech the use of the word <q>or</q> often
-    has the sense known as <index><main>exclusive or</main></index><em>exclusive or</em> (a.k.a. xor), when we say <q>X or Y</q>
+    has the sense known as <idx><h>exclusive or</h></idx><em>exclusive or</em> (a.k.a. xor), when we say <q>X or Y</q>
     we mean <q>Either X or Y, but not both.</q> In Electronics and Mathematics,
     <em>or</em> always has the non-exclusive (better known as
-    <index><main>inclusive or</main></index>inclusive) sense.
+    <idx><h>inclusive or</h></idx>inclusive) sense.
   </p>
 
   <figure xml:id="fig_par" >
     <caption>The connection of two transistors in parallel provides 
     an implementation of the <em>or</em> operator.</caption>
-    <image source=""/>
+    <image><latex-image>\input{figures/parallel.tex}</latex-image></image>
   </figure>
 
   <p>
-    As a sort of <index><main>logic gates</main></index>graphical shorthand, electronics engineers use the symbols
-    below to indicate <index><main>and gates</main></index>and-gates, <index><main>or gates</main></index>or-gates <ampersand /> <index><main>not gates</main></index>not-gates (better known as negators).
+    As a sort of <idx><h>logic gates</h></idx>graphical shorthand, electronics engineers use the symbols
+    below to indicate <idx><h>and gates</h></idx>and-gates, <idx><h>or gates</h></idx>or-gates <ampersand /> <idx><h>not gates</h></idx>not-gates (better known as negators).
   </p>
-  <image source="images/1cef9903223998dcc4ca7a1a4849ae10f143439e.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/b7c9eba0d071f0828c95879038ff8fb04bed218e.png"/>
+  <image><latex-image>\input{figures/gates.tex}</latex-image></image>
   <p>
     An and-gate has two transistors inside it that are wired in series <mdash /> if both the inputs are energized the output will be too. An
     or-gate has two transistors in parallel inside it. Not-gates
@@ -365,7 +364,7 @@
     Using this graphical <q>language</q> one can make schematic
     representations of logical expressions. Some find that
     tracing such diagrams makes understanding the structure
-    of a Boolean expression easier. For example, in <xref ref="fig_3ands">Figure</xref>
+    of a Boolean expression easier. For example, in <xref ref="fig_3ands" />
     we illustrate 2 of the possible ways that the conjunction
     of four predicate variables can be parenthesized. In fact, when
     a multitude of predicates are joined by the same connective,
@@ -377,7 +376,7 @@
   <figure xml:id="fig_3ands" >
     <caption>Two of the possible ways to parenthesize the conjunction 
     of four statement variables <mdash /> expressed as digital logic circuits.</caption>
-    <image source=""/>
+  <image><latex-image>\input{figures/3_ands.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -462,28 +461,21 @@
   </tabular>
   <p>
     A systematic method for accomplishing such a design task involves
-    a notion called <index><main>disjunctive normal form</main></index><em>disjunctive normal form</em>.
+    a notion called <idx><h>disjunctive normal form</h></idx><em>disjunctive normal form</em>.
     A Boolean expression
     is in disjunctive normal form if it consists of the disjunction of
     one or more statements, each of which consists entirely of conjunctions
     of predicate variables and/or their negations. In other words, the <em>or</em>
     of a bunch of <em>ands</em>. In terms of digital logic circuits, the <em>and</em>s
-    we're talking about are called <index><main>recognizers</main></index><em>recognizers</em>.
+    we're talking about are called <idx><h>recognizers</h></idx><em>recognizers</em>.
     For example,
     the following 3-input and-gates recognize the input states in
     the 4th, 7th and 8th rows of the i/o table above. (These are the rows
     where the output is supposed to be 1.)
   </p>
-  <image source="images/6670fb09730b4531ff140e39863172e7b7154a04.png"/>
+  <image><latex-image>\input{figures/recognizers.tex}</latex-image></image>
   <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/ca7d8ff44f450eeb011a5671cb6f3fdf6c7c9056.png"/>
-  <p>
-    In <xref ref="fig_dnf">Figure</xref> we illustrate how to create a circuit whose
+    In <xref ref="fig_dnf" /> we illustrate how to create a circuit whose
     i/o table is as above using these recognizers.
   </p>
 
@@ -491,7 +483,7 @@
     <caption>A digital logic circuit built 
     using disjunctive normal form.  The output of this circuit is 
     <m>({\lnot}x \land y \land z) \lor (x \land y \land {\lnot}z) \lor (x \land y \land z)</m>.</caption>
-    <image source=""/>
+  <image><latex-image>\input{figures/logic_circuit.tex}</latex-image></image>
   </figure>
 
   <exercises>
@@ -760,9 +752,9 @@
         <p>
           There are two other logical connectives that are
           used somewhat less commonly than <m>\lor</m> and <m>\land</m>.
-          These are the <index><main>Scheffer stroke</main></index> Scheffer stroke and the
-          <index><main>Peirce arrow</main></index>Peirce arrow <mdash /> written <m>\vert</m> and <m>\downarrow</m>, respectively <mdash /> they are
-          also known as <index><main>NAND</main></index> NAND and <index><main>NOR</main></index> NOR.
+          These are the <idx><h>Scheffer stroke</h></idx> Scheffer stroke and the
+          <idx><h>Peirce arrow</h></idx>Peirce arrow <mdash /> written <m>\vert</m> and <m>\downarrow</m>, respectively <mdash /> they are
+          also known as <idx><h>NAND</h></idx> NAND and <idx><h>NOR</h></idx> NOR.
         </p>
 
         <p>
@@ -851,9 +843,9 @@
     <exercise xml:id="IKK">
       <statement>
         <p>
-          The famous logician <index><main>Smullyan, Raymond</main></index> Raymond Smullyan devised
+          The famous logician <idx><h>Smullyan, Raymond</h></idx> Raymond Smullyan devised
           a family of logical puzzles around a fictitious place he called
-          <index><main>Knights and Knaves</main></index> <q>the Island of Knights and Knaves.</q> The inhabitants of the island are either knaves, who always make false statements, or knights, who always make truthful statements.
+          <idx><h>Knights and Knaves</h></idx> <q>the Island of Knights and Knaves.</q> The inhabitants of the island are either knaves, who always make false statements, or knights, who always make truthful statements.
         </p>
 
         <p>

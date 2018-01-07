@@ -7,7 +7,7 @@
     Quite often you'll find it easy to make several deductions from the
     hypotheses, but none of them seems to be headed in the direction of
     the desired conclusion. The usual advice at this stage is
-    <index><main>forwards-backwards method</main></index>
+    <idx><h>forwards-backwards method</h></idx>
     <q>Try working backwards from the conclusion.</q>
     <fn>Some people refer to this as the forwards-backwards method, since 
     you work backwards from the conclusion, but also forwards from the premises, 
@@ -16,11 +16,11 @@
 
   <p>
     There is a lovely result known as the
-    <index><main>arithmetic-geometric mean inequality</main></index>
+    <idx><h>arithmetic-geometric mean inequality</h></idx>
     <q>arithmetic-geometric mean inequality</q>
     whose proof epitomizes this approach. Basically this inequality compares two
     different ways of getting an <q>average</q> between two real numbers. The
-    <index><main>arithmetic mean</main></index><em>arithmetic mean</em> of two real numbers <m>a</m> and <m>b</m> is the one you're
+    <idx><h>arithmetic mean</h></idx><em>arithmetic mean</em> of two real numbers <m>a</m> and <m>b</m> is the one you're
     probably used to, <m>(a+b)/2</m>. Many people just call this the <q>mean</q>
     of <m>a</m> and <m>b</m> without using the modifier <q>arithmetic</q> but as we'll
     see, our notion of what intermediate value to use in between two numbers
@@ -41,16 +41,16 @@
 
   <p>
     The first sequence is an
-    <index><main>arithmetic sequence</main></index><em>arithmetic sequence</em>.
+    <idx><h>arithmetic sequence</h></idx><em>arithmetic sequence</em>.
     Arithmetic sequences
     are characterized by the property that the difference between successive
     terms is a constant. The second sequence is a
-    <index><main>geometric sequence</main></index><em>geometric sequence</em>.
+    <idx><h>geometric sequence</h></idx><em>geometric sequence</em>.
     Geometric sequences have the property that the ratio of successive terms
     is a constant. The blank in the first sequence should be filled with the
     arithmetic mean of the surrounding entries <m>(23+37)/2 = 30</m>. The blank
     in the second sequence should be filled using the
-    <index><main>geometric mean</main></index>geometric mean
+    <idx><h>geometric mean</h></idx>geometric mean
     of <em>its</em> surrounding entries: <m>\sqrt{24\cdot 96} = 48</m>.
   </p>
 
@@ -245,7 +245,7 @@
     <exercise>
       <statement>
         <p>
-          In proving the <index><main>product rule</main></index> <em>product rule</em> in Calculus using the definition of the derivative, we might start our proof with:
+          In proving the <idx><h>product rule</h></idx> <em>product rule</em> in Calculus using the definition of the derivative, we might start our proof with:
           <me>
             \frac{\mbox{d} }{\mbox{d} x} \left( f(x) \cdot g(x) \right)
           </me>

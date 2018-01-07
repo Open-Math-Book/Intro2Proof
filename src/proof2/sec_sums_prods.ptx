@@ -112,7 +112,7 @@
 
     <p>
       <em>Basis: </em> Notice that when <m>n=0</m> the sum on the left-hand side
-      has no terms in it! This is known as an <index><main>empty sum</main></index> empty sum, and by
+      has no terms in it! This is known as an <idx><h>empty sum</h></idx> empty sum, and by
       definition, an empty sum's value is <m>0</m>. Also, when
       <m>n=0</m> the formula on the right-hand side becomes <m>(0 \cdot 1)/2</m> and this is
       <m>0</m> as well.<fn>If you'd prefer to avoid the <q>empty sum</q> argument, 
@@ -491,7 +491,7 @@
       <statement>
         <p>
           The sum of the first <m>n</m> natural numbers is sometimes called
-          the <m>n</m>-th triangular number <index><main>triangular numbers</main></index><m>T_n</m>. Triangular numbers are so-named
+          the <m>n</m>-th triangular number <idx><h>triangular numbers</h></idx><m>T_n</m>. Triangular numbers are so-named
           because one can represent them with triangular shaped arrangements
           of dots.
         </p>
@@ -766,7 +766,7 @@
     <exercise>
       <statement>
         <p>
-          The <index><main>Fibonacci numbers</main></index> <em>Fibonacci numbers</em> are a sequence of integers defined by
+          The <idx><h>Fibonacci numbers</h></idx> <em>Fibonacci numbers</em> are a sequence of integers defined by
           the rule that a number in the sequence is the sum of the two that
           precede it.
           <me>

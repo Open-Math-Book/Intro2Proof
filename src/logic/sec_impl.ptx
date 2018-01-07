@@ -10,7 +10,7 @@
     This is a compound sentence made up of the two simpler
     sentences <m>P=</m> <q>You finish your peas</q> and <m>D=</m> <q>You'll get dessert.</q>
     It is an example of a type of compound sentence called a
-    <index><main>conditional statement</main></index><em>conditional</em>. Conditionals are if-then type statements.
+    <idx><h>conditional statement</h></idx><em>conditional</em>. Conditionals are if-then type statements.
     In ordinary language the word <q>then</q> is often elided (as is the case
     with our example above). Another way of phrasing the <q>If P then D.</q>
     relationship is to use the word <q>implies</q> <mdash /> although it would be
@@ -42,14 +42,14 @@
 
   <p>
     A conditional statement's components are called the
-    <index><main>antecedent</main></index><em>antecedent</em>
+    <idx><h>antecedent</h></idx><em>antecedent</em>
     (this is the <q>if</q> part, as in <q>finish
-    your peas</q>) and the <index><main>consequent</main></index><em>consequent</em> (this is the <q>then</q> part, as in
+    your peas</q>) and the <idx><h>consequent</h></idx><em>consequent</em> (this is the <q>then</q> part, as in
     <q>get dessert</q>). The discussion in the
     last paragraph was intended to make the point that when the antecedent
     is false, we should consider the conditional to be true. Conditionals
     that are true because their antecedents are false are said to
-    be <index><main>vacuous truth</main></index><em>vacuously true</em>. The conditional
+    be <idx><h>vacuous truth</h></idx><em>vacuously true</em>. The conditional
     involving an antecedent <m>A</m>
     and a consequent <m>B</m> is expressed symbolically using an arrow:
     <m>A \implies B</m>. Here is a truth table for this connective.
@@ -123,10 +123,10 @@
     with their conditional statements! A lot of people secretly want
     the 3rd row of the truth table for <m>\implies</m> to have a <m>\phi</m>
     in it, and it simply doesn't! The operator that results if we do
-    make this modification is called the <index><main>biconditional</main></index>
+    make this modification is called the <idx><h>biconditional</h></idx>
     biconditional, and is expressed
     in English using the phrase <q>if and only if</q> (which leads mathematicians
-    to the abbreviation <index><main>iff</main></index><q>iff</q> much to the consternation of
+    to the abbreviation <idx><h>iff</h></idx><q>iff</q> much to the consternation of
     spell-checking programs everywhere). The biconditional is denoted
     using an arrow that points both ways. Its truth table follows.
   </p>
@@ -173,9 +173,9 @@
     Since conditional sentences are often confused with the sentence
     that has the roles of antecedent and consequent reversed, this
     switched-around sentence has been given a name: it is the
-    <index><main>converse</main></index><em>converse</em>
+    <idx><h>converse</h></idx><em>converse</em>
     of the original statement. Another conditional that is distinct from
-    (but related to) a given conditional is its <index><main>inverse</main></index><em>inverse</em>.
+    (but related to) a given conditional is its <idx><h>inverse</h></idx><em>inverse</em>.
     This sort of sentence probably had to be named because of a very common
     misconception, many people think that the way to negate an if-then
     proposition is to negate
@@ -196,7 +196,7 @@
     If you start with an implication, form its converse, then take the inverse
     of that, you get a statement having exactly the same logical meaning
     as the original. This new statement is called the
-    <index><main>contrapositive</main></index><em>contrapositive</em>.
+    <idx><h>contrapositive</h></idx><em>contrapositive</em>.
   </p>
 
   <p>
@@ -214,22 +214,13 @@
     </row>
     <row>
       <cell></cell>
-      <cell>\ifx\pdfoutput\undefined
-      <image width="73%" source="images/horiz_arrows.png" /></cell>
+      <cell>
+      <image width="73%" source="images/horiz_arrows.svg" /></cell>
     </row>
     <row>
-      <cell>\else
-      <image width="73%" source="images/horiz_arrows.png" /></cell>
-    </row>
-    <row>
-    <cell>\fi
-     \begin{sideways} inverses \end{sideways}  
- 
-    \ifx\pdfoutput\undefined
-    <image width="73%" source="images/vert_arrows.png" />
-    \else
-    <image width="73%" source="images/vert_arrows.png" />
-    \fi</cell>
+    <cell>
+     inverses <image width="73%" source="images/vert_arrows.svg" />
+   </cell>
     <cell><tabular>
       <row bottom="minor">
         <cell></cell>

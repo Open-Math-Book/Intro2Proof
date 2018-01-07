@@ -41,7 +41,7 @@
   </p>
 
   <p>
-    The formal definition of <index><main>logical equivalence</main></index><em>logical equivalence</em>,
+    The formal definition of <idx><h>logical equivalence</h></idx><em>logical equivalence</em>,
     which is what we've
     been describing, is this: two compound sentences are logically equivalent
     if in a truth table (that contains all possible combinations of the
@@ -106,7 +106,7 @@
     come to find it somewhat tedious. A slightly more mature approach to logical
     equivalences is this: use a set of basic equivalences <mdash /> which themselves
     may be verified via truth tables <mdash /> as the basic <em>rules</em> or
-    <index><main>laws of logical equivalence</main></index><em>laws</em>
+    <idx><h>laws of logical equivalence</h></idx><em>laws</em>
     of logical equivalence, and develop a strategy for converting one
     sentence into another using these rules. This process will feel very
     familiar, it is like <q>doing</q> algebra, but the rules one is allowed
@@ -114,7 +114,7 @@
   </p>
 
   <p>
-    First we have the <index><main>commutative law</main></index><em>commutative laws</em>,
+    First we have the <idx><h>commutative law</h></idx><em>commutative laws</em>,
     one each for conjunction
     and disjunction. It's worth noting that there <em>isn't</em> a commutative
     law for implication.
@@ -128,28 +128,14 @@
     This commutative property is also clear
     from the perspective of digital logic circuits.
   </p>
-  <image source="images/03b05d0b4fceb3d4e12e99e6d8513d6e72480ab6.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/13a4bf90fd18ae4f7b22882a3f9a216512f41f7d.png"/>
+  <image><latex-image>\input{figures/comm_conj.tex}</latex-image></image>
   <p>
     The commutative property of disjunctions is equally transparent from
     the perspective of a circuit diagram.
   </p>
-  <image source="images/ee77e34c7b241472b5a870ed2f83b21df5d350d1.png"/>
+  <image><latex-image>\input{figures/comm_disj.tex}</latex-image></image>
   <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/9723cc4e62fff56610a2260b1428d4b3bc1cd556.png"/>
-  <p>
-    The <index><main>associative law</main></index><em>associative laws</em> also have something to do with what order operations
+    The <idx><h>associative law</h></idx><em>associative laws</em> also have something to do with what order operations
     are done. One could think of the difference in the following terms:
     Commutative properties
     involve spatial or physical order and the associative properties involve
@@ -166,26 +152,12 @@
     (A \land B) \land C</m>. In visual terms, this means the following two
     circuit diagrams are equivalent.
   </p>
-  <image source="images/2f78b2cbca635365be3ac5a80adf83acd418f656.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/a577579429161bee1931ea6df3c9eedb1dae7ec5.png"/>
+  <image><latex-image>\input{figures/assoc_disj.tex}</latex-image></image>
   <p>
     The associative law of disjunction states that <m>A \lor (B \lor C) \cong
     (A \lor B) \lor C</m>. Visually, this looks like:
   </p>
-  <image source="images/a854512900c9102e9a6f9474fea9b61e4b3af549.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/82df02e310a688ef1d5361c7b17cc41c835b6c65.png"/>
+  <image><latex-image>\input{figures/assoc_conj.tex}</latex-image></image>
   <exercise>
     <statement>
       <p>
@@ -198,20 +170,13 @@
   </exercise>
   <p>
     The next type of basic logical equivalences we'll consider are the
-    so-called <index><main>distributive law</main></index><em>distributive laws</em>.
+    so-called <idx><h>distributive law</h></idx><em>distributive laws</em>.
     Distributive laws involve the
     interaction of two operations, when we distribute multiplication
     over a sum, we effectively replace one instance of an operand <em>and the associated operator</em>, with two instances, as is illustrated
     below.
   </p>
-  <image source="images/209809ad4e3d8a5f9d1cf388e9443192fe7a5d5b.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/48a25cd3cc9cf747ddb66b5e9358509e4b0793e9.png"/>
+  <image><latex-image>\input{figures/dist_2x3+4.tex}</latex-image></image>
   <p>
     The logical operators <m>\land</m> and <m>\lor</m> each distribute over the other.
     Thus we have the distributive law of conjunction over disjunction, which
@@ -219,28 +184,14 @@
     <m>A \land (B \lor C) \cong (A \land B) \lor (A \land C)</m>
     and in the following digital logic circuit diagram.
   </p>
-  <image source="images/7b23d79334384bc517ec5ddc33ee5d8fa3db9ad0.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/b54b1075c3cb1028322e8ab9ed00a5f7f285ea4a.png"/>
+  <image><latex-image>\input{figures/dist_and_o_or.tex}</latex-image></image>
   <p>
     We also have the distributive law of disjunction over conjunction
     which is given by the equivalence
     <m>A \lor (B \land C) \cong (A \lor B) \land (A \lor C)</m> and in the
     circuit diagram:
   </p>
-  <image source="images/4918b72a18e0c030247b7783a273f6c87666685b.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/7b6f223fb60b900aecc079371fa58b6e85728699.png"/>
+  <image><latex-image>\input{figures/dist_or_o_and.tex}</latex-image></image>
   <p>
     Traditionally, the laws we've just stated would be called
     <em>left</em>-distributive laws and we would also need to state
@@ -304,7 +255,7 @@
   </tabular>
   <p>
     What actually works is a set of rules known as
-    <index><main>DeMorgan's laws</main></index>DeMorgan's laws, which
+    <idx><h>DeMorgan's laws</h></idx>DeMorgan's laws, which
     basically say that you distribute the negative sign but
     you also must change the operator. As logical equivalences,
     DeMorgan's laws are
@@ -339,15 +290,15 @@
     of a statement and its exact opposite; when one is true the other is
     false and vice versa. But, the disjunction <m>A \lor {\lnot}A</m>, is
     always true! We use the symbol <m>t</m> (which stands for
-    <index><main>tautology</main></index><em>tautology</em>)
+    <idx><h>tautology</h></idx><em>tautology</em>)
     to represent a compound sentence whose truth value is always true.
     A tautology (<m>t</m>) is to Boolean algebra something like a zero (<m>0</m>)
     is to arithmetic. Similar thinking about the Boolean expression
     <m>A \land {\lnot}A</m> leads to the definition of the symbol <m>c</m> (which
-    stands for <index><main>contradiction</main></index><em>contradiction</em>) to
+    stands for <idx><h>contradiction</h></idx><em>contradiction</em>) to
     represent a sentence that is always
     false. The rules we have been discussing are known as
-    <index><main>complementarity laws</main></index><em>complementarity laws</em>:
+    <idx><h>complementarity laws</h></idx><em>complementarity laws</em>:
     <me>
       A \lor {\lnot}A \; \cong \; t \mbox{ and } 
       A \land {\lnot}A \; \cong \; c
@@ -356,7 +307,7 @@
 
   <p>
     Now that we have the special logical sentences represented by <m>t</m> and <m>c</m>
-    we can present the so-called <index><main>identity laws</main></index><em>identity laws</em>,
+    we can present the so-called <idx><h>identity laws</h></idx><em>identity laws</em>,
     <m>A \land t \cong A</m> and
     <m>A \lor c \cong A</m>. If you <q>and</q> a statement with something that is always
     true, this new compound has the exact same truth values as the original.
@@ -380,7 +331,7 @@
   </p>
 
   <p>
-    In mathematics the word <index><main>idempotent</main></index><em>idempotent</em> is used to describe situations where
+    In mathematics the word <idx><h>idempotent</h></idx><em>idempotent</em> is used to describe situations where
     the powers of a thing are equal to that thing. For example, because every power of <m>1</m> <em>is</em> <m>1</m>, we say that <m>1</m> is an idempotent. Both of the Boolean operations
     have idempotence relations that just always work (regardless of the operand).
     In ordinary algebra idempotents are very rare (<m>0</m> and <m>1</m> are the only
@@ -407,7 +358,7 @@
 
   <p>
     Finally, we should mention a really strange property, called
-    <index><main>absorption</main></index><em>absorption</em>,
+    <idx><h>absorption</h></idx><em>absorption</em>,
     which states that the expressions <m>A \land (A \lor B)</m> and <m>A \lor (A \land B)</m>
     don't actually have anything to do with <m>B</m> at all! Both of the preceding
     statements are equivalent to <m>A</m>.
@@ -438,7 +389,7 @@
         <cell></cell>
       </row>
       <row>
-        <cell><index><main>commutative law</main></index>Commutative</cell>
+        <cell><idx><h>commutative law</h></idx>Commutative</cell>
       </row>
       <row>
         <cell>laws</cell>
@@ -453,7 +404,7 @@
         <cell></cell>
       </row>
       <row>
-        <cell><index><main>associative law</main></index>Associative</cell>
+        <cell><idx><h>associative law</h></idx>Associative</cell>
       </row>
       <row>
         <cell>laws</cell>
@@ -468,7 +419,7 @@
         <cell></cell>
       </row>
       <row>
-        <cell><index><main>distributive law</main></index>Distributive</cell>
+        <cell><idx><h>distributive law</h></idx>Distributive</cell>
       </row>
       <row>
         <cell>laws</cell>
@@ -483,7 +434,7 @@
         <cell></cell>
       </row>
       <row>
-        <cell><index><main>DeMorgan's law</main></index>DeMorgan's</cell>
+        <cell><idx><h>DeMorgan's law</h></idx>DeMorgan's</cell>
       </row>
       <row>
         <cell>laws</cell>
@@ -498,7 +449,7 @@
         <cell></cell>
       </row>
       <row>
-        <cell><index><main>double negation</main></index>Double negation</cell>
+        <cell><idx><h>double negation</h></idx>Double negation</cell>
         <cell><m>{\lnot}({\lnot}A) \; \cong \; A</m></cell>
         <cell>same</cell>
         <cell><m>-(-2) = 2</m></cell>
@@ -510,7 +461,7 @@
         <cell></cell>
       </row>
       <row>
-        <cell><index><main>complementarity law</main></index>Complementarity</cell>
+        <cell><idx><h>complementarity law</h></idx>Complementarity</cell>
         <cell><m>A \land {\lnot}A \; \cong \; c</m></cell>
         <cell><m>A \lor {\lnot}A \; \cong \; t</m></cell>
         <cell><m>2 + (-2) = 0</m></cell>
@@ -522,7 +473,7 @@
         <cell></cell>
       </row>
       <row>
-        <cell><index><main>identity law</main></index>Identity</cell>
+        <cell><idx><h>identity law</h></idx>Identity</cell>
       </row>
       <row>
         <cell>laws</cell>
@@ -537,7 +488,7 @@
         <cell></cell>
       </row>
       <row>
-        <cell><index><main>domination law</main></index>Domination</cell>
+        <cell><idx><h>domination law</h></idx>Domination</cell>
         <cell><m>A \land c \cong c</m></cell>
         <cell><m>A \lor t \cong t</m></cell>
         <cell><m>7 \cdot 0 = 0</m></cell>
@@ -549,7 +500,7 @@
         <cell></cell>
       </row>
       <row>
-        <cell><index><main>idempotence</main></index>Idempotence</cell>
+        <cell><idx><h>idempotence</h></idx>Idempotence</cell>
         <cell><m>A \land A \cong A</m></cell>
         <cell><m>A \lor A \cong A</m></cell>
         <cell><m>1 \cdot 1 = 1</m></cell>
@@ -561,13 +512,13 @@
         <cell></cell>
       </row>
       <row>
-        <cell><index><main>absorption</main></index>Absorption</cell>
+        <cell><idx><h>absorption</h></idx>Absorption</cell>
         <cell><m>A \land (A \lor B) \cong A</m></cell>
         <cell><m>A \lor (A \land B) \cong A</m></cell>
         <cell>none</cell>
       </row>
     </tabular>
-    <index><main>rules of replacement</main></index>
+    <idx><h>rules of replacement</h></idx>
   </table>
 
   <exercises>
@@ -698,7 +649,7 @@
         </p>
 
         <p>
-          <image width="73%" source="images/DeMorgan.png" />
+  <image><latex-image>\input{figures/DeMorgan.tex}</latex-image></image>
         </p>
       </hint>
     </exercise>

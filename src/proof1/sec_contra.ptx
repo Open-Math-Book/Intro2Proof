@@ -11,12 +11,12 @@
     and somehow discerning a way to convert whatever thrackle's logical equivalent
     is into the logical equivalent of polycyclic. As happens fairly often,
     there may be no obvious way to accomplish this task.
-    <index><main>indirect proof</main></index>Indirect proof takes
+    <idx><h>indirect proof</h></idx>Indirect proof takes
     a completely different tack. Suppose you had a thrackle that wasn't
     polycyclic, and furthermore, show that this supposition leads to something
     truly impossible. Well, if it's impossible for a thrackle to <em>not</em> be
     polycyclic, then it must be the case that all of them <em>are</em>.
-    Such an argument is known as <index><main>proof by contradiction</main></index>
+    Such an argument is known as <idx><h>proof by contradiction</h></idx>
     <em>proof by contradiction</em>.
   </p>
 
@@ -28,7 +28,7 @@
   <theorem>
     <statement>
       <p>
-        <index><main>infinitude of the primes</main></index>(Euclid) The set of all prime numbers is infinite.
+        <idx><h>infinitude of the primes</h></idx>(Euclid) The set of all prime numbers is infinite.
       </p>
     </statement>
   </theorem>
@@ -69,7 +69,7 @@
   <p>
     If you are working on proving a UCS and the direct approach seems to be
     failing you may find that another indirect approach,
-    <index><main>proof by contraposition</main></index>proof by contraposition,
+    <idx><h>proof by contraposition</h></idx>proof by contraposition,
     will do the trick. In one sense this proof technique isn't really all that
     indirect; what one does is determine the contrapositive of the original
     conditional and then prove <em>that</em> directly. In another sense this
@@ -347,7 +347,7 @@
     <exercise>
       <statement>
         <p>
-          A <index><main>Pythagorean triple</main></index><em>Pythagorean triple</em> is a set of three
+          A <idx><h>Pythagorean triple</h></idx><em>Pythagorean triple</em> is a set of three
           natural numbers, <m>a</m>, <m>b</m> and <m>c</m>, such that <m>a^2 + b^2 = c^2</m>. Prove that, in a
           Pythagorean triple, at least one of <m>a</m> and <m>b</m> is even. Use either a proof by
           contradiction or a proof by contraposition.

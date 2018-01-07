@@ -64,7 +64,7 @@
       decimal representation of a number has a value that depends
       on its position. For example, the number <m>3482</m> really means
       <m>3\cdot10^3 + 4\cdot10^2 + 8\cdot10^1 + 2\cdot10^0</m>. This
-      is also known as <index><main>place notation</main></index>place notation.
+      is also known as <idx><h>place notation</h></idx>place notation.
       The fact that we use the
       powers of 10 in our place notation is probably due to the
       fact that most humans have 10 fingers. It is possible to
@@ -176,7 +176,7 @@
       As was the case in defining even, it turns out that it is best
       to think of multiplication, not division, when making a formal
       definition of this concept. Given any two integers <m>n</m> and <m>d</m>
-      we define the symbol <index><main>divisibility</main></index><m>d\divides n</m> by
+      we define the symbol <idx><h>divisibility</h></idx><m>d\divides n</m> by
     </p>
 
     <definition>
@@ -232,7 +232,7 @@
       person on an elevator is a bad idea <mdash /> should we just round-up and
       let 7 ride together? Not if the 1300 pound capacity rating doesn't
       have a safety margin! This is an example of the kind of problem
-      in which the floor function is used. The <index><main>floor function</main></index>
+      in which the floor function is used. The <idx><h>floor function</h></idx>
       floor function takes a real number as input and returns the next
       lower integer.
     </p>
@@ -243,7 +243,7 @@
       containers will we need? Again, this is simply a division problem <mdash /> <m>43/12 = 3.58\overline{333}</m>. So we need 3 boxes and another
       7 twelfths of a box. Obviously we really need 4 boxes <mdash /> at least one
       will have some unused space in it. In this sort of situation
-      we're dealing with the <index><main>ceiling function</main></index>ceiling function.
+      we're dealing with the <idx><h>ceiling function</h></idx>ceiling function.
       Given a real number, the ceiling function rounds it up to the
       next integer.
     </p>
@@ -329,7 +329,7 @@
       Recall that the answer consists of two parts, a <em>quotient</em> <m>q</m>,
       and a <em>remainder</em> <m>r</m>. Of course, <m>r</m> may be zero, but also, the
       largest <m>r</m> can be is <m>d-1</m>. The assertion that this answer uniquely
-      exists is known as the <index><main>quotient-remainder theorem</main></index>
+      exists is known as the <idx><h>quotient-remainder theorem</h></idx>
       <em>quotient-remainder theorem</em>:
     </p>
 
@@ -351,7 +351,7 @@
 
     <p>
       If two integers, <m>m</m> and <m>n</m>, leave the same remainder when you
-      divide them by <m>d</m>, we say that they are <index><main>congruence</main></index>
+      divide them by <m>d</m>, we say that they are <idx><h>congruence</h></idx>
       <em>congruent modulo <m>d</m></em>.
       One could express this by writing <m>n \bmod d = m \bmod d</m>, but usually
       we adopt a shorthand notation
@@ -399,7 +399,7 @@
       A <q>binomial</q> is a polynomial with 2 terms, for example <m>x+1</m> or <m>a+b</m>.
       The numbers that appear as the coefficients when one raises a binomial
       to some power are <mdash /> rather surprisingly <mdash /> known as
-      <index><main>binomial coefficients</main></index> binomial coefficients.
+      <idx><h>binomial coefficients</h></idx> binomial coefficients.
     </p>
 
     <p>
@@ -432,7 +432,7 @@
 
     <p>
       These binomial coefficients can be placed in an arrangement known as
-      <index><main>Pascal's triangle</main></index> <index><main>Blaise Pascal</main></index> Pascal's triangle
+      <idx><h>Pascal's triangle</h></idx> <idx><h>Blaise Pascal</h></idx> Pascal's triangle
       <fn>This triangle was actually known well before Blaise Pascal 
       began to study it, but it carries his name today.</fn>, which
       provides a convenient way to calculate small binomial coefficients
@@ -497,7 +497,6 @@
           <cell>1</cell>
         </row>
       </tabular>
-      \vspace{.2in}
     </table>
 
     <p>
@@ -525,7 +524,7 @@
       There is a formula for the binomial coefficients <mdash /> which is nice. Otherwise
       we'd need to complete a pretty huge Pascal triangle in order to compute
       something like <m>\displaystyle \binom{52}{5}</m>. The formula involves
-      <index><main>factorials</main></index> factorial notation. Just to be sure we are
+      <idx><h>factorials</h></idx> factorial notation. Just to be sure we are
       all on the same page, we'll define factorials before proceeding.
     </p>
 
@@ -582,7 +581,7 @@
       <exercise>
         <statement>
           <p>
-            An integer <m>n</m> is <index><main>doubly-even</main></index> <em>doubly-even</em>
+            An integer <m>n</m> is <idx><h>doubly-even</h></idx> <em>doubly-even</em>
             if it is even, and the integer <m>m</m> guaranteed to exist because
             <m>n</m> is even is itself even. Is 0 doubly-even? What are the
             first 3 positive, doubly-even integers?
@@ -613,7 +612,7 @@
       <exercise>
         <statement>
           <p>
-            The <index><main>octal representation</main></index> <em>octal</em> representation
+            The <idx><h>octal representation</h></idx> <em>octal</em> representation
             of an integer uses powers of 8 in place notation. The digits of an
             octal number run from 0 to 7, one never sees 8's or 9's. How would
             you represent 8 and 9 as octal numbers? What octal number comes
@@ -630,7 +629,7 @@
         <statement>
           <p>
             One method of converting from decimal to some other base is
-            called <index><main>repeated division algorithm</main></index> <em>repeated division</em>.
+            called <idx><h>repeated division algorithm</h></idx> <em>repeated division</em>.
             One divides the number by the base
             and records the remainder <mdash /> one then divides the quotient obtained
             by the base and records the remainder. Continue dividing the
@@ -708,10 +707,7 @@
           <tabular>
           <row>
           <cell><tabular>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-            </row>
+            <col halign="center" right="minor"></col><col halign="center" ></col>
             <row>
               <cell>octal</cell>
               <cell>binary</cell>
@@ -721,7 +717,7 @@
               <cell></cell>
             </row>
             <row>
-              <cell  >0</cell>
+              <cell>0</cell>
               <cell>000</cell>
             </row>
             <row bottom="minor">
@@ -785,12 +781,9 @@
               <cell></cell>
             </row>
           </tabular></cell>
-          <cell></cell>
+          <cell><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
           <cell><tabular>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-            </row>
+<col halign="center" right="minor"></col><col halign="center" ></col>
             <row>
               <cell>hexadecimal</cell>
               <cell>binary</cell>
@@ -979,13 +972,13 @@
         <p>
           Answers for the first three:
           <me>
-            757_8 = 111 101 111_2
+            757_8 = 111\,101\,111_2
           </me>
           <me>
-            1007_8 = 001 000 000 111_2 = 0010 0000 0111_2 = 207_{16}
+            1007_8 = 001\,000\,000\,111_2 = 0010\,0000\,0111_2 = 207_{16}
           </me>
           <me>
-            100 101 010 110_2 = 4526_8
+            100\,101\,010\,110_2 = 4526_8
           </me>
         </p>
       </hint>

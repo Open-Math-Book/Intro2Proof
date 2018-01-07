@@ -4,7 +4,7 @@
   <p>
     The concept of a function is one of the most useful abstractions
     in mathematics. In fact it is an abstraction that can be further
-    abstracted! For instance an <index><main>operator</main></index><em>operator</em>
+    abstracted! For instance an <idx><h>operator</h></idx><em>operator</em>
     is an entity which takes functions as inputs and produces functions
     as outputs, thus an operator is to functions as functions themselves
     are to numbers. There are many operators that you have certainly
@@ -69,7 +69,7 @@
     elements of <m>A</m> that actually appear as the first coordinate of a pair
     in the relation <m>f</m>. The set <m>B'</m> consists of those elements of <m>B</m>
     that actually appear as the second coordinate of a pair in the relation <m>f</m>.
-    A generic example of how these four sets might look is given in <xref ref="fig_generic_function">Figure</xref>.
+    A generic example of how these four sets might look is given in <xref ref="fig_generic_function" />.
   </p>
 
   <figure xml:id="fig_generic_function" >
@@ -196,7 +196,7 @@
   <definition>
     <statement>
       <p>
-        The <index><main>inverse relation</main></index><term>inverse relation</term> of a relation <m>\relR</m>
+        The <idx><h>inverse relation</h></idx><term>inverse relation</term> of a relation <m>\relR</m>
         is denoted <m>\relR^{-1}</m> and
         <me>
           \relR^{-1} = \{ (y,x) \suchthat (x,y) \in \relR \}.
@@ -244,7 +244,7 @@
     lines of the form <m>y=c</m> where <m>c</m> is positive will intersect the graph twice.
     There are many functions that <em>do</em> pass the horizontal line test, for
     instance, consider <m>f(x) = x^3</m>. Such functions are known as
-    <index><main>injection</main></index><em>injections</em>, this is the same thing as
+    <idx><h>injection</h></idx><em>injections</em>, this is the same thing as
     saying a function is <q>one-to-one.</q> Injective functions can be inverted <mdash /> the domain of the inverse function of <m>f</m> will only be the range, <m>\Rng{f}</m>,
     which as we have seen may fall short of the being the entire codomain, since
     <m>\Rng{f} \subseteq \Cod{f}</m>.
@@ -279,7 +279,7 @@
 
   <p>
     A function that is both injective and surjective (one-to-one and onto)
-    is known as a <index><main>bijection</main></index><em>bijection</em>. Bijections are tremendously
+    is known as a <idx><h>bijection</h></idx><em>bijection</em>. Bijections are tremendously
     important in mathematics since they provide a way of perfectly matching
     up the elements of two sets. You will probably spend a good bit of time
     in the future devising maps between sets and then proving that they are
@@ -296,7 +296,7 @@
     possible to find a preimage for every element of the codomain. If
     we happen to know what the inverse function is, then it is easy to
     find a preimage for an arbitrary element. In terms of the taxonomy
-    for proofs that was introduced in <xref ref="ch_proof1">Chapter</xref>, we are talking
+    for proofs that was introduced in <xref ref="ch_proof1" />, we are talking
     about a constructive proof of an existential statement. A function <m>f</m>
     is surjective iff <m>\forall y \in \Cod{f}, \exists x \in \Dom{f}, 
     y = f(x)</m>, so to prove surjectivity is to find the <m>x</m> that <q>works</q> for an
@@ -461,7 +461,7 @@
   <p>
     We'll conclude this section by mentioning that the ideas of <q>image</q>
     and <q>preimage</q> can be extended to sets. If <m>S</m> is a subset of
-    <m>\Dom{f}</m> then the <index><main>image, of a set</main></index><em>image of <m>S</m> under <m>f</m></em>
+    <m>\Dom{f}</m> then the <idx><h>image, of a set</h></idx><em>image of <m>S</m> under <m>f</m></em>
     is denoted <m>f(S)</m> and
     <me>
       f(S) = \{ y \suchthat \exists x \in \Dom{f}, x \in S \land y = f(x) \}.
@@ -470,7 +470,7 @@
 
   <p>
     Similarly, if <m>T</m> is a subset of of <m>\Rng{f}</m> we can define something akin
-    to the preimage. The <index><main>inverse image, of a set</main></index><em>inverse image
+    to the preimage. The <idx><h>inverse image, of a set</h></idx><em>inverse image
     of the set <m>T</m> under the function <m>f</m></em> is denoted <m>f^{-1}(T)</m> and
     <me>
       f^{-1}(T) = \{ x \suchthat \exists y \in \Cod{f}, y \in T \land y=f(x) \}.

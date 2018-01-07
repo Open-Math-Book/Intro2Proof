@@ -17,7 +17,7 @@
   <p>
     How is this great brevity achieved? By inserting single symbols in place
     of a whole paragraph's worth of words! One class of symbols in particular
-    has immense power <mdash /> so-called <index><main>relations</main></index> relational symbols.
+    has immense power <mdash /> so-called <idx><h>relations</h></idx> relational symbols.
     When you place a relational
     symbol between two expressions, you create a sentence that says the
     relation <em>holds</em>. The period at the end of the last sentence should
@@ -62,10 +62,10 @@
   </p>
 
   <p>
-    The relations we've discussed so far are <index><main>binary relation</main></index>
+    The relations we've discussed so far are <idx><h>binary relation</h></idx>
     <em>binary</em> relations, that
     is, they go in between <em>two</em> numbers. There are also higher order
-    relations. For example, a famous <index><main>ternary relation</main></index> ternary
+    relations. For example, a famous <idx><h>ternary relation</h></idx> ternary
     relation (a relationship between
     three things) is the notion of <q>betweenness.</q> If <m>A</m>, <m>B</m> and <m>C</m> are
     three points which all lie on a single line, we write <m>A\star B \star C</m>
@@ -105,14 +105,9 @@
     An example involving the ternary relation <q>betweenness</q> can be had
     from the following diagram.
   </p>
-  <image source="images/1e85854965786f74b84bd3e0305d43d77bd59a02.png"/>
   <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
+  <image><latex-image>\input{figures/betweenness_example.tex}</latex-image></image>
   </p>
-  <image source="images/86086560a89987f5ca7ad1ef110eb1a61cb2152a.png"/>
   <p>
     The betweenness relation on the points in this diagram consists of the
     following triples.
@@ -149,8 +144,8 @@
     <exercise>
       <statement>
         <p>
-          The <index><main>domain</main></index><em>domain</em> of a function (or binary relation)
-          is the set of numbers appearing in the first coordinate. The <index><main>range</main></index>
+          The <idx><h>domain</h></idx><em>domain</em> of a function (or binary relation)
+          is the set of numbers appearing in the first coordinate. The <idx><h>range</h></idx>
           <em>range</em> of a function (or binary relation) is the set of numbers
           appearing in the second coordinate.
         </p>
@@ -209,7 +204,7 @@
         </p>
 
         <p>
-          <image width="73%" source="images/star.png" />
+  <image><latex-image>\input{figures/star.tex}</latex-image></image>
         </p>
       </hint>
     </exercise>
@@ -218,7 +213,7 @@
         <p>
           Sketch a graph of the relation
           <me>
-            \{ (x,y) \suchthat x,y \in \Reals \; \mbox{and}  \; y > x^2 \}.
+            \{ (x,y) \suchthat x,y \in \Reals \; \text{and}  \; y > x^2 \}.
           </me>
         </p>
       </statement>
@@ -231,7 +226,7 @@
     <exercise>
       <statement>
         <p>
-          A function <m>f(x)</m> is said to be <index><main>invertible function</main></index>
+          A function <m>f(x)</m> is said to be <idx><h>invertible function</h></idx>
           <em>invertible</em> if there is another function <m>g(x)</m> such that
           <m>g(f(x)) = x</m> for all values of <m>x</m>. (Usually, the inverse function,
           <m>g(x)</m> would be denoted <m>f^{-1}(x)</m>.) Suppose a function is presented

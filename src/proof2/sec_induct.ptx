@@ -2,7 +2,7 @@
 <section xml:id="sec_induct">
   <title>The principle of mathematical induction</title>
   <p>
-    The <index><main>induction</main></index>Principle of Mathematical Induction (PMI) may be the least intuitive
+    The <idx><h>induction</h></idx>Principle of Mathematical Induction (PMI) may be the least intuitive
     proof method available to us. Indeed, at first, PMI may feel somewhat like
     grabbing yourself by the seat of your pants and lifting yourself into
     the air. Despite the indisputable fact that proofs by PMI often feel
@@ -14,7 +14,7 @@
   <p>
     The simplest argument in favor of the validity of PMI is simply that it is
     axiomatic. This may seem somewhat unsatisfying, but the axioms for
-    the natural number system, known as the <index><main>Peano axioms</main></index>Peano axioms,
+    the natural number system, known as the <idx><h>Peano axioms</h></idx>Peano axioms,
     include one that justifies PMI. The Peano axioms will not be treated
     thoroughly in this book, but here they are:
     <ol>
@@ -82,7 +82,7 @@
     </statement>
   </exercise>
   <p>
-    On August 16th 2003, <index><main>Lihua, Ma</main></index>Ma Lihua of Beijing, China earned her place in the
+    On August 16th 2003, <idx><h>Lihua, Ma</h></idx>Ma Lihua of Beijing, China earned her place in the
     record books by single-handedly setting up an arrangement of dominoes
     standing on end (actually, the setup took 7 weeks and was almost ruined by
     some cockroaches in the Singapore Expo Hall) and toppling them.
@@ -170,7 +170,7 @@
 
   <p>
     The sentence <m>P_k</m> is known as the
-    <index><main>inductive hypothesis</main></index><em>inductive hypothesis</em>.
+    <idx><h>inductive hypothesis</h></idx><em>inductive hypothesis</em>.
     Think about it this way: If we were doing an entirely separate
     proof of <m>\forall n,  P_n \implies P_{n+1}</m>, it would certainly be fair
     to use the inductive hypothesis, and <em>once that proof was done</em>,

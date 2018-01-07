@@ -2,7 +2,7 @@
 <section xml:id="sec_deduct">
   <title>Deductive reasoning and Argument forms</title>
   <p>
-    Deduction <index><main>deduction</main></index>
+    Deduction <idx><h>deduction</h></idx>
     is the process by which we determine new truths from old.
     It is sometimes claimed that nothing truly new can come from deduction,
     the truth of a statement that is arrived at by deductive processes was
@@ -29,7 +29,7 @@
     inductive reasoning or deductive reasoning. In an inductive argument
     a long list of premises is presented whose truths are considered to be
     apparent to all, each of which provides evidence that the desired conclusion
-    is true. So an <index><main>inductive argument</main></index>inductive argument represents a kind of statistical thing,
+    is true. So an <idx><h>inductive argument</h></idx>inductive argument represents a kind of statistical thing,
     you have all these statements that are true each of which indicates that
     the conclusion is most likely true<ellipsis /> A strong inductive argument
     amounts to what attorneys call a <q>preponderance of the evidence.</q>
@@ -47,12 +47,12 @@
   </p>
 
   <p>
-    Like an inductive argument, a <index><main>deductive argument</main></index>deductive argument
+    Like an inductive argument, a <idx><h>deductive argument</h></idx>deductive argument
     is essentially just a
     long sequence of statements; but there is some additional structure.
     The last statement in the list is the <em>conclusion</em> <mdash /> the statement
     to be proved <mdash /> those occurring before it are known as
-    <index><main>premise</main></index><em>premises</em>.
+    <idx><h>premise</h></idx><em>premises</em>.
     Premises may be further subdivided into (at least) five sorts: axioms,
     definitions, previously proved theorems, hypotheses and deductions.
     Axioms and definitions are often glossed
@@ -63,7 +63,7 @@
     definitions. A rote knowledge of all the other theorems proved up to
     the one you are working with would generally be considered excessive,
     but completely memorizing the axioms and standard definitions of a field
-    is essential. <index><main>hypotheses</main></index>Hypotheses are a funny class of premises <mdash /> they are things
+    is essential. <idx><h>hypotheses</h></idx>Hypotheses are a funny class of premises <mdash /> they are things
     which can be assumed true for the sake of the current argument. For
     example, if the statement you are trying to prove is a conditional,
     then the antecedent may be assumed true (if the antecedent is false,
@@ -80,7 +80,7 @@
     the premises that have already been written down (this includes
     axioms and definitions that probably won't actually have been written,
     hypotheses and all the deductions made up to this point) by one of the
-    so-called <index><main>rules of inference</main></index>rules of inference.
+    so-called <idx><h>rules of inference</h></idx>rules of inference.
   </p>
 
   <p>
@@ -112,12 +112,12 @@
   </tabular>
   <p>
     This rule is known as
-    <index><main>conjunctive simplification</main></index><em>conjunctive simplification</em>, and
+    <idx><h>conjunctive simplification</h></idx><em>conjunctive simplification</em>, and
     is equivalent to the tautology <m>(A \land B) \implies B</m>.
   </p>
 
   <p>
-    The <index><main>modus ponens</main></index><em>modus ponens</em>
+    The <idx><h>modus ponens</h></idx><em>modus ponens</em>
     rule<fn>Latin for <q>method of affirming</q>,
     the related <em>modus tollens</em> rule means <q>method of denying.</q></fn>
     is one of the most useful.
@@ -145,7 +145,7 @@
   </p>
 
   <p>
-    <index><main>modus tollens</main></index><em>Modus tollens</em>
+    <idx><h>modus tollens</h></idx><em>Modus tollens</em>
     is the rule of inference we get if we put modus ponens
     through the <q>contrapositive</q> wringer.
   </p>
@@ -173,11 +173,11 @@
 
   <p>
     Modus ponens and modus tollens are also known as
-    <index><main>syllogism</main></index><em>syllogisms</em>. A
+    <idx><h>syllogism</h></idx><em>syllogisms</em>. A
     syllogism is an argument form wherein a deduction follows from two premises.
     There are two other common syllogisms,
-    <index><main>hypothetical syllogism</main></index><em>hypothetical syllogism</em> and
-    <index><main>disjunctive syllogism</main></index><em>disjunctive syllogism</em>.
+    <idx><h>hypothetical syllogism</h></idx><em>hypothetical syllogism</em> and
+    <idx><h>disjunctive syllogism</h></idx><em>disjunctive syllogism</em>.
   </p>
 
   <p>
@@ -237,7 +237,7 @@
   <p>
     The word <q>dilemma</q> usually refers to a situation in which an individual
     is faced with an impossible choice. A cute example known as the
-    <index><main>Crocodile's dilemma</main></index>Crocodile's dilemma is as follows:
+    <idx><h>Crocodile's dilemma</h></idx>Crocodile's dilemma is as follows:
   </p>
 
   <blockquote>
@@ -251,7 +251,7 @@
   <p>
     In logical arguments the word dilemma is used in another sense having to
     do with certain rules of inference.
-    <index><main>constructive dilemma</main></index><em>Constructive dilemma</em> is
+    <idx><h>constructive dilemma</h></idx><em>Constructive dilemma</em> is
     a rule of inference having to do with the conclusion that one of two
     possibilities must hold.
   </p>
@@ -278,7 +278,7 @@
     </row>
   </tabular>
   <p>
-    <index><main>destructive dilemma</main></index><em>Destructive dilemma</em>
+    <idx><h>destructive dilemma</h></idx><em>Destructive dilemma</em>
     is often not listed among the rules
     of inference because it can easily be obtained by using the constructive
     dilemma and replacing the implications with their contrapositives.
@@ -307,12 +307,12 @@
   </tabular>
   <p>
     In <xref ref="tab_roi">Table</xref>, the ten most common
-    <index><main>rules of inference</main></index>rules of inference are listed.
+    <idx><h>rules of inference</h></idx>rules of inference are listed.
     Note that all of these are equivalent to tautologies that
     involve conditionals (as opposed to biconditionals), every one of the
     basic logical equivalences that we established in <xref ref="sec_le">Section</xref>
     is really a tautology involving a biconditional, collectively these are
-    known as the <index><main>rules of replacement</main></index><q>rules of replacement.</q>
+    known as the <idx><h>rules of replacement</h></idx><q>rules of replacement.</q>
     In an argument, any statement
     allows us to infer a logically equivalent statement. Or, put differently,
     we could replace any premise with a different, but logically equivalent,
@@ -665,7 +665,7 @@
   </tabular>
   <p>
     <xref ref="tab_roi">Table</xref>: The rules of inference. (continued)
-    <index><main>rules of inference</main></index>
+    <idx><h>rules of inference</h></idx>
   </p>
   <exercises>
     <exercise>

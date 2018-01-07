@@ -2,7 +2,7 @@
 <section xml:id="sec_basic_set_notions">
   <title>Basic notions of set theory</title>
   <p>
-    In modern mathematics there is an area called <index><main>Category theory</main></index>
+    In modern mathematics there is an area called <idx><h>Category theory</h></idx>
     Category theory<fn>The classic text by Saunders Mac Lane<nbsp /><xref ref="macl" /> 
     is still considered one of the best introductions to Category theory.</fn>
     which studies the
@@ -41,7 +41,7 @@
     We are about to see our first example of a categorical correspondence.
     Logic and Set theory are different aspects of the same thing. To
     describe a set people often quote
-    <index><main>G&#xf6;del, Kurt</main></index> Kurt G&#xf6;del <mdash /> <q>A set is a Many that allows itself to be thought of as a One.</q> (Note
+    <idx><h>G&#xf6;del, Kurt</h></idx> Kurt G&#xf6;del <mdash /> <q>A set is a Many that allows itself to be thought of as a One.</q> (Note
     how the attempt at defining what is really an elemental, undefinable
     concept ends up sounding rather mystical.) A more practical approach is
     to think of a set as the collection of things that make some open sentence
@@ -58,7 +58,7 @@
     letters <mdash /> <m>A</m>, <m>B</m>, <m>C</m>, <em>et cetera</em>. Here, we will often emphasize the connection between
     sets and open sentences in Logic by using a subscript notation. The set that
     corresponds to the open sentence <m>P(x)</m> will be denoted <m>S_P</m>, we call
-    <m>S_P</m> the <index><main>truth set</main></index> <em>truth set</em> of<nbsp /><m>P(x)</m>.
+    <m>S_P</m> the <idx><h>truth set</h></idx> <em>truth set</em> of<nbsp /><m>P(x)</m>.
     <me>
       S_P = \{ x \suchthat P(x) \}
     </me>
@@ -80,10 +80,10 @@
     There are many interesting foundational issues which we are going to
     sidestep in our current development of Set theory. For instance,
     recall that in Logic we always worked inside some
-    <index><main>universe of discourse</main></index><q>universe of discourse.</q>
+    <idx><h>universe of discourse</h></idx><q>universe of discourse.</q>
     As a consequence of the approach we are taking now, all of our set theoretic
     work will be done within some unknown
-    <index><main>universal set</main></index><q>universal</q> set. Attempts at
+    <idx><h>universal set</h></idx><q>universal</q> set. Attempts at
     specifying (<em>a priori</em>) a universal set for doing mathematics within
     are doomed to failure. In the early days of the twentieth century
     they attempted to at least get Set theory itself on a firm footing by
@@ -112,9 +112,9 @@
     <m>\{ 1, 1\}</m> and <m>\{1\}</m> are really the same thing. If the notion
     of a set containing multiple instances of its elements is needed there
     is a concept known as a
-    <index><main>multiset</main></index><em>multiset</em> that is studied in Combinatorics.
+    <idx><h>multiset</h></idx><em>multiset</em> that is studied in Combinatorics.
     In a multiset, each element is preceded by a so-called
-    <index><main>repetition number</main></index><em>repetition number</em>
+    <idx><h>repetition number</h></idx><em>repetition number</em>
     which may be the special symbol <m>\infty</m> (indicating an unlimited number
     of repetitions). The multiset concept is useful when studying puzzles like
     <q>How many ways can the letters of MISSISSIPPI be rearranged?</q> because the
@@ -192,10 +192,10 @@
     to have a <em>collection</em> with nothing in it? The standard answer is
     0 however, mostly because it makes a certain counting formula work out
     nicely. A set with one element is known as a
-    <index><main>singleton set</main></index><em>singleton set</em>
+    <idx><h>singleton set</h></idx><em>singleton set</em>
     (note the use of the indefinite article). A set with no elements
     is known as the
-    <index><main>empty set</main></index><em>empty set</em> (note the definite article). There
+    <idx><h>empty set</h></idx><em>empty set</em> (note the definite article). There
     are as many singletons as there are elements in your universe. They
     aren't the same though, for example <m>1 \neq \{ 1 \}</m>. There is
     only one empty set and it is denoted <m>\emptyset</m> <mdash /> irrespective of the
@@ -207,7 +207,7 @@
     with 3 elements, without loss of generality, <m>\{1, 2, 3\}</m>. It's
     possible to construct a set, whose elements are all the possible sets
     in this universe. This set is known as the
-    <index><main>power set</main></index><em>power set</em> of the universal
+    <idx><h>power set</h></idx><em>power set</em> of the universal
     set. Indeed, we can construct the power set of <em>any</em> set <m>A</m> and
     we denote it with the symbol <m>{\mathcal P}(A)</m>. Returning to our
     example we have
@@ -254,7 +254,7 @@
     </statement>
   </exercise>
   <p>
-    One last thing before we end this section. The size (a.k.a. <index><main>cardinality</main></index>cardinality) of a set is just the number of elements in it. We use the
+    One last thing before we end this section. The size (a.k.a. <idx><h>cardinality</h></idx>cardinality) of a set is just the number of elements in it. We use the
     very same symbol for cardinality as we do for the absolute value of a
     numerical entity. There should really never be any confusion. If <m>A</m> is
     a set then <m>|A|</m> means that we should count how many things are in <m>A</m>.

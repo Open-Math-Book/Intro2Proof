@@ -9,7 +9,7 @@
     we've used variables to refer to sentences (or sentence fragments) themselves,
     but we've said that sentences that had variables <em>in them</em> were ambiguous
     and didn't even deserve to be called logical statements. The notion
-    of <index><main>quantification</main></index><em>quantification</em>
+    of <idx><h>quantification</h></idx><em>quantification</em>
     allows us to use the power of variables within a
     sentence without introducing ambiguity.
   </p>
@@ -30,7 +30,7 @@
   </p>
 
   <p>
-    An <index><main>open sentence</main></index><em>open sentence</em>
+    An <idx><h>open sentence</h></idx><em>open sentence</em>
     is one that has variables in it. We represent
     open sentences using a sort of functional notation to show what
     variables are in them.
@@ -68,7 +68,7 @@
     to have more than three variables in it, and indeed it does! In order of
     appearance, we have <m>f</m>, <m>l</m>, <m>c</m>, <m>\epsilon</m>, <m>\delta</m> and <m>x</m> <mdash /> the
     last three variables that appear (<m>\epsilon</m>, <m>\delta</m> and <m>x</m>) are said
-    to be <index><main>bound variables</main></index><em>bound</em>.
+    to be <idx><h>bound variables</h></idx><em>bound</em>.
     A variable in an open sentence is bound if it is in the
     scope of a quantifier. Bound variables don't need to be mentioned
     in the argument list of the sentence. Unfortunately, when sentences are
@@ -153,13 +153,13 @@
   </p>
 
   <p>
-    In the 17th century, <index><main>Fermat, Pierre de</main></index>Pierre de Fermat
+    In the 17th century, <idx><h>Fermat, Pierre de</h></idx>Pierre de Fermat
     made the conjecture<fn>Fermat's 
     more famous conjecture, that <m>x^n+y^n=z^n</m> has no non-trivial integer solutions
     if <m>n</m> is an integer with <m>n>2</m> was discovered after his death.</fn> that
     <m>\forall x \in {\mathbb N}, P(x)</m>. No doubt, this seemed reasonable to Fermat
     because the numbers given by this formula (they are called
-    <index><main>Fermat numbers</main></index>Fermat numbers in
+    <idx><h>Fermat numbers</h></idx>Fermat numbers in
     his honor) are all primes <mdash /> at first! Fermat numbers are conventionally
     denoted with a subscripted letter F, <m>F_n = 2^{2^n}+1</m>, the first five
     Fermat numbers are prime.
@@ -192,7 +192,7 @@
     machinery, so we shouldn't blame Fermat for not noticing that
     <m>4294967297 = 641 \cdot 6700417</m>. This remarkable feat of factoring
     can be replicated in seconds on a modern computer, however it was done
-    first by <index><main>Euler, Leonhard</main></index> Leonhard Euler in 1732!
+    first by <idx><h>Euler, Leonhard</h></idx> Leonhard Euler in 1732!
     There is quite a lot of literature
     concerning the primeness and/or compositeness of Fermat numbers. So
     far, all the Fermat numbers between <m>F_5</m> and <m>F_{32}</m> (inclusive) have
@@ -360,7 +360,7 @@
         <p>
           There is a common variant of the existential quantifier,
           <m>\exists !</m>, if you write <m>\exists ! \, x, \, P(x)</m> you are asserting
-          that there is a <index><main>unique existence</main></index><em>unique</em> element
+          that there is a <idx><h>unique existence</h></idx><em>unique</em> element
           in the universe that makes <m>P(x)</m> true.
           Determine how to negate the sentence <m>\exists ! \, x, \, P(x)</m>.
         </p>
@@ -490,7 +490,7 @@
     <exercise>
       <statement>
         <p>
-          A <index><main>Sophie Germain prime</main></index> <em>Sophie Germain prime</em> is a prime number <m>p</m>
+          A <idx><h>Sophie Germain prime</h></idx> <em>Sophie Germain prime</em> is a prime number <m>p</m>
           such that the corresponding odd number <m>2p+1</m> is also a prime. For example 11 is a
           Sophie Germain prime since <m>23 = 2\cdot 11 + 1</m> is also prime. Almost all Sophie Germain
           primes are congruent to <m>5 \pmod{6}</m>, nevertheless, there are exceptions <mdash /> so the

@@ -11,7 +11,7 @@
     inverse isn't in the set under consideration. If we are
     talking about integers or any of the other sets we've considered,
     the statement is true. A statement that begins with the English
-    words <q>every</q> or <q>all</q> is called <index><main>universal quantification</main></index>
+    words <q>every</q> or <q>all</q> is called <idx><h>universal quantification</h></idx>
     <em>universally quantified</em>.
     It is asserted that the statement holds for <em>everything</em> within
     some universe. It is probably clear that when we are making
@@ -19,12 +19,12 @@
     are not discussing human beings or animals or articles of clothing <mdash /> we are talking about objects that it is reasonable to add together:
     numbers of one sort or another. When being careful <mdash /> and we should always
     strive to be careful! <mdash /> it is important to make explicit what
-    universe (known as the <index><main>universe of discourse</main></index><em>universe of discourse</em>) the objects
+    universe (known as the <idx><h>universe of discourse</h></idx><em>universe of discourse</em>) the objects
     we are discussing come from. Furthermore, we need to distinguish
     between statements that assert that everything in the universe of
     discourse has some property, and statements that say something
     about a few (or even just one) of the elements of our universe.
-    Statements of the latter sort are called <index><main>existential quantification</main></index>
+    Statements of the latter sort are called <idx><h>existential quantification</h></idx>
     <em>existentially quantified</em>.
   </p>
 

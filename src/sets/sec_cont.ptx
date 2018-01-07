@@ -11,9 +11,9 @@
   </p>
 
   <p>
-    A set <m>A</m> is a <index><main>subset</main></index><em>subset</em> of another set <m>B</m> if all of <m>A</m>'s elements
+    A set <m>A</m> is a <idx><h>subset</h></idx><em>subset</em> of another set <m>B</m> if all of <m>A</m>'s elements
     are also in <m>B</m>. The terminology
-    <index><main>superset</main></index><em>superset</em> is used to refer
+    <idx><h>superset</h></idx><em>superset</em> is used to refer
     to <m>B</m> in this situation, as in <q>The set of all real-valued functions
     in one real variable is a superset of the polynomial functions.</q> The
     subset/superset relationship is indicated with a symbol that should be
@@ -23,7 +23,7 @@
 
   <p>
     We say that <m>A</m> is
-    a <index><main>proper subset</main></index><em>proper subset</em> of <m>B</m> if <m>B</m> has some elements that aren't in
+    a <idx><h>proper subset</h></idx><em>proper subset</em> of <m>B</m> if <m>B</m> has some elements that aren't in
     <m>A</m>, and in this situation we write <m>A \subset B</m> or if we really want
     to emphasize the fact that the sets are not equal we can write
     <m>A \subsetneq B</m>. By the way, if you want to emphasize the superset

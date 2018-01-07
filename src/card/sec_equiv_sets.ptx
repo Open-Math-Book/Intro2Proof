@@ -9,7 +9,7 @@
     while ignoring all the others. Equivalence of sets brings the issue of size (a.k.a.
     cardinality) into sharp focus while, at the same time, it forgets all about the
     many other features of sets. Sets that are equivalent (under the relation we
-    are discussing) are sometimes said to be <index><main>equinumerous</main></index>
+    are discussing) are sometimes said to be <idx><h>equinumerous</h></idx>
     <em>equinumerous</em>
     <fn>Perversely, there are also those who use the term <em>equipollent</em> 
     to indicate that sets are the same size. This term actually applies to 
@@ -160,7 +160,7 @@
     are also infinite sets! The prototype for an infinite set would have to be
     the entire set <m>\Naturals</m>.
     The long-standing tradition is to use the
-    symbol <index><main>Aleph<ndash />naught</main></index>
+    symbol <idx><h>Aleph<ndash />naught</h></idx>
     <m>\aleph_0</m><fn>The Hebrew letter (capital) aleph with a 
     subscript zero <mdash /> usually pronounced <q>aleph naught.</q></fn>
     for the cardinality
@@ -174,12 +174,12 @@
     ignoring the speed of light limitations on how fast your lips can move.</q> Worse
     yet, the term <q>countable</q> has come to be used for sets whose cardinalities are
     either finite <em>or</em> the size of the naturals. If we want to refer specifically to the infinite sort of countable set most mathematicians
-    use the term <index><main>denumerable</main></index><em>denumerable</em> (although this is not universal) or <index><main>countably infinite</main></index> <em>countably infinite</em>.
+    use the term <idx><h>denumerable</h></idx><em>denumerable</em> (although this is not universal) or <idx><h>countably infinite</h></idx> <em>countably infinite</em>.
     Finally, there are sets
     whose cardinalities are bigger than the naturals. In other words, there are
     sets such that no one-to-one correspondence with <m>\Naturals</m> is possible.
     We don't mean that people have looked for one-to-one correspondences
-    between such sets and <m>\Naturals</m> and haven't been able to find them <mdash /> we literally mean that it can't be done; and it is has been proved that it can't be done! Sets having cardinalities that are this ridiculously huge are known as <index><main>uncountable</main></index> <em>uncountable</em>.
+    between such sets and <m>\Naturals</m> and haven't been able to find them <mdash /> we literally mean that it can't be done; and it is has been proved that it can't be done! Sets having cardinalities that are this ridiculously huge are known as <idx><h>uncountable</h></idx> <em>uncountable</em>.
   </p>
   <exercises>
     <exercise>

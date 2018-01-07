@@ -17,7 +17,7 @@
   <definition>
     <statement>
       <p>
-        <index><main>restriction, of a function</main></index>
+        <idx><h>restriction, of a function</h></idx>
         Given a function <m>f</m> and a subset <m>D</m> of its domain, the
         <term>restriction of <m>f</m> to <m>D</m></term> is denoted <m>\restrict{f}{D}</m> and
         <me>
@@ -53,7 +53,7 @@
     Technically, when we do the process outlined above (choose a domain
     <m>D</m> so that the restriction <m>\restrict{f}{D}</m> is invertible, and
     find that inverse)
-    the function we get is a <index><main>right inverse</main></index><em>right inverse</em> for <m>f</m>.
+    the function we get is a <idx><h>right inverse</h></idx><em>right inverse</em> for <m>f</m>.
   </p>
 
   <p>
@@ -107,7 +107,7 @@
     </statement>
   </exercise>
   <p>
-    The <index><main>winding map</main></index><em>winding map</em> is a function that goes
+    The <idx><h>winding map</h></idx><em>winding map</em> is a function that goes
     from <m>\Reals</m> to the unit circle in the <m>x</m><ndash /><m>y</m> plane, defined by
     <me>
       W(t) = (\cos{t}, \sin{t}).
@@ -190,7 +190,7 @@
     <statement>
       <p>
         The function <m>\pi_1: \Reals \times \Reals \longrightarrow \Reals</m> known
-        as <index><main>projection</main></index><term>projection onto the first coordinate</term> is
+        as <idx><h>projection</h></idx><term>projection onto the first coordinate</term> is
         defined by
         <me>
           \pi_1((x,y)) = x.
@@ -216,7 +216,7 @@
     produce a <em>pair</em> of real numbers if we have a single real number in hand?
     There are actually many ways one could proceed, but one reasonable choice is
     to create a pair where the input number appears in both coordinates. This
-    is the so-called <index><main>diagonal map</main></index><em>diagonal map</em>,
+    is the so-called <idx><h>diagonal map</h></idx><em>diagonal map</em>,
     <m>d:\Reals \times \Reals \longrightarrow \Reals</m>, defined by <m>d(a) = (a,a)</m>.
   </p>
   <exercise>
@@ -241,9 +241,9 @@
     which performs a very useful task <mdash /> if an input <m>x</m> is in the
     set <m>S</m> the function will indicate this by returning 1, otherwise
     it will return 0. The function which has this behavior is known
-    as <m>1_S</m>, and is called the <index><main>characteristic function</main></index>
+    as <m>1_S</m>, and is called the <idx><h>characteristic function</h></idx>
     <em>characteristic function of the subset <m>S</m></em> (There are those
-    who use the term <index><main>indicator function</main></index><em>indicator function of <m>S</m></em>
+    who use the term <idx><h>indicator function</h></idx><em>indicator function of <m>S</m></em>
     for <m>1_S</m>.) By definition,
     <m>D</m> is the domain of this function.
     <md>
@@ -265,7 +265,7 @@
     membership criterion. The logical open sentence <q><m>x \in S</m></q> being true
     is the same thing as the equation <q><m>1_S(x) = 1</m>.</q> There is a notation,
     growing in popularity, that does the same thing for an arbitrary open sentence.
-    The <index><main>Iverson bracket</main></index><em>Iverson bracket</em> notation uses the
+    The <idx><h>Iverson bracket</h></idx><em>Iverson bracket</em> notation uses the
     shorthand <m>[ P(x) ]</m> to represent a function that sends any <m>x</m> that makes
     <m>P(x)</m> true to 1, and any inputs that make <m>P(x)</m> false will get sent to 0.
     <me>
@@ -292,7 +292,7 @@
     </statement>
   </exercise>
   <p>
-    There is a much more venerable notation known as the <index><main>Kronecker delta</main></index>
+    There is a much more venerable notation known as the <idx><h>Kronecker delta</h></idx>
     <em>Kronecker delta</em> that can be thought of as a special case of the
     idea inherent in Iverson brackets. We write <m>\delta_{ij}</m> as a shorthand
     for a function that takes two inputs, <m>\delta(i,j)</m> is 1 if and only if

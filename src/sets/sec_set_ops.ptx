@@ -9,8 +9,8 @@
   <p>
     The logical connectors <m>\land</m> and <m>\lor</m> correspond to the set-theoretic
     notions of
-    <index><main>union</main></index>union (<m>\cup</m>) and
-    <index><main>intersection</main></index>intersection (<m>\cap</m>). The symbols are
+    <idx><h>union</h></idx>union (<m>\cup</m>) and
+    <idx><h>intersection</h></idx>intersection (<m>\cap</m>). The symbols are
     designed to provide a mnemonic for the correspondence; the Set theory
     symbols are just rounded versions of those from Logic.
   </p>
@@ -76,7 +76,7 @@
   <p>
     Negation in Logic corresponds to
     complementation in Set theory. The
-    <index><main>complement</main></index><em>complement</em> of a set <m>A</m> is usually denoted by <m>\overline{A}</m>
+    <idx><h>complement</h></idx><em>complement</em> of a set <m>A</m> is usually denoted by <m>\overline{A}</m>
     (although some prefer a superscript <m>c</m> <mdash /> as in <m>A^c</m>), this is the set
     of all things that <em>aren't</em> in <m>A</m>. In thinking about complementation
     one quickly sees why the importance of working within a well-defined
@@ -276,7 +276,7 @@
         <cell>\begin{minipage}{.35\textwidth} <m>A \cup (A \cap B) = A</m></cell>
       </row>
     </tabular>
-    <index><main>set theoretic equalities</main></index>
+    <idx><h>set theoretic equalities</h></idx>
   </table>
 
   <p>
@@ -382,7 +382,7 @@
     of the concept of <q>complements.</q> If you think of the set <m>\overline{A}</m>
     as being the difference between the universal set <m>U</m> and the set <m>A</m>
     you are on the right track. The
-    <index><main>difference (of sets)</main></index><em>difference</em> between two sets is written
+    <idx><h>difference (of sets)</h></idx><em>difference</em> between two sets is written
     <m>A \setminus B</m> (sadly, sometimes this is denoted using the ordinary
     subtraction symbol <m>A-B</m>) and is defined by
     <me>
@@ -400,7 +400,7 @@
     commutative operation. In other words <m>A \setminus B \neq B \setminus A</m>
     (in general). It is possible to define an operation that acts somewhat
     like the difference, but that <em>is</em> commutative. The
-    <index><main>symmetric difference</main></index><em>symmetric difference</em>
+    <idx><h>symmetric difference</h></idx><em>symmetric difference</em>
     of two sets is denoted using a
     triangle (really a capital Greek delta)
     <me>

@@ -2,7 +2,7 @@
 <section xml:id="sec_cases">
   <title>Even more direct proofs: By cases and By exhaustion</title>
   <p>
-    <index><main>proof by exhaustion</main></index>
+    <idx><h>proof by exhaustion</h></idx>
     Proof by exhaustion is the least attractive proof method from
     an aesthetic perspective. An exhaustive proof consists of literally
     (and exhaustively) checking every element of the universe to see
@@ -18,14 +18,14 @@
     is a growing list of important results that have been <q>proved</q> by
     exhaustion using a computer. Important examples of this phenomenon
     are the non-existence of a
-    <index><main>projective plane of order 10</main></index>
+    <idx><h>projective plane of order 10</h></idx>
     projective plane of order 10<nbsp /><xref ref="lam" /> and the
     only known value of a
-    <index><main>Ramsey number</main></index>Ramsey number for hypergraphs<nbsp /><xref ref="radz" />.
+    <idx><h>Ramsey number</h></idx>Ramsey number for hypergraphs<nbsp /><xref ref="radz" />.
   </p>
 
   <p>
-    <index><main>proof by cases</main></index>
+    <idx><h>proof by cases</h></idx>
     Proof by cases is subtly different from exhaustive proof <mdash /> for one
     thing a valid proof by cases can be used in an infinite universe.
     In a proof by cases one has to divide the universe of discourse into
@@ -42,7 +42,7 @@
   <p>
     A very famous instance of proof by cases is the computer-assisted proof
     of the
-    <index><main>four color theorem</main></index>
+    <idx><h>four color theorem</h></idx>
     four color theorem. The four color theorem is a result known to
     map makers for quite some time that says that 4 colors are always sufficient
     to color the nations on a map in such a way that countries sharing a boundary
@@ -52,8 +52,8 @@
     that real cartographers usually reserve a fifth color for oceans (and other
     water) and that it is possible to conceive of a map requiring five colors if
     one allows the nations to be non-contiguous. In 1977,
-    <index><main>Appel, Kenneth</main></index> Kenneth Appel and
-    <index><main>Haken, Wolfgang</main></index>Wolfgang Haken proved the four color
+    <idx><h>Appel, Kenneth</h></idx> Kenneth Appel and
+    <idx><h>Haken, Wolfgang</h></idx>Wolfgang Haken proved the four color
     theorem by reducing the infinitude of possibilities to
     1,936 separate cases and analyzing each of these with a computer.
     The inelegance of a proof by cases is probably proportional to some power of
@@ -67,7 +67,7 @@
 
   <figure xml:id="fig_Lux_map" >
     <caption>The nations surrounding 
-    <index><main>Luxembourg</main></index> Luxembourg show 
+    <idx><h>Luxembourg</h></idx> Luxembourg show 
     that sometimes 4 colors are required in cartography.</caption>
     <image source=""/>
   </figure>
@@ -77,18 +77,18 @@
     in which an exhaustive proof of some statement exists is when the statement
     is thought to be universally true but no general proof is known <mdash /> yet the
     statement has been checked for a large number of cases.
-    <index><main>Goldbach's conjecture</main></index>Goldbach's conjecture
+    <idx><h>Goldbach's conjecture</h></idx>Goldbach's conjecture
     is one such statement.
-    <index><main>Goldbach, Christian</main></index>Christian Goldbach<nbsp /><nbsp /><xref ref="wiki-goldbach" />
+    <idx><h>Goldbach, Christian</h></idx>Christian Goldbach<nbsp /><nbsp /><xref ref="wiki-goldbach" />
     was a mathematician born
-    in <index><main>K&#xf6;nigsberg</main></index>K&#xf6;nigsberg Prussia,
+    in <idx><h>K&#xf6;nigsberg</h></idx>K&#xf6;nigsberg Prussia,
     who, curiously, did <em>not</em> make the
     conjecture<fn>This conjecture was 
     discussed previously in the exercises of <xref ref="sec_def">Section</xref></fn> which bears
     his name. In a letter to
-    <index><main>Euler, Leonhard</main></index>Leonard Euler, Goldbach conjectured that every
+    <idx><h>Euler, Leonhard</h></idx>Leonard Euler, Goldbach conjectured that every
     odd number greater than 5 could be expressed as the sum of three primes (nowadays this is known as the
-    <index><main>weak Goldbach conjecture</main></index> weak Goldbach conjecture). Euler apparently liked the
+    <idx><h>weak Goldbach conjecture</h></idx> weak Goldbach conjecture). Euler apparently liked the
     problem and replied to Goldbach stating what is now known as Goldbach's
     conjecture: Every even number greater than 2 can be expressed as the sum of
     two primes. This statement has been lying around since 1742, and a great
@@ -183,8 +183,8 @@
   </p>
 
   <p>
-    <index><main>graph pebbling</main></index> Graph pebbling is an interesting concept originated
-    by the famous combinatorialist <index><main>Chung, Fan</main></index> Fan Chung. A <q>graph</q>
+    <idx><h>graph pebbling</h></idx> Graph pebbling is an interesting concept originated
+    by the famous combinatorialist <idx><h>Chung, Fan</h></idx> Fan Chung. A <q>graph</q>
     (as the term is used here) is a collection
     of places or locations which are known as <q>nodes,</q> some of which
     are joined by paths or connections which are known as <q>edges.</q>
@@ -337,7 +337,7 @@
     <exercise>
       <statement>
         <p>
-          A <index><main>vampire number</main></index><em>vampire number</em> is a <m>2n</m> digit number <m>v</m> that factors as <m>v=xy</m>
+          A <idx><h>vampire number</h></idx><em>vampire number</em> is a <m>2n</m> digit number <m>v</m> that factors as <m>v=xy</m>
           where <m>x</m> and <m>y</m> are <m>n</m> digit numbers and the digits of <m>v</m> are the
           union of the digits in <m>x</m> and <m>y</m> in some order. The numbers <m>x</m> and <m>y</m>
           are known as the <q>fangs</q> of <m>v</m>. To eliminate trivial
@@ -388,8 +388,8 @@
 
         <p>
           <c>var('x y z')
-          a=[s<m>\caret</m>2 for s in [1..10]]
-          b=[s<m>\caret</m>2 for s in [0..10]]
+          a=[s^2 for s in [1..10]]
+          b=[s^2 for s in [0..10]]
           s = []
           for x in a:
           for y in b:
@@ -405,7 +405,7 @@
     <exercise>
       <statement>
         <p>
-          The <index><main>trichotomy property</main></index><em>trichotomy property</em> of the real
+          The <idx><h>trichotomy property</h></idx><em>trichotomy property</em> of the real
           numbers simply states that every real number is either positive or negative
           or zero. Trichotomy can be used to prove many statements by looking at the
           three cases that it guarantees. Develop a proof (by cases) that the square of

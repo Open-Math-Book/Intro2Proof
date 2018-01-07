@@ -27,7 +27,7 @@
     of our fractions to have <em>no</em> factors in common. Another way to
     say this is that the <m>a</m> and <m>b</m> from the definition above should be
     chosen so that <m>\gcd{a}{b} = 1</m>. A pair of numbers whose gcd is 1 are
-    called <index><main>relative primality</main></index> <em>relatively prime</em>.
+    called <idx><h>relative primality</h></idx> <em>relatively prime</em>.
   </p>
 
   <p>
@@ -123,7 +123,7 @@
     not rational is usually attributed to the followers of Pythagoras (but
     probably not to Pythagoras himself). In any case it is a result of
     great antiquity. The proof is of a type known as
-    <index><main>reductio ad absurdam</main></index> <em>reductio ad absurdum</em>
+    <idx><h>reductio ad absurdam</h></idx> <em>reductio ad absurdum</em>
     <fn>Reduction to an absurdity <mdash /> better known these 
     days as proof by contradiction. </fn>. We show that a given assumption
     leads logically to an absurdity, a statement that <em>can't</em> be true,
@@ -148,7 +148,7 @@
     later (heh, heh, heh<ellipsis />).
     These sorts of intermediate results, things that don't deserve to be
     called theorems themselves, but that aren't entirely self-evident are
-    known as <index><main>lemmas</main></index> lemmas. It is often the case that in an
+    known as <idx><h>lemmas</h></idx> lemmas. It is often the case that in an
     attempt at proving a statement we find ourselves in need of some small
     fact. Perhaps it even seems to be true but it's not clear. In such
     circumstances, good form dictates that we first state and prove the
@@ -228,7 +228,7 @@
     <exercise>
       <statement>
         <p>
-          <index><main>Rational approximation</main></index> Rational Approximation is
+          <idx><h>Rational approximation</h></idx> Rational Approximation is
           a field of mathematics that has received much study. The main idea
           is to find rational numbers that are very good approximations to
           given irrationals. For example, <m>22/7</m> is a well-known rational

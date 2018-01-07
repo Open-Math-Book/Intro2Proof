@@ -23,7 +23,7 @@
     <statement>
       <p>
         A relation <m>\relR</m> on a set <m>S</m> is an
-        <index><main>ordering relation</main></index><term>ordering relation</term>
+        <idx><h>ordering relation</h></idx><term>ordering relation</term>
         iff <m>\relR</m> is reflexive, anti-symmetric and transitive.
       </p>
     </statement>
@@ -33,11 +33,11 @@
     Now, we've used <m>\leq</m> to decide what properties an ordering relation
     should have, but we should point out that most ordering relations
     don't do nearly as good a job as <m>\leq</m> does. The <m>\leq</m> relation
-    imposes what is known as a <index><main>total order</main></index><em>total order</em>
+    imposes what is known as a <idx><h>total order</h></idx><em>total order</em>
     on the sets that it acts on (you should note that it can't be used
     to compare complex numbers, but it can be placed between reals or
     any of the sets of numbers that are contained in <m>\Reals</m>.) Most
-    ordering relations only create what is known as a <index><main>partial order</main></index>
+    ordering relations only create what is known as a <idx><h>partial order</h></idx>
     <em>partial order</em> on the sets they act on. In a total ordering
     (a.k.a. a linear ordering) every pair of elements can be compared
     and we can use the ordering relation to decide which order they go
@@ -98,9 +98,9 @@
   </exercise>
   <p>
     A set together with an ordering relation creates a mathematical
-    structure known as a <index><main>partially ordered set</main></index><em>partially
+    structure known as a <idx><h>partially ordered set</h></idx><em>partially
     ordered set</em>. Since that is a bit of a mouthful, the abbreviated
-    form <index><main>poset</main></index><em>poset</em> is actually heard more commonly.
+    form <idx><h>poset</h></idx><em>poset</em> is actually heard more commonly.
     If one wishes to refer to a poset it is necessary to identify
     both the set and the ordering relation. Thus, if <m>S</m> is a set
     and <m>\relR</m> is an ordering relation, we write <m>(S, \relR)</m> to
@@ -111,10 +111,10 @@
     The digraphs given above for two posets having the same underlying
     set provide an existence proof <mdash /> the same set may have different
     orders imposed upon it. They also highlight another issue <mdash /> these
-    digraphs for ordering relations get pretty crowded! <index><main>Hasse diagrams</main></index>
+    digraphs for ordering relations get pretty crowded! <idx><h>Hasse diagrams</h></idx>
     Hasse diagrams
     for posets (named after the famous German mathematician
-    <index><main>Hasse, Helmut</main></index>Helmut Hasse) are a way of displaying all the
+    <idx><h>Hasse, Helmut</h></idx>Helmut Hasse) are a way of displaying all the
     information in a poset's digraph, but much more succinctly. There
     are features of a Hasse diagram that correspond to each of the
     properties that an ordering relation must have.
@@ -183,7 +183,7 @@
   </exercise>
   <p>
     Posets like <m>({\mathcal P}(\{1,2,3\}), \subseteq)</m> that can be laid out
-    in ranks are known as <index><main>graded poset</main></index> <em>graded posets</em>. Things
+    in ranks are known as <idx><h>graded poset</h></idx> <em>graded posets</em>. Things
     in a graded poset that have the same rank are always incomparable.
   </p>
 
@@ -220,27 +220,27 @@
   </p>
 
   <p>
-    A <index><main>chain</main></index><em>chain</em> in a poset is a subset of the elements, all
+    A <idx><h>chain</h></idx><em>chain</em> in a poset is a subset of the elements, all
     of which are comparable. If you restrict your attention to a chain within
     a poset, you will be looking at a total order.
-    An <index><main>antichain</main></index><em>antichain</em> in a poset is a subset
+    An <idx><h>antichain</h></idx><em>antichain</em> in a poset is a subset
     of the elements, none of which are comparable. Thus, for example, a subset
     of elements having the same rank (in a graded poset) is an antichain.
     Chains and antichains are said to be <em>maximal</em> if it
     is not possible to add further elements to them (whilst maintaining the
     properties that make them chains and/or antichains). An element <m>x</m>, that
     appears above another element <m>y</m> <mdash /> and connected to it <mdash /> in a Hasse
-    diagram is said to <index><main>cover, in a poset</main></index><em>cover</em> it. In this situation
-    you may also say that <m>x</m> is an <index><main>successor</main></index><em>immediate successor</em> of
-    <m>y</m>. A <index><main>maximal element, in a poset</main></index><em>maximal element</em> is an element that is not covered by any other element. Similarly, a
-    <index><main>minimal element, in a poset</main></index><em>minimal element</em> is an element that is not a cover of any other element. If a chain is maximal, it follows that it
+    diagram is said to <idx><h>cover, in a poset</h></idx><em>cover</em> it. In this situation
+    you may also say that <m>x</m> is an <idx><h>successor</h></idx><em>immediate successor</em> of
+    <m>y</m>. A <idx><h>maximal element, in a poset</h></idx><em>maximal element</em> is an element that is not covered by any other element. Similarly, a
+    <idx><h>minimal element, in a poset</h></idx><em>minimal element</em> is an element that is not a cover of any other element. If a chain is maximal, it follows that it
     must contain both a maximal and a minimal element (with respect to the
     surrounding poset). The collection of all maximal elements forms an antichain,
     as does (separately) the collection of all minimal elements. Finally,
-    we have the notions of <index><main>greatest element, in a poset</main></index>
-    <em>greatest element</em> (a.k.a. <index><main>top, in a poset</main></index>top) and
-    <index><main>least element, in a poset</main></index><em>least element</em> (a.k.a.
-    <index><main>bottom, in a poset</main></index>bottom) <mdash /> the greatest element is greater than every
+    we have the notions of <idx><h>greatest element, in a poset</h></idx>
+    <em>greatest element</em> (a.k.a. <idx><h>top, in a poset</h></idx>top) and
+    <idx><h>least element, in a poset</h></idx><em>least element</em> (a.k.a.
+    <idx><h>bottom, in a poset</h></idx>bottom) <mdash /> the greatest element is greater than every
     other element in the poset, the least element is smaller than every other element. Please be careful to distinguish these
     concepts from maximal and minimal elements <mdash /> a greatest element is
     automatically maximal, and a least element is always minimal, but it
@@ -412,7 +412,7 @@
         </p>
         <image source="images/ff2bd5d6c306891423f59cb1ccb3180470acfdc6.png"/>
         <p>
-          Make a careful drawing of a <index><main>hypercube</main></index><em>hypercube</em> <mdash /> which is
+          Make a careful drawing of a <idx><h>hypercube</h></idx><em>hypercube</em> <mdash /> which is
           the name of the graph that follows the ordinary cube in this sequence.
         </p>
       </statement>

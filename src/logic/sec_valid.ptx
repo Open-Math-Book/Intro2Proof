@@ -3,7 +3,7 @@
   <title>Validity of arguments and common errors</title>
   <p>
     An argument is said to be <em>valid</em> or to have a
-    <index><main>valid argument form</main></index><em>valid form</em>
+    <idx><h>valid argument form</h></idx><em>valid form</em>
     if each deduction in it can be justified with one of the rules
     of inference listed in the previous section. The <em>form</em> of
     an argument might be valid, but still the conclusion may be false
@@ -11,7 +11,7 @@
     good we have to be able to do two things: show that the argument
     is <em>valid</em> (i.e. that every step can be justified) and that
     the argument is
-    <index><main>soundness (of an argument)</main></index><em>sound</em>
+    <idx><h>soundness (of an argument)</h></idx><em>sound</em>
     which means that all the premises are
     true. If you start off with a false premise, you can prove <em>anything</em>!
   </p>
@@ -79,7 +79,7 @@
   <p>
     So, how can you tell if an argument has a valid form? Use a truth table.
     As an example, we'll verify that the rule of inference known as
-    <index><main>destructive dilemma</main></index><q>destructive dilemma</q>
+    <idx><h>destructive dilemma</h></idx><q>destructive dilemma</q>
     is valid using a truth table. This argument
     form contains 4 predicate variables so the truth table will have 16 rows.
     There is a column for each of the variables, the premises of the argument
@@ -287,7 +287,7 @@
     false premises in your arguments can be trickier than it sounds <mdash /> many
     statements that sound appealing or intuitively clear are actually
     counter-factual. The other side of the coin, being sure that the
-    <index><main>form (of an argument)</main></index><em>form</em>
+    <idx><h>form (of an argument)</h></idx><em>form</em>
     of your argument is valid, seems easy enough <mdash /> just be
     sure to only use the rules of inference as found in <xref ref="tab_roi">Table</xref>.
     Unfortunately most arguments that you either read or write
@@ -298,8 +298,8 @@
 
   <p>
     Two invalid forms are usually singled out for criticism, the
-    <index><main>converse error</main></index><em>converse error</em> and the
-    <index><main>inverse error</main></index><em>inverse error</em>. In some sense
+    <idx><h>converse error</h></idx><em>converse error</em> and the
+    <idx><h>inverse error</h></idx><em>inverse error</em>. In some sense
     these two apparently different ways to screw up are really the same thing.
     Just as a conditional statement and its contrapositive are known to be
     equivalent, so too are the other related statements <mdash /> the
@@ -341,7 +341,7 @@
 </p>
 <p>
   Therefore, the rhino must have thought that my duck was on fire.
-  <index><main>duck, flaming</main></index>
+  <idx><h>duck, flaming</h></idx>
 </p>
   </blockquote>
 

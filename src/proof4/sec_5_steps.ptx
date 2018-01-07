@@ -236,7 +236,7 @@
   <p>
     Hopefully you used the quadratic formula to solve the previous
     exercise. You should of course have found two solutions, <m>-1.618033989\ldots</m>
-    and <m>.618033989\ldots</m>, these decimal approximations are actually <m>-\phi</m> and <m>1/\phi</m>, where <m>\displaystyle \phi = \frac{1+\sqrt{5}}{2}</m> is the famous <index><main>golden ratio</main></index> <q>golden ratio</q>. If we are hoping for the sum over all the occupied positions of <m>r^k</m> to be convergent, we need <m>|r|\lt 1</m>, so the negative
+    and <m>.618033989\ldots</m>, these decimal approximations are actually <m>-\phi</m> and <m>1/\phi</m>, where <m>\displaystyle \phi = \frac{1+\sqrt{5}}{2}</m> is the famous <idx><h>golden ratio</h></idx> <q>golden ratio</q>. If we are hoping for the sum over all the occupied positions of <m>r^k</m> to be convergent, we need <m>|r|\lt 1</m>, so the negative
     solution is extraneous and so the inequality <m>r^{k+2} + r^{k+1} \; \leq \; r^k</m>
     is true in the interval <m>[1/\phi, 1)</m>.
   </p>

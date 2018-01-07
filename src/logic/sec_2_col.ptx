@@ -17,7 +17,7 @@
     so this sort of situation is really unacceptable. It may be an impossible
     goal to get <q>the average Joe</q> to perform algebraic manipulations with
     clarity, but those of us who aspire to become mathematicians must certainly
-    hold ourselves to a higher standard. <index><main>two-column proof</main></index>Two-column proofs are usually what
+    hold ourselves to a higher standard. <idx><h>two-column proof</h></idx>Two-column proofs are usually what
     is meant by a <q>higher standard</q> when we are talking about relatively
     mechanical manipulations <mdash /> like doing algebra, or more to the point,
     proving logical equivalences. Now don't despair! You will not, in
@@ -40,8 +40,8 @@
     for: if you're trying to prove a given equivalence, and the first thing
     you write down is that very equivalence, <em>it's wrong!</em> This
     would constitute the logical error known as
-    <index><main>begging the question</main></index><q>begging the question</q>
-    also known as <index><main>circular reasoning</main></index><q>circular reasoning.</q>
+    <idx><h>begging the question</h></idx><q>begging the question</q>
+    also known as <idx><h>circular reasoning</h></idx><q>circular reasoning.</q>
     It's clearly not okay to try
     to demonstrate some fact by first <em>asserting the very same fact</em>.
     Nevertheless, there is (for some unknown reason) a powerful temptation

@@ -84,7 +84,7 @@
   <p>
     Indeed, this representation is definitely preferable, although it may be more crowded.
     A picture such as this is
-    known as the <index><main>directed graph</main></index><em>directed graph</em> (a.k.a. <index><main>digraph</main></index><em>digraph</em>)
+    known as the <idx><h>directed graph</h></idx><em>directed graph</em> (a.k.a. <idx><h>digraph</h></idx><em>digraph</em>)
     of the relation.
   </p>
 
@@ -102,7 +102,7 @@
   </p>
 
   <p>
-    Given two sets, <m>A</m> and <m>B</m>, the <index><main>Cartesian product</main></index>
+    Given two sets, <m>A</m> and <m>B</m>, the <idx><h>Cartesian product</h></idx>
     <em>Cartesian product of <m>A</m> and <m>B</m></em>
     is the set of all ordered pairs <m>(a,b)</m> where <m>a</m> is in <m>A</m> and <m>b</m> is in <m>B</m>.
     We denote the Cartesian product using the symbol <times />.
@@ -120,7 +120,7 @@
 
   <p>
     The familiar <m>x</m><ndash /><m>y</m> plane, is often called the Cartesian plane. This
-    is done for two reasons. <index><main>Descartes, Rene</main></index>Rene Descartes, the famous
+    is done for two reasons. <idx><h>Descartes, Rene</h></idx>Rene Descartes, the famous
     mathematician and philosopher, was the first to consider coordinatizing
     the plane and thus is responsible for our current understanding of the
     relationship between geometry and algebra. Rene Descartes' name is also
@@ -228,7 +228,7 @@
     the function <m>f(x)=2x</m> (i.e. doubling) and the function <m>g(x)=x/2</m> (halving)
     are inverse functions because, no matter what number we start with, if we
     double it and then halve that result, we end up with the original number.
-    The <index><main>inverse, of a relation</main></index>inverse of a relation <m>\relR</m> is written <m>\relR^{-1}</m> and it consists of
+    The <idx><h>inverse, of a relation</h></idx>inverse of a relation <m>\relR</m> is written <m>\relR^{-1}</m> and it consists of
     the reversals of the pairs in <m>\relR</m>,
     <me>
       \relR^{-1} = \{ (b,a) \suchthat (a,b) \in \relR \}.
@@ -244,7 +244,7 @@
 
   <p>
     The process of <q>doing one function and then doing another</q> is known
-    as <index><main>composition, of functions</main></index>functional composition. For instance,
+    as <idx><h>composition, of functions</h></idx>functional composition. For instance,
     if <m>f(x) = 2x+1</m> and <m>g(x) = \sqrt{x}</m>, then we can compose them (in two
     different orders) to obtain either <m>f(g(x)) = 2\sqrt{x}+1</m> or
     <m>g(f(x)) = \sqrt{2x+1}</m>. When composing functions there is an <q>intermediate
@@ -255,7 +255,7 @@
   </p>
 
   <p>
-    The definition of the <index><main>composition, of relations</main></index><em>composite</em>
+    The definition of the <idx><h>composition, of relations</h></idx><em>composite</em>
     of two relations focuses very much on this idea
     of the intermediate result. Suppose <m>\relR</m> is a relation from
     <m>A</m> to <m>B</m> and <m>\relS</m> is a relation from <m>B</m> to <m>C</m> then the composite
@@ -318,7 +318,7 @@
     <exercise>
       <statement>
         <p>
-          The <index><main>lexicographic order</main></index><em>lexicographic order</em>,
+          The <idx><h>lexicographic order</h></idx><em>lexicographic order</em>,
           <m>\lt _{\mbox{lex} }</m>, is a relation on the
           set of all words, where <m>x \lt _{\mbox{lex} } y</m> means that <m>x</m> would come before
           <m>y</m> in the dictionary. Consider just the three letter words like <q>iff</q>,
@@ -337,7 +337,7 @@
     <exercise>
       <statement>
         <p>
-          The <index><main>inverse relation</main></index> <em>inverse</em> of a relation <m>\relR</m>
+          The <idx><h>inverse relation</h></idx> <em>inverse</em> of a relation <m>\relR</m>
           is denoted <m>\relR^{-1}</m>. It contains exactly the same ordered pairs
           as <m>\relR</m> but with the order switched. (So technically, they aren't
           <em>exactly</em> the same ordered pairs <ellipsis />)

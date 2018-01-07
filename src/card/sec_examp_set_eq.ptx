@@ -203,7 +203,7 @@
     <m>\Naturals \times \Naturals</m>! This just really ought
     to get us to a larger cardinality. The surprising result that it
     <em>doesn't</em> involves an idea sometimes known as
-    <index><main>Cantor's Snake</main></index> <q>Cantor's Snake</q> <mdash /> a trick that allows
+    <idx><h>Cantor's Snake</h></idx> <q>Cantor's Snake</q> <mdash /> a trick that allows
     us to list the elements of <m>\Naturals \times \Naturals</m> in a singly
     infinite list<fn>Cantor's snake was originally created to show 
     that <m>\Qnoneg</m> and <m>\Naturals</m> are equinumerous.
