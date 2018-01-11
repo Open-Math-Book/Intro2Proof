@@ -56,6 +56,7 @@
         with 4 rows will suffice. Fill out the missing entries in the truth
         table and determine whether the statements are equivalent.
       </p>
+      <sidebyside>
       <tabular>
         <row>
           <cell><m>A</m></cell>
@@ -94,6 +95,7 @@
           <cell></cell>
         </row>
       </tabular>
+      </sidebyside>
     </statement>
   </exercise>
   <p>
@@ -215,6 +217,7 @@
     something like <m>{\lnot}(A \land B) \cong {\lnot}A \land {\lnot}B</m>,
     but we can easily dismiss this by looking at a truth table.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>A</m></cell>
@@ -253,6 +256,7 @@
       <cell>T</cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     What actually works is a set of rules known as
     <idx><h>DeMorgan's laws</h></idx>DeMorgan's laws, which
@@ -369,7 +373,7 @@
   </p>
 
   <p>
-    In <xref ref="tab_bool_equiv">Table</xref>, we have collected all of these basic logical
+    In <xref ref="tab_bool_equiv" />, we have collected all of these basic logical
     equivalences in one place.
   </p>
 
@@ -539,6 +543,7 @@
           These <q>laws</q> should probably be layed-out in a big 3 by 3 table. Such a table would of course have 9 cells, but we won't be using the cells on the diagonal because they would involve an operation distributing over itself. (That can't happen, can it?)
           I'm going to put a few of the entries in, and you do the rest.
         </p>
+        <sidebyside>
         <tabular>
           <row>
             <cell></cell>
@@ -598,6 +603,7 @@
             <cell></cell>
           </row>
         </tabular>
+        </sidebyside>
       </hint>
     </exercise>
     <exercise>

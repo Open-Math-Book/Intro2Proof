@@ -17,6 +17,7 @@
   <p>
     An outline of a strong inductive proof is:
   </p>
+  <sidebyside>
   <tabular>
     <row bottom="minor">
       <cell></cell>
@@ -43,6 +44,7 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     It's fairly common that we won't truly need all of the statements from <m>P_0</m>
     to <m>P_{k-1}</m> to be true, but just one of them (and we don't know <em>a priori</em>

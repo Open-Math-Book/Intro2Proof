@@ -43,6 +43,7 @@
         Let <m>A = \left\{  1, 2, \{ 1 \}, \{ a, b \} \right\}</m>.
         Which of the following are true?
       </p>
+      <sidebyside>
       <tabular>
         <row>
           <cell>i) <m>\{ a, b \} \subseteq A</m>.</cell>
@@ -65,6 +66,7 @@
           <cell>x) <m>\{\{1\}\} \subseteq A</m>.</cell>
         </row>
       </tabular>
+      </sidebyside>
     </statement>
   </exercise>
   <p>
@@ -191,6 +193,7 @@
           Insert either <m>\in</m> or <m>\subseteq</m> in the blanks in the following
           sentences (in order to produce true sentences).
         </p>
+      <sidebyside>
         <tabular>
           <row>
             <cell>i) <m>1</m> <fillin /> <m>\{3, 2, 1, \{a, b\}\}</m></cell>
@@ -203,6 +206,7 @@
             <cell>iv) <m>\{\{a, b\}\}</m>  <fillin /> <m>\{a, \{a, b\}\}</m></cell>
           </row>
         </tabular>
+      </sidebyside>
       </statement>
       <hint>
         <p>

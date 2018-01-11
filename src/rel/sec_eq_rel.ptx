@@ -129,6 +129,7 @@
     The following table gives the
     square-free part, <m>sf(n)</m>, for the first several values of <m>n</m>.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>n</m></cell>
@@ -200,6 +201,7 @@
       <cell>5</cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     It's easy to compute the square-free part of an integer if you know its prime factorization <mdash /> just reduce all the exponents mod 2. For example<fn>This is the size of largest 
     sporadic finite simple group, known as <q>the Monster.</q></fn>
@@ -315,14 +317,7 @@
     have arrows on them in digraphs.) Below are a few examples of the
     diagrams that are used to represent graphs.
   </p>
-  <image source="images/e088af1ad21eb8e10dfdd0f71f50c640058c56b8.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/3c4bbf2578307a7c7ce180abc9364fb510a30aed.png"/>
+<image><latex-image>\input{figures/graph_examples.tex}</latex-image></image>
   <p>
     Two graphs are said to be <idx><h>graph isomorphism</h></idx> <em>isomorphic</em> if they
     represent the same connections. There must first of all be a one-to-one correspondence
@@ -411,14 +406,7 @@
           highlights the fact that the Petersen graph also has a three-fold symmetry. Label the right-hand diagram
           using the same letters (A through J) in order to show that these two representations are truly isomorphic.
         </p>
-        <image source="images/d6b65bdb192fb6c4980a613203e6003aad0cad4d.png"/>
-        <p>
-          \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-          \reset@font\fontsize{#1}{#2pt}
-          \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-          \selectfont}\fi
-        </p>
-        <image source="images/760789e971ee0a8b5e6ab79e84d64ae8ae3bdd1c.png"/>
+<image><latex-image>\input{figures/petersen_iso.tex}</latex-image></image>
       </statement>
     </exercise>
     <exercise>

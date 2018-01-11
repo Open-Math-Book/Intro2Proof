@@ -78,7 +78,7 @@
     with the Greek letter <m>\phi</m> (which is basically a Greek F, and is a lot harder
     to mistake for a T than an F is.)
   </p>
-  <p>
+  <sidebyside>
   <tabular>
     <col right="minor"></col><col></col>
     <row>
@@ -106,7 +106,7 @@
       <cell halign="center"><m>\phi</m></cell>
     </row>
   </tabular>
-  </p>
+  </sidebyside>
   <p>
     Each row of the above table represents a possible state of the outside
     world. Suppose you observe the conditions given in the last row, namely
@@ -157,6 +157,7 @@
     of some compound sentence. For the conjunction and disjunction
     connectors we have (respectively):
   </p>
+  <sidebyside>
   <tabular>
     <col halign="center" right="minor"></col><col halign="center" right="minor"></col><col halign="center" ></col>
     <row>
@@ -190,9 +191,11 @@
       <cell><m>\phi</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     and
   </p>
+  <sidebyside>
   <tabular>
 <col halign="center" right="minor"></col><col halign="center" right="minor"></col><col halign="center" ></col>
     <row>
@@ -226,6 +229,7 @@
       <cell><m>\phi</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     In addition to these connectors we need a modifier (called
     <idx><h>negation</h></idx><em>negation</em>)
@@ -236,6 +240,7 @@
     A truth table for the negation operator is somewhat
     trivial but we include it here for completeness.
   </p>
+  <sidebyside>
   <tabular>
     <col halign="center" right="minor"></col><col halign="center"></col>
     <row>
@@ -255,6 +260,7 @@
       <cell>T</cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     These three simple tools (and, or <ampersand /> not) are sufficient to
     create extraordinarily complex sentences out of basic components.
@@ -391,6 +397,7 @@
     Suppose that we wanted to design a circuit that would
     have the following input/output table.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>\; x \;</m></cell>
@@ -459,6 +466,7 @@
       <cell>1</cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     A systematic method for accomplishing such a design task involves
     a notion called <idx><h>disjunctive normal form</h></idx><em>disjunctive normal form</em>.
@@ -498,6 +506,7 @@
         <p>
           First, it's essential to know what is meant by the term "exclusive or". This is the interpretation that many people give to the word "or" <mdash /> where "X or Y" means either X is true or Y is true, but that it isn't the case that both X and Y are true. This (wrong) understanding of what "or" means is common because it is often the case that X and Y represent complimentary possibilities: old or new, cold or hot, right or wrong... The truth table for exclusive or (often written xor, pronounced "ex-or", symbolically it is usually <m>\oplus</m>) is
         </p>
+  <sidebyside>
         <tabular>
           <row bottom="minor">
             <cell></cell>
@@ -555,6 +564,7 @@
             <cell></cell>
           </row>
         </tabular>
+  </sidebyside>
         <p>
           So it's true when one, or the other, but not both of its inputs are true. The upshot of the last sentence is that we can write <m>X \oplus Y \; \equiv \; (X \lor Y) \land {\lnot}(X \land Y)</m>.
         </p>
@@ -610,6 +620,7 @@
         <p>
           A tiny hint here: since the sentences involve 3 variables you'll need truth tables with 8 rows. Here's a template.
         </p>
+  <sidebyside>
         <tabular>
           <row bottom="minor">
             <cell></cell>
@@ -745,6 +756,7 @@
             <cell></cell>
           </row>
         </tabular>
+  </sidebyside>
       </hint>
     </exercise>
     <exercise xml:id="ex_nand_nor">
@@ -760,6 +772,7 @@
         <p>
           The truth tables for these connectives are:
         </p>
+  <sidebyside>
         <tabular>
           <row>
             <cell><m>A</m></cell>
@@ -792,9 +805,11 @@
             <cell><m>T</m></cell>
           </row>
         </tabular>
+  </sidebyside>
         <p>
           and
         </p>
+  <sidebyside>
         <tabular>
           <row>
             <cell><m>A</m></cell>
@@ -827,6 +842,7 @@
             <cell><m>T</m></cell>
           </row>
         </tabular>
+  </sidebyside>
         <p>
           Find an expression for <m>(A\, \land {\lnot}B) \lor C</m>
           using only these new connectives (as well as negation and the

@@ -54,6 +54,7 @@
     and a consequent <m>B</m> is expressed symbolically using an arrow:
     <m>A \implies B</m>. Here is a truth table for this connective.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>A</m></cell>
@@ -86,6 +87,7 @@
       <cell>T</cell>
     </row>
   </tabular>
+  </sidebyside>
   <exercise>
     <statement>
       <p>
@@ -130,6 +132,7 @@
     spell-checking programs everywhere). The biconditional is denoted
     using an arrow that points both ways. Its truth table follows.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>A</m></cell>
@@ -162,6 +165,7 @@
       <cell>T</cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Please note, that while we like to strive for precision, we do not
     necessarily recommend the use of phrases such as
@@ -200,7 +204,7 @@
   </p>
 
   <p>
-    This information is displayed in <xref ref="tab_contra">Table</xref>
+    This information is displayed in <xref ref="tab_contra" />
   </p>
 
   <table xml:id="tab_contra" >
@@ -336,6 +340,7 @@
         <p>
           You should definitely be able to do this one on your own, but anyway, here's an outline of the table:
         </p>
+        <sidebyside>
         <tabular>
           <row bottom="minor">
             <cell></cell>
@@ -404,6 +409,7 @@
             <cell></cell>
           </row>
         </tabular>
+        </sidebyside>
       </hint>
     </exercise>
     <exercise>
@@ -482,7 +488,7 @@
       <statement>
         <p>
           Express the statement <m>A \implies B</m> using the Peirce arrow and/or the
-          Scheffer stroke. (See <xref ref="ex_nand_nor">Exercise</xref> in the previous section.)
+          Scheffer stroke. (See <xref ref="ex_nand_nor" /> in the previous section.)
         </p>
       </statement>
       <hint>
@@ -614,7 +620,7 @@
     <exercise>
       <statement>
         <p>
-          On the Island of Knights and Knaves (see <xref ref="IKK">page</xref>) you encounter two individuals named Locke and Demosthenes.
+          On the Island of Knights and Knaves (see <xref ref="IKK" />) you encounter two individuals named Locke and Demosthenes.
         </p>
 
         <p>

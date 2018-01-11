@@ -1,5 +1,5 @@
 
-<p>
+<sidebyside>
   <tabular>
   <col></col><col right="medium"></col> 
     <col></col><col></col><col></col><col right="minor"></col> 
@@ -2713,5 +2713,5 @@
       <cell></cell>
     </row>
   </tabular>
-</p>
+</sidebyside>
 

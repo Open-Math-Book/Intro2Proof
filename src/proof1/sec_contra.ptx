@@ -80,7 +80,7 @@
   <p>
     The easiest proof I know of using the method of contraposition (and possibly
     the nicest example of this technique)
-    is the proof of the lemma we stated in <xref ref="sec_rat">Section</xref> in the course
+    is the proof of the lemma we stated in <xref ref="sec_rat" /> in the course
     of proving that <m>\sqrt{2}</m> wasn't rational. In case you've forgotten
     we needed the fact that whenever <m>x^2</m> is an even number, so is <m>x</m>.
   </p>
@@ -223,14 +223,7 @@
         <m>\triangle AB'C</m> having
         greater area than any triangle such as <m>\triangle ABC</m> which is not isosceles?
       </p>
-      <image source="images/c7dc893b363b75424231702f9251ba28db942487.png"/>
-      <p>
-        \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-        \reset@font\fontsize{#1}{#2pt}
-        \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-        \selectfont}\fi
-      </p>
-      <image source="images/c0f619225405031c79fa7db8d43f099658ccfb1e.png"/>
+<image><latex-image>\input{figures/Non-isosceles.tex}</latex-image></image>
     </statement>
   </exercise>
   <exercises>

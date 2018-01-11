@@ -28,7 +28,7 @@
       integer half as big exists, then we know the original number is even.
       This two-wayness means that the definition is what is known as a
       <em>biconditional</em>, a concept which we'll revisit in
-      <xref ref="sec_impl">Section</xref>.
+      <xref ref="sec_impl" />.
     </p>
 
     <p>
@@ -300,6 +300,7 @@
       corresponding positive number and then throw an extra minus sign
       on at the end.)
     </p>
+    <sidebyside>
     <tabular>
     <row>
       <cell></cell>
@@ -325,6 +326,7 @@
       <cell>r</cell>
     </row>
     </tabular>
+    </sidebyside>
     <p>
       Recall that the answer consists of two parts, a <em>quotient</em> <m>q</m>,
       and a <em>remainder</em> <m>r</m>. Of course, <m>r</m> may be zero, but also, the
@@ -507,7 +509,7 @@
     <exercise>
       <statement>
         <p>
-          Add the next two rows to the Pascal triangle in <xref ref="fig_pascal">Figure</xref>.
+          Add the next two rows to the Pascal triangle in <xref ref="fig_pascal" />.
         </p>
       </statement>
     </exercise>
@@ -704,6 +706,7 @@
             is really 10 so if you read that as <q>ten-ten</q> it is a good
             aid to memory.)
           </p>
+          <sidebyside>
           <tabular>
           <row>
           <cell><tabular>
@@ -923,6 +926,7 @@
           </tabular></cell>
           </row>
           </tabular>
+          </sidebyside>
         </statement>
         <hint>
           <p>

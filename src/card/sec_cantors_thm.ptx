@@ -90,7 +90,7 @@
     real number, one of them is a terminating expansion (it ends in infinitely
     many 0's) and the other is an infinite expansion (it ends in infinitely many
     1's). We won't prove this fact, but the gist of the argument is a proof by
-    contradiction <mdash /> you may be able to get the point by studying <xref ref="fig_binary_reps">Figure</xref>.
+    contradiction <mdash /> you may be able to get the point by studying <xref ref="fig_binary_reps" />.
     (Try to see how it would be possible to find a number in between two binary
     expansions that didn't end in all-zeros and all-ones.)
   </p>
@@ -99,7 +99,7 @@
     <caption>The base-<m>2</m> 
     expansions of reals in the interval <m>[0, 1]</m> are the leaves of an 
     infinite tree.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/binary_reps.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -191,6 +191,7 @@
       <p>
         Complete the table.
       </p>
+      <sidebyside>
       <tabular>
         <row>
           <cell>binary expansion</cell>
@@ -237,6 +238,7 @@
           <cell><m>\{3k + 1 \suchthat k \in \Naturals\}</m></cell>
         </row>
       </tabular>
+      </sidebyside>
     </statement>
   </exercise>
   <p>

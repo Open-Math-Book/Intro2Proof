@@ -2,7 +2,7 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="sec_def">
   <title>Definitions: Prime numbers</title>
   <p>
-    You may have noticed that in <xref ref="sec_basic"></xref> an awful lot of
+    You may have noticed that in <xref ref="sec_basic" /> an awful lot of
     emphasis was placed on whether we had good, precise definitions
     for things. Indeed, more than once apologies were made for giving
     imprecise or intuitive definitions. This is because, in Mathematics,
@@ -222,7 +222,7 @@
           Use the sieve of Eratosthenes to find all prime numbers
           up to 100.
         </p>
-        <p>
+	      <sidebyside>
         <tabular>
           <row>
             <cell></cell>
@@ -357,7 +357,7 @@
             <cell>100</cell>
           </row>
         </tabular>
-        </p>
+	     </sidebyside>
       </statement>
       <hint>
         <p>
@@ -397,7 +397,7 @@
           Complete the following table which is related to
           the conjecture that whenever <m>p</m> is a prime number, <m>2^p-1</m> is also a prime .
         </p>
-        <p>
+        <sidebyside>
         <tabular>
           <col right="minor"></col><col right="minor"></col><col right="minor"></col><col></col>
           <row>
@@ -443,7 +443,7 @@
             <cell></cell>
           </row>
         </tabular>
-        </p>
+        </sidebyside>
       </statement>
       <hint>
         <p>

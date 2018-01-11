@@ -162,7 +162,7 @@
   <p>
     This can be interpreted in terms of digraphs as follows: If a connection
     from <m>a</m> to <m>b</m> exists in the digraph of <m>\relR</m>, then there must also be a connection
-    from <m>b</m> to <m>a</m>. In <xref ref="tab_rel_props">Table</xref> this is interpreted as <q>no one-way streets</q>
+    from <m>b</m> to <m>a</m>. In <xref ref="tab_rel_props" /> this is interpreted as <q>no one-way streets</q>
     and while that's not quite what it says, that <em>is</em> the effect of this definition.
     Since <em>if</em> a connection exists in one direction, there must also be a connection
     in the other direction, it follows that we will never see a one-way connection.
@@ -176,14 +176,7 @@
     a relation this means that the following digraph <em>is</em> the digraph of a symmetric
     relation (although it is neither reflexive nor irreflexive).
   </p>
-  <image source="images/6fe00a598149fe09d35b3aa7efeb23736a49259e.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/af095404b11ebde97b0de84e62dee6faf7f5d322.png"/>
+<image><latex-image>\input{figures/vacuously_symmetric.tex}</latex-image></image>
   <p>
     Anti-symmetry is described as meaning <q>only one-way streets</q> but the definition is given
     as:
@@ -274,62 +267,27 @@
   <p>
     If a relation <m>\relR</m> is reflexive we will never see a node that doesn't have a loop.
   </p>
-  <image source="images/96638a5184a52adccae56c363c7e5184a46df0eb.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/af095404b11ebde97b0de84e62dee6faf7f5d322.png"/>
+<image><latex-image>\input{figures/not_reflexive.tex}</latex-image></image>
   <p>
     If a relation <m>\relR</m> is irreflexive we will never see a node that <em>does</em> have a loop!
   </p>
-  <image source="images/e4757399a574ae944573708eb55e004b9d6a0fc4.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/70b2fa2a97ffdab75f4f77e6e448a108d9b4f088.png"/>
+<image><latex-image>\input{figures/not_irreflexive.tex}</latex-image></image>
   <p>
     If a relation <m>\relR</m> is symmetric we will never see a pair of nodes that are connected in one
     direction only.
   </p>
-  <image source="images/86be35e54c1dec77717cd0013a89b7cc5908400a.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/ee89b18c703631850043f3e8d67898f56ba7ee2b.png"/>
+<image><latex-image>\input{figures/not_symmetric.tex}</latex-image></image>
   <p>
     If a relation <m>\relR</m> is anti-symmetric we will never see a pair of nodes that are connected in both
     directions.
   </p>
-  <image source="images/6f1dab30dcf5a97f03b9be5fd899782b1f556164.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/0b2f670964b3ff618917e0fc7ff85df9d2d6b1d0.png"/>
+<image><latex-image>\input{figures/not_anti-symmetric.tex}</latex-image></image>
   <p>
     If a relation <m>\relR</m> is transitive the thing we will never see is a bit harder to describe.
     There will never be a pair of arrows meeting head to tail <em>without</em> there also being an
     arrow going from the tail of the first to the head of the second.
   </p>
-  <image source="images/2f31001fc5cf799c930aa0cf45b38edf6f14bcdc.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/a96df1ef163ebbc111155410857f6261b63fafc3.png"/>
+<image><latex-image>\input{figures/not_transitive.tex}</latex-image></image>
   <exercises>
     <exercise>
       <statement>

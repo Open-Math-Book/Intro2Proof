@@ -104,8 +104,8 @@
   </p>
 
   <p>
-    Every rule that we learned in <xref ref="ch_logic">Chapter</xref>
-    (see <xref ref="tab_bool_equiv">Table</xref>) has a set-theoretic equivalent.
+    Every rule that we learned in <xref ref="ch_logic" />
+    (see <xref ref="tab_bool_equiv" />) has a set-theoretic equivalent.
     These set-theoretic versions are
     expressed using equalities (i.e. the symbol <m>=</m> in between two sets) which
     is actually a little bit funny if you think about it. We normally
@@ -133,7 +133,7 @@
     </statement>
   </exercise>
   <p>
-    In <xref ref="tab_set_equiv">Table</xref> the rules governing the interactions
+    In <xref ref="tab_set_equiv" /> the rules governing the interactions
     between the set theoretic operations are collected.
   </p>
 
@@ -144,7 +144,7 @@
     sets are equal. We can do a so-called <q>element chasing</q> proof
     (to show <m>A=B</m>, assume <m>x \in A</m> and prove <m>x \in B</m> and then vice versa).
     Or, we can construct a proof using the basic set equalities given
-    in <xref ref="tab_set_equiv">Table</xref>. Often the latter can take the form
+    in <xref ref="tab_set_equiv" />. Often the latter can take the form
     of a two-column proof.
   </p>
 
@@ -283,7 +283,7 @@
     Before we proceed much further in our study of set theory it would be a
     good idea to give you an example. We're going to prove the same assertion
     in two different ways <mdash /> once via element chasing and once using the
-    basic set theoretic equalities from <xref ref="tab_set_equiv">Table</xref>.
+    basic set theoretic equalities from <xref ref="tab_set_equiv" />.
   </p>
 
   <p>
@@ -348,6 +348,7 @@
   </p>
 
   <proof>
+    <sidebyside>
     <tabular>
       <row>
         <cell></cell>
@@ -374,6 +375,7 @@
         <cell>Distributive law</cell>
       </row>
     </tabular>
+    </sidebyside>
   </proof>
 
   <p>
@@ -437,6 +439,7 @@
   <p>
     So, no more excuses, just do it!
   </p>
+  <sidebyside>
   <tabular>
     <row bottom="minor">
       <cell></cell>
@@ -515,6 +518,7 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <exercises>
     <exercisegroup>
       <introduction>
@@ -664,7 +668,7 @@
         </p>
 
         <p>
-          <image width="37%" source="images/set_ops.png" />
+          <image width="37%" source="photos/set_ops.png" />
         </p>
       </statement>
     </exercise>

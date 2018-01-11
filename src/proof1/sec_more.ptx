@@ -217,7 +217,7 @@
       </statement>
       <hint>
         <p>
-          This is very similar to <xref ref="quad">problem</xref>.
+          This is very similar to <xref ref="quad" />.
         </p>
       </hint>
     </exercise>

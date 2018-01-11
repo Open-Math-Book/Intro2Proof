@@ -222,6 +222,7 @@
   <p>
     Consider the sequences <m>2^n</m> and <m>n!</m>.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>n</m></cell>
@@ -264,6 +265,7 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     As the table illustrates, for small values of <m>n</m>, <m>2^n > n!</m>. But from <m>n=4</m>
     onward the inequality is reversed.
@@ -320,6 +322,7 @@
     We can use the methods of this section to get started on proving the fact
     mentioned above. Consider the two sequences <m>n^2</m> and <m>2^n</m>.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>n</m></cell>
@@ -372,6 +375,7 @@
       <cell>64</cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     If we think of a <q>race</q> between the sequences <m>n^2</m> and <m>2^n</m>, notice
     that <m>2^n</m> starts out with the lead. The two sequences are tied when

@@ -103,7 +103,7 @@
     different locations depending on that result. A small example will
     serve as an illustration. Suppose that in the body of an algorithm we
     wish to check if 2 variables, <m>x</m> and <m>y</m> are equal, and if they are,
-    increment <m>x</m> by 1. This is illustrated in <xref ref="fig_if-then">Figure</xref>
+    increment <m>x</m> by 1. This is illustrated in <xref ref="fig_if-then" />
     both in pseudocode and as a flowchart.
   </p>
 
@@ -216,7 +216,7 @@
 
   <p>
     This same algorithm is given in flowchart form in
-    <xref ref="fig_div_alg">Figure</xref>.
+    <xref ref="fig_div_alg" />.
   </p>
 
   <figure xml:id="fig_div_alg" >
@@ -272,7 +272,7 @@
 
   <p>
     So, here, without further ado is the Euclidean algorithm in
-    pseudocode. A flowchart version is given in <xref ref="fig_Euc_alg">Figure</xref>.
+    pseudocode. A flowchart version is given in <xref ref="fig_Euc_alg" />.
   </p>
 
 <blockquote>
@@ -384,6 +384,7 @@
         <p>
           Find the gcd's and lcm's of the following pairs of numbers.
         </p>
+        <sidebyside>
         <tabular>
           <row bottom="minor">
             <cell></cell>
@@ -440,6 +441,7 @@
             <cell></cell>
           </row>
         </tabular>
+        </sidebyside>
       </statement>
       <hint>
         <p>

@@ -145,6 +145,7 @@
     table that has the terms of these two polynomials as its row and column
     headings.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -171,10 +172,12 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Now, fill in the entries of the table by multiplying the corresponding
     row and column headers.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -201,6 +204,7 @@
       <cell><m>6a</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Finally add up all the entries of the table, combining any like terms.
   </p>
@@ -213,8 +217,8 @@
   <p>
     Okay, let's get back to doing proofs. We are going to do a lot of
     proofs involving the concepts of elementary number theory so, as a
-    convenience, all of the definitions that were made in <xref ref="ch_intro">Chapter</xref>
-    are gathered together in <xref ref="tab_defs">Table</xref>.
+    convenience, all of the definitions that were made in <xref ref="ch_intro" />
+    are gathered together in <xref ref="tab_defs" />.
   </p>
 
   <table xml:id="tab_defs" >
@@ -295,6 +299,7 @@
     We are trying to prove that <m>\forall x \in U, P(x) \implies Q(x)</m>.
     The argument (in skeletal outline) will look like:
   </p>
+  <sidebyside>
   <tabular>
     <row bottom="minor">
       <cell></cell>
@@ -313,6 +318,7 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Okay, so this outline is pretty crappy. It tells you how to start and
     end a direct proof, but those obnoxious dot-dot-dots in the middle are
@@ -328,7 +334,7 @@
   </p>
 
   <p>
-    In <xref ref="tab_defs">Table</xref> one of the very handy notions defined is that
+    In <xref ref="tab_defs" /> one of the very handy notions defined is that
     of the <em>floor</em> of a real number.
     <me>
       y = \lfloor x \rfloor \; \iff \; (y \in \mathbb Z \; \land \; y \leq x \lt  y+1).

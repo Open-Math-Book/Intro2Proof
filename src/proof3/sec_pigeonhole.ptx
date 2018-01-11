@@ -4,13 +4,13 @@
   <p>
     The word <idx><h>pigeonhole</h></idx> <q>pigeonhole</q> can refer to a hole in which a pigeon roosts
     (i.e. pretty much what it sounds like) or a series of roughly square
-    recesses in a desk in which one could sort correspondence (see <xref ref="fig_roll_top">Figure</xref>).
+    recesses in a desk in which one could sort correspondence (see <xref ref="fig_roll_top" />).
   </p>
 
   <figure xml:id="fig_roll_top" >
     <caption>Pigeonholes in an old-fashioned roll top
     desk could be used to sort letters.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/RollTopDesk.tex}</latex-image></image>
   </figure>
 
   <p>

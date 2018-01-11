@@ -37,6 +37,7 @@
     two. In the following table we have collected several values for
     <m>a</m>, <m>b</m> and <m>c</m> such that <m>a \divides bc</m>.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>a</m></cell>
@@ -93,13 +94,14 @@
       <cell>yes</cell>
     </row>
   </tabular>
+  </sidebyside>
   <exercise>
     <statement>
       <p>
-        As noted in <xref ref="sec_def">Section</xref> the statement above is related to
+        As noted in <xref ref="sec_def" /> the statement above is related to
         whether or not <m>a</m> is prime. Note that in the table, only prime
         values of <m>a</m> appear. This is a rather broad hint. Find a
-        counterexample to <xref ref="conj_prim">Conjecture</xref>.
+        counterexample to <xref ref="conj_prim" />.
       </p>
     </statement>
   </exercise>
@@ -119,7 +121,7 @@
   <exercise>
     <statement>
       <p>
-        Find a counterexample to <xref ref="conj_prim2">Conjecture</xref>
+        Find a counterexample to <xref ref="conj_prim2" />
       </p>
     </statement>
   </exercise>
@@ -140,6 +142,7 @@
     where <m>\{p_1, p_2, \ldots , p_n\}</m> are the actual first <m>n</m> primes.
     The first several values of this sequence are:
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>n</m></cell>
@@ -174,6 +177,7 @@
       <cell><m>\vdots</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Now, in the proof, we deduced a contradiction by noting that <m>N_n</m> is
     much larger than <m>p_n</m>, so if <m>p_n</m> is the largest prime it follows that
@@ -356,7 +360,7 @@
     <exercise>
       <statement>
         <p>
-          In an exercise in <xref ref="sec_more">Section</xref> we proved that the quadratic
+          In an exercise in <xref ref="sec_more" /> we proved that the quadratic
           equation <m>ax^2 + bx + c = 0</m> has two solutions if <m>ac \lt  0</m>. Find a counterexample which shows that this implication cannot be replaced with a biconditional.
         </p>
       </statement>

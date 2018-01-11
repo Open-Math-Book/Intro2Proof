@@ -89,7 +89,7 @@
     they attempted to at least get Set theory itself on a firm footing by
     defining the universal set to be <q>the set of all sets</q> <mdash /> an innocuous
     sounding idea that had funny consequences (we'll investigate this in
-    <xref ref="sec_russell">Section</xref>).
+    <xref ref="sec_russell" />).
   </p>
 
   <p>
@@ -212,6 +212,7 @@
     we denote it with the symbol <m>{\mathcal P}(A)</m>. Returning to our
     example we have
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>{\mathcal P}(\{1, 2, 3 \}) =</m></cell>
@@ -234,6 +235,7 @@
       <cell><m>\left.   \{ 1, 2, 3 \}  \right\}.</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <exercise>
     <statement>
       <p>

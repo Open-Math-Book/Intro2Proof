@@ -33,7 +33,7 @@
     Point two, the <q>there's only one size of infinity</q> argument is wrong. We'll
     see an informal argument showing that there are at least two sizes of infinity,
     and a more formal theorem that shows there is actually an infinite hierarchy
-    of infinities in <xref ref="sec_cantors_thm">Section</xref>
+    of infinities in <xref ref="sec_cantors_thm" />.
   </p>
 
   <p>
@@ -109,6 +109,7 @@
     any singly infinite listing can be thought of as displaying a one-to-one correspondence with <m>\Naturals</m> <mdash /> the first entry (or should we say zeroth entry?) in the list is corresponded
     with 0, the second entry is corresponded with 1, and so on.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -153,6 +154,7 @@
       <cell><m>\ldots</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     To make all of this precise we need to be able to explicitly give the
     one-to-one correspondence. It isn't enough to have a picture
@@ -208,27 +210,28 @@
     infinite list<fn>Cantor's snake was originally created to show 
     that <m>\Qnoneg</m> and <m>\Naturals</m> are equinumerous.
     This function was introduced in the exercises for 
-    <xref ref="sec_functions">Section</xref>.   The version we are presenting
+    <xref ref="sec_functions" />.   The version we are presenting
     here avoids certain complications.</fn>.
     You can visualize the set <m>\Naturals \times \Naturals</m> as the
     points having integer coordinates
     in the first quadrant (together with the origin and the positive
     <m>x</m> and <m>y</m> axes).
     This set of points and the path through them known as Cantor's snake is
-    shown in <xref ref="fig_cantors_snake_2">Figure</xref>.
+    shown in <xref ref="fig_cantors_snake_2" />.
   </p>
 
   <figure xml:id="fig_cantors_snake_2" >
     <caption>Cantor's snake winds through the set 
     <m>\Naturals \times \Naturals</m> encountering its
     elements one after the other.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/Cantor_snake_again.tex}</latex-image></image>
   </figure>
 
   <p>
-    The diagram in <xref ref="fig_cantors_snake_2">Figure</xref> gives a visual form of the one-to-one correspondence
+    The diagram in <xref ref="fig_cantors_snake_2" /> gives a visual form of the one-to-one correspondence
     we seek. In tabular form we would have something like the following.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -277,6 +280,7 @@
       <cell><m>\ldots</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     We need to produce a formula. In truth, we should really produce two
     formulas. One that takes an ordered pair <m>(x, y)</m> and produces a number <m>n</m>.
@@ -323,7 +327,7 @@
     (when we just happen to notice that <m>T(4)=10</m> ). What we're really doing
     there is inverting the function <m>T(n)</m>. Finding an inverse for
     <m>T(n) = (n^2+n)/2</m> was the essence of one of the exercises in
-    <xref ref="sec_special_functions">Section</xref>.
+    <xref ref="sec_special_functions" />.
     The parabola <m>y = (x^2 + x)/2</m> has roots at <m>0</m> and <m>-1</m> and is scaled by a
     factor of <m>1/2</m> relative to the <q>standard</q> parabola <m>y = x^2</m>.
     Its vertex is at
@@ -381,14 +385,14 @@
     smaller interval up one unit so that it lies on the line
     <m>y = 1</m>. Now, use projection
     from the point <m>(0, 2)</m>, to visualize the correspondence
-    see <xref ref="fig_equiv_intervals">Figure</xref>
+    see <xref ref="fig_equiv_intervals" />
   </p>
 
   <figure xml:id="fig_equiv_intervals" >
     <caption>Projection from a point can be 
     used to show that intervals of 
     different lengths contain the same number of points.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/equiv_intervals.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -420,7 +424,7 @@
   <figure xml:id="fig_interval_n_semicircle" >
     <caption>Vertical projection 
     provides a bijective correspondence between an interval and a semi-circle.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/interval_n_semicircle.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -459,7 +463,7 @@
     </statement>
   </exercise>
   <p>
-    In the exercises from <xref ref="sec_equiv_sets">Section</xref> you were supposed
+    In the exercises from <xref ref="sec_equiv_sets" /> you were supposed
     to show that set
     equivalence is an equivalence relation. Part of that proof should have been
     showing that the relation is transitive, and that really just comes down to

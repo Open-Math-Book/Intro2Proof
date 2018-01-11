@@ -22,6 +22,7 @@
 
   <blockquote>
   Suppose that <m>a</m> and <m>b</m> are two real numbers such that <m>a=b</m>.
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -56,6 +57,7 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   Now let <m>a</m> and <m>b</m> both have a particular value, <m>a=b=1</m>,
   and we see that <m>1+1=1</m>, i.e. <m>2=1</m>.
   </blockquote>
@@ -85,6 +87,7 @@
     There is a column for each of the variables, the premises of the argument
     and its conclusion.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>A</m></cell>
@@ -267,6 +270,7 @@
       <cell>T</cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Now, mark the lines in which all of the premises of this argument form
     are true. You should note that <em>in every single situation in which
@@ -289,7 +293,7 @@
     counter-factual. The other side of the coin, being sure that the
     <idx><h>form (of an argument)</h></idx><em>form</em>
     of your argument is valid, seems easy enough <mdash /> just be
-    sure to only use the rules of inference as found in <xref ref="tab_roi">Table</xref>.
+    sure to only use the rules of inference as found in <xref ref="tab_roi" />.
     Unfortunately most arguments that you either read or write
     will be in prose, rather than appearing as a formal list of deductions.
     When dealing with that setting <mdash /> using natural rather than formalized
@@ -310,6 +314,7 @@
   <p>
     The converse error:
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -328,6 +333,7 @@
       <cell><m>A</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Consider, for a moment the following argument.
   </p>
@@ -413,6 +419,7 @@
     that would have to be made to convert them to modus ponens. For example,
     the inverse error is depicted formally by:
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -431,6 +438,7 @@
       <cell><m>{\lnot}B</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     If we replaced the conditional in this argument form by its <em>inverse</em>
     (<m>{\lnot}A \implies {\lnot}B</m>) then the revised argument would be
@@ -462,7 +470,7 @@
           This looks like modus tollens. Let <m>G</m> refer to <q>guilt</q> 
           and <m>P</m> refer to <q>in prison</q>
         </p>
-        <p><tabular>
+        <sidebyside><tabular>
               <row>
                 <cell></cell>
                 <cell><m>\forall x, G(x) \implies P(x)</m></cell>
@@ -479,7 +487,7 @@
                 <cell><m>\therefore</m></cell>
                 <cell><m>{\lnot}G(\mbox{George} )</m></cell>
               </row>
-            </tabular></p>
+            </tabular></sidebyside>
             <p>
               You should note that while the form is valid, there is something terribly wrong with this argument. Is it really true that everyone who is guilty of a crime is in prison?
             </p>
@@ -536,6 +544,7 @@
         <p>
           Below is a rule of inference that we call extended elimination.
         </p>
+        <sidebyside>
         <tabular>
           <row>
             <cell></cell>
@@ -558,6 +567,7 @@
             <cell><m>C</m></cell>
           </row>
         </tabular>
+        </sidebyside>
         <p>
           Use a truth table to verify that this rule is valid.
         </p>
@@ -569,6 +579,7 @@
           truth values have already been filled-in. You only need to identify the critical rows and
           verify that the conclusion is true in those rows.
         </p>
+        <sidebyside>
         <tabular>
           <row bottom="minor">
             <cell></cell>
@@ -742,6 +753,7 @@
             <cell></cell>
           </row>
         </tabular>
+        </sidebyside>
       </hint>
     </exercise>
     <exercise>
@@ -758,6 +770,7 @@
         <p>
           For example
         </p>
+        <sidebyside>
         <tabular>
           <row>
             <cell></cell>
@@ -776,12 +789,14 @@
             <cell><m>B(p)</m></cell>
           </row>
         </tabular>
+        </sidebyside>
         <p>
           is the particular form of universal modus ponens (here, <m>p</m>
           is not a variable <mdash /> it stands for some particular element of the universe of
           discourse)
           and
         </p>
+        <sidebyside>
         <tabular>
           <row>
             <cell></cell>
@@ -800,6 +815,7 @@
             <cell><m>\forall x, {\lnot}A(x)</m></cell>
           </row>
         </tabular>
+        </sidebyside>
         <p>
           is the universal form of (universal) modus tollens.
         </p>
@@ -831,6 +847,7 @@
         <p>
           Our argument has the form
         </p>
+        <sidebyside>
         <tabular>
           <row>
             <cell></cell>
@@ -849,6 +866,7 @@
             <cell><m>F(\mbox{the octopus} )</m></cell>
           </row>
         </tabular>
+        </sidebyside>
         <p>
           Clearly something is wrong <mdash /> a converse error has been made <mdash /> if everything that lived in water was necessarily a fish the argument would be OK (in fact it would then be the particular form of universal modus ponens). But that is the converse of the major premise given.
         </p>

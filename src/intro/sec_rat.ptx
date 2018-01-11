@@ -2,7 +2,7 @@
 <section xml:id="sec_rat">
   <title>Rational and irrational numbers</title>
   <p>
-    When we first discussed the rational numbers in <xref ref="sec_basic">Section</xref>
+    When we first discussed the rational numbers in <xref ref="sec_basic" />
     we gave the following definition, which isn't quite right.
     <me>
       \Rationals = \{ \frac{a}{b} \suchthat a \in \Integers \; \mbox{and}  \;
@@ -34,7 +34,7 @@
     We're ready, at last, to give a good, precise definition of the set
     of rational numbers. (Although it should be noted that we're not
     quite done fiddling around; an even better definition will be given in
-    <xref ref="sec_eq_rel">Section</xref>.)
+    <xref ref="sec_eq_rel" />.)
     <me>
       \Rationals = \{ \frac{a}{b} \suchthat a,b \in \Integers \; \mbox{and}  \;
       b \neq 0 \; \mbox{and}  \; \gcd{a}{b}=1 \}.
@@ -44,6 +44,7 @@
   <p>
     As we have in the past, let's parse this with an English translation in parallel.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>\Rationals</m></cell>
@@ -61,6 +62,8 @@
       <cell>the set of all</cell>
     </row>
   </tabular>
+  </sidebyside>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>\displaystyle \frac{a}{b}</m></cell>
@@ -78,6 +81,8 @@
       <cell><m>a</m> and <m>b</m> are integers</cell>
     </row>
   </tabular>
+  </sidebyside>
+  <sidebyside>
   <tabular>
     <row>
       <cell>and</cell>
@@ -101,9 +106,10 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Finally, we are ready to face a fundamental problem that was
-    glossed-over in <xref ref="sec_basic">Section</xref>. We defined two sets
+    glossed-over in <xref ref="sec_basic" />. We defined two sets
     back then, <m>\Rationals</m> and <m>\Reals</m>, the hidden assumption that one
     makes in asserting that there are two of something is that the two
     things are distinct. Is this really the case? The reals have been

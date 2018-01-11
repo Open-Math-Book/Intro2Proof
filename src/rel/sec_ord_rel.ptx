@@ -68,27 +68,13 @@
     Consider the set <m>S = \{1, 2, 3, 4, 6, 12 \}</m>. If we look at the
     relation <m>\leq</m> on this set we get the following digraph.
   </p>
-  <image source="images/e0da09656e4c7db5eeade23fed1105fbd4bdd5f6.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/4cf8b7c14772caf38538259faf8f90786807a110.png"/>
+<image><latex-image>\input{figures/total_order.tex}</latex-image></image>
   <p>
     On the other hand, perhaps you noticed these numbers are the
     divisors of <m>12</m>. The divisibility relation will give us our
     first example of a partial order.
   </p>
-  <image source="images/e49c46bf37d7f410ae45676d890c42b9f8414372.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/9d375470533a2a1d348a9ab7a02e4f5ae7878bd6.png"/>
+<image><latex-image>\input{figures/total_order.tex}</latex-image></image>
   <exercise>
     <statement>
       <p>
@@ -141,13 +127,13 @@
 
   <p>
     Hasse diagrams for the two orderings that we've been discussing are
-    shown in <xref ref="fig_hasse_diag">Figure</xref>
+    shown in <xref ref="fig_hasse_diag" />
   </p>
 
   <figure xml:id="fig_hasse_diag" >
     <caption>Hasse diagrams of the set <m>\{1,2,3,4,6,12\}</m> 
     totally ordered by <m>\leq</m> and partially ordered by <m>\mid</m>.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/Hasse_diagram.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -161,14 +147,14 @@
     Subsets of the same size can't possibly be included one in the other
     unless they happen to be equal! This allows us to draw the Hasse
     diagram for this set with the nodes arranged in four rows.
-    (See <xref ref="fig_subset_hasse">Figure</xref>.)
+    (See <xref ref="fig_subset_hasse" />.)
   </p>
 
   <figure xml:id="fig_subset_hasse" >
     <caption>Hasse 
     diagram for the power set of <m>\{1,2,3\}</m> partially ordered by 
     set containment.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/Hasse_for_subsets.tex}</latex-image></image>
   </figure>
 
   <exercise>
@@ -203,7 +189,7 @@
     a graded poset is the set of divisors of some number partially ordered
     by the divisibility relation (<m>\mid</m>). In this case the grading function
     takes a number to its total degree <mdash /> the sum of all the exponents
-    appearing in its prime factorization. In <xref ref="fig_divisors_of_72">Figure</xref>
+    appearing in its prime factorization. In <xref ref="fig_divisors_of_72" />
     we show the poset of divisors of <m>72</m> and indicate the grading.
   </p>
 
@@ -211,7 +197,7 @@
     <caption>Hasse 
     diagram for the divisors of <m>72</m>, partially ordered by 
     divisibility. This is a graded poset.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/divisors_of_72.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -280,14 +266,7 @@
         <p>
           Below is a small example of an ecology partially ordered by <q>predates</q>
         </p>
-        <image source="images/a6f8b1cb2af3af5ae392d573e16b6a8486a171fc.png"/>
-        <p>
-          \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-          \reset@font\fontsize{#1}{#2pt}
-          \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-          \selectfont}\fi
-        </p>
-        <image source="images/ecc5ab82c9752eb3932fbfbfda6017bbe761e740.png"/>
+<image><latex-image>\input{figures/ecosystem.tex}</latex-image></image>
         <p>
           Find the largest antichain in this poset.
         </p>
@@ -298,6 +277,7 @@
       <p>
         Referring to the poset given in exercise 1, match the following.
       </p>
+      <sidebyside>
       <tabular>
         <row>
           <cell>
@@ -390,6 +370,7 @@
         </cell>
       </row>
     </tabular>
+    </sidebyside>
     </statement>
     </exercise>
     <exercise>
@@ -403,14 +384,7 @@
           with a node at either end. The <m>2</m>-dimensional cube is actually a square
           and the <m>3</m>-dimensional cube is what we usually mean when we say <q>cube.</q>
         </p>
-        <image source="images/cab1fb3f3cb68ad636ef43f4be20796bb18bc683.png"/>
-        <p>
-          \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-          \reset@font\fontsize{#1}{#2pt}
-          \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-          \selectfont}\fi
-        </p>
-        <image source="images/ff2bd5d6c306891423f59cb1ccb3180470acfdc6.png"/>
+<image><latex-image>\input{figures/0-3_dim_cubes.tex}</latex-image></image>
         <p>
           Make a careful drawing of a <idx><h>hypercube</h></idx><em>hypercube</em> <mdash /> which is
           the name of the graph that follows the ordinary cube in this sequence.

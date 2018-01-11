@@ -96,6 +96,7 @@
   <p>
     For example, one (very obvious) rule of inference is
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -110,6 +111,7 @@
       <cell><m>B</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     This rule is known as
     <idx><h>conjunctive simplification</h></idx><em>conjunctive simplification</em>, and
@@ -122,6 +124,7 @@
     the related <em>modus tollens</em> rule means <q>method of denying.</q></fn>
     is one of the most useful.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -140,6 +143,7 @@
       <cell><m>B</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Modus ponens is related to the tautology <m>(A \land (A \implies B)) \implies B</m>.
   </p>
@@ -149,6 +153,7 @@
     is the rule of inference we get if we put modus ponens
     through the <q>contrapositive</q> wringer.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -167,6 +172,7 @@
       <cell><m>{\lnot}A</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Modus tollens is related to the tautology <m>({\lnot}B \land (A \implies B)) \implies {\lnot}A</m>.
   </p>
@@ -184,6 +190,7 @@
     Hypothetical syllogism basically asserts a transitivity property for
     implications.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -202,11 +209,13 @@
       <cell><m>A \implies C</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Disjunctive syllogism can be thought of as a statement about
     alternatives, but be careful to remember that in Logic, the disjunction
     always has the inclusive sense.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -225,6 +234,7 @@
       <cell><m>A</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <exercise>
     <statement>
       <p>
@@ -255,6 +265,7 @@
     a rule of inference having to do with the conclusion that one of two
     possibilities must hold.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -277,12 +288,14 @@
       <cell><m>B \lor D</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     <idx><h>destructive dilemma</h></idx><em>Destructive dilemma</em>
     is often not listed among the rules
     of inference because it can easily be obtained by using the constructive
     dilemma and replacing the implications with their contrapositives.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -305,12 +318,13 @@
       <cell><m>{\lnot}A \lor {\lnot}C</m></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
-    In <xref ref="tab_roi">Table</xref>, the ten most common
+    In <xref ref="tab_roi" />, the ten most common
     <idx><h>rules of inference</h></idx>rules of inference are listed.
     Note that all of these are equivalent to tautologies that
     involve conditionals (as opposed to biconditionals), every one of the
-    basic logical equivalences that we established in <xref ref="sec_le">Section</xref>
+    basic logical equivalences that we established in <xref ref="sec_le" />
     is really a tautology involving a biconditional, collectively these are
     known as the <idx><h>rules of replacement</h></idx><q>rules of replacement.</q>
     In an argument, any statement
@@ -318,7 +332,7 @@
     we could replace any premise with a different, but logically equivalent,
     premise. You might enjoy trying to determine a minimal set of rules of
     inference, that together with the rules of replacement would allow one
-    to form all of the same arguments as the ten rules in <xref ref="tab_roi">Table</xref>.
+    to form all of the same arguments as the ten rules in <xref ref="tab_roi" />.
   </p>
 
   <table xml:id="tab_roi" >
@@ -500,6 +514,7 @@
     </tabular>
   </table>
 
+  <sidebyside>
   <tabular>
   <row>
     <cell>Name</cell>
@@ -663,8 +678,9 @@
     <cell></cell>
   </row>
   </tabular>
+  </sidebyside>
   <p>
-    <xref ref="tab_roi">Table</xref>: The rules of inference. (continued)
+    <xref ref="tab_roi" />: The rules of inference. (continued)
     <idx><h>rules of inference</h></idx>
   </p>
   <exercises>
@@ -739,7 +755,7 @@
         </p>
       </statement>
       <hint>
-        <p>
+  <sidebyside>
           <tabular>
             <row>
               <cell></cell>
@@ -758,7 +774,7 @@
               <cell><m>A</m></cell>
             </row>
           </tabular>
-        </p>
+  </sidebyside>
         <p>
           This is <q>disjunctive syllogism.</q>
         </p>
@@ -778,7 +794,7 @@
               This argument is actually the particular form of universal modus ponens: 
               (See the final question in the next set of exercises.)
             </p>
-            <p>
+            <sidebyside>
             <tabular>
               <row>
                 <cell></cell>
@@ -797,7 +813,7 @@
                 <cell><m>E(\mbox{Sandra} )</m></cell>
               </row>
             </tabular>
-            </p>
+            </sidebyside>
             <p>
               At this stage in the game it would be perfectly fine to just identify this as 
               modus ponens and not worry about the quantifiers that appear.

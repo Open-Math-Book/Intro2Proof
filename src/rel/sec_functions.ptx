@@ -74,7 +74,7 @@
 
   <figure xml:id="fig_generic_function" >
     <caption>The sets related to an arbitrary function.</caption>
-    <image source="images/generic_function.svg"/>
+<image><latex-image>\input{figures/generic_function.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -211,14 +211,7 @@
     or neither of these to be functions. The canonical example to keep
     in mind is probably <m>f(x) = x^2</m> and its inverse.
   </p>
-  <image source="images/84bdb7199439369a5101f8d2d988891d5d900ef9.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/081b46470c02caeeb91286aa1ecaeb5a77b7f319.png"/>
+<image><latex-image>\input{figures/square_n_squareroot.tex}</latex-image></image>
   <p>
     The graph that we obtain by reflecting <m>y=f(x)=x^2</m> in the line <m>y=x</m> doesn't
     pass the vertical line test and so it is the graph of (merely) a relation <mdash /> not of a function. The function <m>g(x) = \sqrt{x}</m> that we all know
@@ -591,14 +584,7 @@
           we haven't seen before (in lower terms) we write it down. This is indicated
           in the diagram below by circling the entries.
         </p>
-        <image source="images/a131a9f9e6bc762441a32cbafc45cef085aa4de8.png"/>
-        <p>
-          \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-          \reset@font\fontsize{#1}{#2pt}
-          \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-          \selectfont}\fi
-        </p>
-        <image source="images/a84d85596b6fa176bb6a0b54151308930c9a672f.png"/>
+<image><latex-image>\input{figures/Cantor_snake.tex}</latex-image></image>
         <p>
           Effectively this gives us a function <m>f</m> which produces the rational number
           that would be found in a given position in this list. For example

@@ -26,7 +26,7 @@
     of a sentence having a variable in it by asserting one of two levels
     of quantification: <q>this is true at least once</q> or <q>this is always true</q>.
     We've actually seen the symbols (<m>\exists</m> and <m>\forall</m>) for these
-    concepts already (in <xref ref="sec_scary">Section</xref>).
+    concepts already (in <xref ref="sec_scary" />).
   </p>
 
   <p>
@@ -506,7 +506,7 @@
     <exercisegroup>
     <introduction>
       <p>
-        The following setup is used in <xref ref="negated"></xref> through <xref ref="summary"></xref>.
+        The following setup is used in <xref first="negated" last="summary" >Exercises</xref>.
       </p>
       <p>
         Alvin, Betty, and Charlie enter a cafeteria which offers three different
@@ -586,7 +586,7 @@
     <exercise>
       <statement>
         <p>
-          Change one word of <xref ref="entree">statement</xref> so that it becomes true.
+          Change one word of <xref ref="entree" /> so that it becomes true.
         </p>
       </statement>
       <hint>
@@ -598,10 +598,10 @@
     <exercise xml:id="summary">
       <statement>
         <p>
-          Write down the negation of <xref ref="negated"></xref> and compare it to 
-          <xref ref="compare">statement</xref>. Hopefully you will see that they are 
+          Write down the negation of <xref ref="negated" /> and compare it to 
+          <xref ref="compare" />. Hopefully you will see that they are 
           the same! Does this make you want to modify one or both of your answers to 
-          <xref ref="negated"></xref> and <xref ref="compare"></xref>?
+          <xref ref="negated" /> and <xref ref="compare" />?
         </p>
       </statement>
       <hint>

@@ -92,7 +92,7 @@
   </p>
 
   <p>
-    <image width="20%" source="images/domino_row.png" />
+    <image width="20%" source="photos/domino_row.png" />
   </p>
 
   <p>
@@ -124,6 +124,7 @@
   <p>
     An outline for a proof using PMI:
   </p>
+  <sidebyside>
   <tabular>
     <row bottom="minor">
       <cell></cell>
@@ -148,6 +149,7 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Soon we'll do an actual example of an inductive
     proof, but first we have to say something <em>REALLY IMPORTANT</em>
@@ -180,7 +182,7 @@
   </p>
 
   <p>
-    Okay, so on to an example. In <xref ref="sec_basic_set_notions">Section</xref>
+    Okay, so on to an example. In <xref ref="sec_basic_set_notions" />
     we discovered a formula relating the sizes of a set <m>A</m> and its
     power set <m>{\mathcal P}(A)</m>. If <m>|A| = n</m> then <m>|{\mathcal P}(A)| = 2^n</m>.
     What we've got here is an infinite family of logical sentences, one for
@@ -269,7 +271,7 @@
           can provide insights into how to prove the inductive step, and it may
           also help you avoid a classic error in which the inductive approach fails
           essentially just because there is a gap between two of the earlier 
-          dominoes.<fn>See <xref ref="ex_horses">exercise</xref>, the classic fallacious proof that all horses are the same color.</fn>
+          dominoes.<fn>See <xref ref="ex_horses" />, the classic fallacious proof that all horses are the same color.</fn>
         </p>
       </li>
 
@@ -292,7 +294,7 @@
   </p>
 
   <p>
-    When we first introduced the natural numbers (<m>\Naturals</m>) in <xref ref="ch_intro">Chapter</xref> we decided to follow the convention that the smallest natural number is 1.
+    When we first introduced the natural numbers (<m>\Naturals</m>) in <xref ref="ch_intro" /> we decided to follow the convention that the smallest natural number is 1.
     You may have noticed that the Peano axioms mentioned in the beginning of this
     section treat <m>0</m> as the smallest natural number. Many people follow Dr.<nbsp />Peano's
     convention, but we're going to stick with our original interpretation:
@@ -329,6 +331,7 @@
           Complete the following table in order to provide evidence that the formula
           above is correct.
         </p>
+        <sidebyside>
         <tabular>
           <row>
             <cell><m>n</m></cell>
@@ -366,6 +369,7 @@
             <cell></cell>
           </row>
         </tabular>
+        </sidebyside>
       </statement>
       <hint>
         <p>
@@ -464,19 +468,9 @@
         square of the chessboard is covered by some trominoe.</fn> by L-shaped trominoes.  
         (A trominoe is like a domino but 
         made up of <m>3</m> little squares.  There are two kinds, straight
-        <image source="images/4c4f0299c52980538e23e72725b67e3952a50e72.png"/>
-        \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-          \reset@font\fontsize{#1}{#2pt}
-          \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-          \selectfont}\fi
-        <image source="images/38137e93f810c2418fc55a8d20692923c140a7d2.png"/>
+<image><latex-image>\input{figures/straight_trominoe.tex}</latex-image></image>
         and L-shaped
-        <image source="images/3d4e8334e001f2ef81d9f88e4a6663ab1db84fad.png"/>
-        \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-          \reset@font\fontsize{#1}{#2pt}
-          \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-          \selectfont}\fi
-        <image source="images/ef5a3af217fede2bf378cd606b250701c2c65ae7.png"/>
+<image><latex-image>\input{figures/L-shaped_trominoe.tex}</latex-image></image>
         . This problem is only concerned with
         the L-shaped trominoes.)   
     </p>

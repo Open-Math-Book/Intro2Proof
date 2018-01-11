@@ -46,6 +46,7 @@
     Parsing this as we have done before with an English translation in
     parallel, we get:
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>\forall x</m></cell>
@@ -63,6 +64,8 @@
       <cell>there is a number <m>y</m></cell>
     </row>
   </tabular>
+  </sidebyside>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>\in \Integers</m></cell>
@@ -78,6 +81,7 @@
       their sum is <m>0</m>.</cell>
     </row>
   </tabular>
+  </sidebyside>
   <exercise>
     <statement>
       <p>

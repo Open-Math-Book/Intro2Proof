@@ -9,6 +9,7 @@
     of these binomial coefficients into a triangular array <mdash /> known as
     <idx><h>Pascal's triangle</h></idx> Pascal's triangle, but if not<ellipsis />
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -116,6 +117,7 @@
       <cell>1</cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     <em>et cetera.</em>
   </p>
@@ -144,6 +146,7 @@
     You can compute that last product either by using the distributive law
     or the table method:
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -170,6 +173,7 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Either way, the answer should be <m>(x+y)^3 = x^3 + 3x^2y + 3xy^2 + y^3</m>.
   </p>
@@ -186,6 +190,7 @@
     For this product I wouldn't even <em>think</em> about the distributive
     law, I'd jump to the table method right away:
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -230,6 +235,7 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     In the end you should obtain
     <me>
@@ -255,6 +261,7 @@
   <p>
     We showed rows 0 through 6 above. Rows 7 and 8 are
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell></cell>
@@ -295,6 +302,7 @@
       <cell>1.</cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     With this information in hand, it becomes nothing more than a matter of copying
     down the answer to compute
@@ -395,7 +403,7 @@
     </p>
 
     <p>
-      Applying the formula we deduced in <xref ref="sec_counting">Section</xref>
+      Applying the formula we deduced in <xref ref="sec_counting" />
       we get
       <md>
         <mrow>\binom{n-1}{k} + \binom{n-1}{k-1}</mrow>
@@ -639,14 +647,7 @@
           Pascal's triangle that we might call <q>Pascal's tetrahedron.</q>
           What would the next layer look like?
         </p>
-        <image source="images/cb6058c0f87c49e703a7e6580d546f4e9382e00d.png"/>
-        <p>
-          \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-          \reset@font\fontsize{#1}{#2pt}
-          \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-          \selectfont}\fi
-        </p>
-        <image source="images/e039ca027fbc0b5a0d5926f26e3b2934ccd1c2a7.png"/>
+<image><latex-image>\input{figures/Pascals_tetrahedron.tex}</latex-image></image>
       </statement>
     </exercise>
     <exercise>

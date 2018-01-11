@@ -5,7 +5,7 @@
 \renewcommand{\tabcolsep}{2.4pt}
 \renewcommand{\arraystretch}{.63}
 \renewcommand{\arraystretch}{1}
-\renewcommand{\Naturals}{{\mathbb N}}
+%\renewcommand{\Naturals}{{\mathbb N}}
 \renewcommand{\arraystretch}{.9}
 \renewcommand{\arraystretch}{.77}
 \newcommand{\tab}{}

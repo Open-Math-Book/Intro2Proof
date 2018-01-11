@@ -39,11 +39,11 @@
     <caption>The <q>element of</q> relation 
     is an example of a relation that goes <em>from</em> one set <em>to</em> a 
     different set.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/first_relation.tex}</latex-image></image>
   </figure>
 
   <p>
-    A diagram such as we have given in <xref ref="fig_rel1">Figure</xref> seems like a
+    A diagram such as we have given in <xref ref="fig_rel1" /> seems like a
     very natural thing. Such pictures certainly give us an easy visual
     tool for thinking
     about relations. But we should point out certain hidden assumptions.
@@ -53,7 +53,7 @@
     it seems that we are assuming they are not only different, but
     <em>disjoint</em>. The sets not only need not be disjoint, but often
     (most of the time!) we have relations that go from a set to itself
-    so the sets in a picture like this may be identical. In <xref ref="fig_rel2">Figure</xref>
+    so the sets in a picture like this may be identical. In <xref ref="fig_rel2" />
     we illustrate the divisibility relation on the set of all divisors of
     6 <mdash /> this is an example in which the sets on either side of the relation
     are the same. Notice the linguistic distinction, we can talk about
@@ -65,22 +65,15 @@
     <caption>The <q>divides</q> relation 
     is an example of a relation that goes from a set to itself.  In this example 
     we say that we have a relation <em>on</em> the set of divisors of 6.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/2nd_relation.tex}</latex-image></image>
   </figure>
 
   <p>
     Purists will note that it is really inappropriate to represent the same set
-    in two different places in a Venn diagram. The diagram in <xref ref="fig_rel2">Figure</xref>
+    in two different places in a Venn diagram. The diagram in <xref ref="fig_rel2" />
     should really look like this:
   </p>
-  <image source="images/56f03a4ca93c31cf67756f8d6c8f41c881482184.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/31bb60bd3341d6c6bd0bd31858aa6d54d61a934c.png"/>
+<image><latex-image>\input{figures/2nd_relation_v2.tex}</latex-image></image>
   <p>
     Indeed, this representation is definitely preferable, although it may be more crowded.
     A picture such as this is
@@ -197,26 +190,26 @@
     relation is actually a subset of <m>\Reals \times \Reals</m>, that means
     we can view the relation as a subset of the <m>x</m><ndash /><m>y</m> plane. In other
     words, we can graph it. The graph of the <q><m>\lt</m></q> relation is
-    given in <xref ref="fig_lt_graph">Figure</xref>.
+    given in <xref ref="fig_lt_graph" />.
   </p>
 
   <figure xml:id="fig_lt_graph" >
     <caption>The <q>less than</q> relation 
     can be viewed as a subset of <m>\Reals \times \Reals</m>, i.e. it can be graphed.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/less_than_on_RxR.tex}</latex-image></image>
   </figure>
 
   <p>
     A relation on any set that is a subset of <m>\Reals</m> can likewise be
     graphed. The graph of the <q><m>\mid</m></q> relation is
-    given in <xref ref="fig_div_graph">Figure</xref>.
+    given in <xref ref="fig_div_graph" />.
   </p>
 
   <figure xml:id="fig_div_graph" >
     <caption>The divisibility relation 
     can be graphed.  Only those points (as indicated) with integer coordinates 
     are in the graph.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/divides_on_NxN.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -294,14 +287,7 @@
       \relS \; = \; \{(a,y), (b,w), (b,x), (b,z) \}.
     </me>
   </p>
-  <image source="images/17ec8e8a3f4225fbe6d4f30e1646c94cdf4e3cb8.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/c6f6bcd2128c5c07deed5a22353b4ad58dbddf65.png"/>
+<image><latex-image>\input{figures/composite_relation.tex}</latex-image></image>
   <exercise>
     <statement>
       <p>

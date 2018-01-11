@@ -66,14 +66,7 @@
     this function is not injective, but the portion of the graph shown
     in bold below passes the horizontal line test.
   </p>
-  <image source="images/3a207cc3eeff787044373ff19b7bc762a55332c4.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/af80ba62d3295ff33a46993687d833e3bdc34a1f.png"/>
+<image><latex-image>\input{figures/graph_o_sine.tex}</latex-image></image>
   <p>
     If we restrict the domain of the sine function to the closed interval
     <m>[-\pi/2, \pi/2]</m>, we have an invertible function. The inverse of this
@@ -309,11 +302,11 @@
 
   <p>
     We'll end this section with a function that will be especially important
-    in <xref ref="ch_card">Chapter</xref>. If we have an arbitrary subset of the natural
+    in <xref ref="ch_card" />. If we have an arbitrary subset of the natural
     numbers, we can associate it with an infinite string of 0's and 1's. By
     sticking a decimal point in front of such a thing, we get binary notation
     for a real number in the interval <m>[0,1]</m>. There is a subtle problem that
-    we'll deal with when we study this function in more detail in <xref ref="ch_card">Chapter</xref> <mdash /> some real numbers can be expressed in two different ways in base 2.
+    we'll deal with when we study this function in more detail in <xref ref="ch_card" /> <mdash /> some real numbers can be expressed in two different ways in base 2.
     For example, <m>1/2</m> can either be written as <m>.1</m> or as <m>.0\overline{1}</m> (where,
     as usual, the overline indicates a pattern that repeats forever).
     For the moment, we are talking about

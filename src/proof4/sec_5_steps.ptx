@@ -21,13 +21,13 @@
   </p>
 
   <p>
-    See <xref ref="fig_the_army">Figure</xref>.
+    See <xref ref="fig_the_army" />.
   </p>
 
   <figure xml:id="fig_the_army" >
     <caption>An infinite number of
     checkers occupying the integer lattice points such that <m>y\leq 0</m>.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/The_Army.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -71,6 +71,7 @@
     distance into enemy territory seems to always be a power of
     2.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><hash /> of steps</cell>
@@ -93,6 +94,7 @@
       <cell>8</cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     As a picture is sometimes literally worth one thousand words, we
     include here 3 figures illustrating the moves necessary to put
@@ -102,13 +104,13 @@
   <figure xml:id="fig_one_step" >
     <caption>One man is sacrificed in 
     order to move a scout one step into enemy territory.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/One_step_into_void.tex}</latex-image></image>
   </figure>
 
   <figure xml:id="fig_two_steps" >
     <caption>Three man are sacrificed in 
     order to move a scout two steps into enemy territory.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/Two_steps_into_void.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -120,7 +122,7 @@
   <figure xml:id="fig_three_steps" >
     <caption>Eight men are needed to
     get a scout 3 steps into the void.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/Three_steps_into_void.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -171,7 +173,7 @@
 
   <figure xml:id="fig_taxicab_distance" >
     <caption>The taxicab distance to <m>(0,5)</m>.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/Taxicab_distance.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -199,12 +201,12 @@
 
   <p>
     Think about the change in the value of our invariant as a checker jumping
-    move gets made. See <xref ref="fig_finding_r">Figure</xref>.
+    move gets made. See <xref ref="fig_finding_r" />.
   </p>
 
   <figure xml:id="fig_finding_r" >
     <caption>In making a checker-jump move, two men valued <m>r^{k+1}</m> and <m>r^{k+2}</m> are replaced by a single man valued <m>r^k</m>.</caption>
-    <image source=""/>
+<image><latex-image>\input{figures/Void-finding_r.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -243,7 +245,7 @@
 
   <p>
     Next we want to look at the value of this invariant when <q>men</q> occupy all of
-    the positions with <m>y\leq0</m>. By looking at <xref ref="fig_taxicab_distance">Figure</xref>
+    the positions with <m>y\leq0</m>. By looking at <xref ref="fig_taxicab_distance" />
     you can see that there is a single square with value <m>r^5</m>, there are 3 squares
     with value <m>r^6</m>, there are 5 squares with value <m>r^7</m>, <em>et cetera</em>.
     The sum, <m>S</m>, of the values of all the initially occupied positions is

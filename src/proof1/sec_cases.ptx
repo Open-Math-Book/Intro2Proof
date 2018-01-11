@@ -46,7 +46,7 @@
     four color theorem. The four color theorem is a result known to
     map makers for quite some time that says that 4 colors are always sufficient
     to color the nations on a map in such a way that countries sharing a boundary
-    are always colored differently. <xref ref="fig_Lux_map">Figure</xref> shows one instance
+    are always colored differently. <xref ref="fig_Lux_map" /> shows one instance
     of an arrangement of nations that requires at least four different colors,
     the theorem says that four colors are <em>always</em> enough. It should be noted
     that real cartographers usually reserve a fifth color for oceans (and other
@@ -69,7 +69,7 @@
     <caption>The nations surrounding 
     <idx><h>Luxembourg</h></idx> Luxembourg show 
     that sometimes 4 colors are required in cartography.</caption>
-    <image source=""/>
+    <image><latex-image>\input{figures/Luxembourg.tex}</latex-image></image>
   </figure>
 
   <p>
@@ -84,7 +84,7 @@
     in <idx><h>K&#xf6;nigsberg</h></idx>K&#xf6;nigsberg Prussia,
     who, curiously, did <em>not</em> make the
     conjecture<fn>This conjecture was 
-    discussed previously in the exercises of <xref ref="sec_def">Section</xref></fn> which bears
+    discussed previously in the exercises of <xref ref="sec_def" /></fn> which bears
     his name. In a letter to
     <idx><h>Euler, Leonhard</h></idx>Leonard Euler, Goldbach conjectured that every
     odd number greater than 5 could be expressed as the sum of three primes (nowadays this is known as the
@@ -204,7 +204,7 @@
     distributed on the nodes of a graph, and that we are allowed to do
     <em>graph pebbling moves</em> <mdash /> we remove two pebbles from some node
     and place a single pebble on a node that is connected to it.
-    See <xref ref="fig_pebbling_move">Figure</xref>.
+    See <xref ref="fig_pebbling_move" />.
   </p>
 
   <figure xml:id="fig_pebbling" >
@@ -212,7 +212,7 @@
     are distributed on the nodes of a graph.  There is no significance to the 
     particular graph that is shown here, or to the arrangement of pebbles <mdash /> 
     we are just giving an example.</caption>
-    <image source=""/>
+    <image><latex-image>\input{figures/pebbling.tex}</latex-image></image>
   </figure>
 
   <figure xml:id="fig_pebbling_move" >
@@ -220,7 +220,7 @@
     of a node and puts one of them on an adjacent node (the other is discarded).
     Notice how node C, which formerly held 3 pebbles, now has only 1 and that 
     a pebble is now present on node D where previously there was none.</caption>
-    <image source=""/>
+    <image><latex-image>\input{figures/pebbling_move.tex}</latex-image></image>
   </figure>
 
   <p>

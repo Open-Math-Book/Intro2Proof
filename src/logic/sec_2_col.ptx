@@ -56,6 +56,7 @@
     <m>A \land (B \lor {\lnot}A) \; \cong \; A \land B</m>.<fn>This equivalence should have been verified using truth tables in the exercises from the previous
     section.</fn>
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>A \land (B \lor {\lnot}A)</m></cell>
@@ -86,6 +87,7 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     We have assembled a nice, step-by-step sequence of equivalences <mdash /> each
     justified by a known law <mdash /> that begins with the left-hand side of the
@@ -116,6 +118,7 @@
     uses the least number of steps. Following my own advice, I'll start
     with the right-hand side of this one.
   </p>
+  <sidebyside>
   <tabular>
     <row>
       <cell><m>(A \land (B \lor C)) \lor (A \land C)</m></cell>
@@ -154,6 +157,7 @@
       <cell></cell>
     </row>
   </tabular>
+  </sidebyside>
   <p>
     Note that in the example we've just done, the two applications
     of the distributive law go in opposite directions as far as their

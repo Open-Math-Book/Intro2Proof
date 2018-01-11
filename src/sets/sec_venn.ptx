@@ -29,14 +29,7 @@
     The prototypical Venn diagram is the picture that looks something
     like the view through a set of binoculars.
   </p>
-  <image source="images/4276176ecd63eb13555dd0df31bab3c19b63331e.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/46d7069f16459bd3f24cc1e83d9514f52a9c56cc.png"/>
+  <image><latex-image>\input{figures/first_Venn.tex}</latex-image></image>
   <p>
     In a Venn diagram the
     <idx><h>universe of discourse</h></idx>universe of discourse is normally drawn as
@@ -45,14 +38,7 @@
     want to draw a Venn diagram that shows all the possible intersections
     among four sets, you'll find it's impossible with (only) circles.
   </p>
-  <image source="images/d18d471639ae50781c1e0c48606c8eba8bc024e3.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/631f918f06ee23541d93106a670c90c26a6b351e.png"/>
+<image><latex-image>\input{figures/4set_Venn.tex}</latex-image></image>
   <exercise>
     <statement>
       <p>
@@ -79,39 +65,19 @@
   <p>
     Here is a small example of a finite universe.
   </p>
-  <image source="images/d41c187c9dc6a280545c82efdf62d0029f940141.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/82b4a1053d62dc47d09a91d584ae61ffe3d3985e.png"/>
+  <image><latex-image>\input{figures/silly_universe.tex}</latex-image></image>
   <p>
     And here is the same universe with some Jordan curves
     used to encircle two subsets.
   </p>
-  <image source="images/324e21f2b988e4618acfbf76e59e747579a94713.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/08fa5c5d53afa28a0644f289ee90b474569d4f24.png"/>
+  <image><latex-image>\input{figures/silly_w_sets.tex}</latex-image></image>
+
   <p>
     This picture might lead us to think that the set of cartoon characters
     and the set of horses are disjoint, so we thought it would be nice
     to add one more element to our universe in order to dispel that notion.
   </p>
-  <image source="images/edfba53dc157bca33f9afae10e24f0814d098a93.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/8ba0c7bb3c8f000f9431acb5cdacb1838b085db6.png"/>
+  <image><latex-image>\input{figures/silly_w_counter_ex.tex}</latex-image></image>
   <p>
     Suppose we have two sets <m>A</m> and <m>B</m> and we're interested
     in proving that <m>B \subseteq A</m>. The job is done if we can show that
@@ -119,14 +85,7 @@
     the intersection <m>A \cap B</m>. It's equivalent if we can show that the
     region marked with <m>\emptyset</m> in the following diagram is actually empty.
   </p>
-  <image source="images/b3dd087f60ee372aa73c9dceca17b8395f83f2c2.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/4528022120716e4b7de612e57850bcae3672a7a7.png"/>
+  <image><latex-image>\input{figures/Venn_showing_implies.tex}</latex-image></image>
   <p>
     Let's put all this together. The inclusion <m>B \subseteq A</m> corresponds
     to the logical sentence <m>M_B \implies M_A</m>. We know that implications
@@ -150,22 +109,11 @@
     to be disjoint, or if one is known to be contained in the other,
     we can draw Venn diagrams like the following.
   </p>
-  <image source="images/a06a563c9bbd8e281104542e8025d5051f8b2405.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/921c9ce55a5be071f4505f3423c97f54909925fa.png"/>
-  <image source="images/f463b1fec349a9916c602733b3885da6a8f0c0b1.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/d6697a96aa876b0969092896d8371ddf3705f4d5.png"/>
+
+<image><latex-image>\input{figures/disjoint_Venn.tex}</latex-image></image>
+
+<image><latex-image>\input{figures/containment_Venn.tex}</latex-image></image>
+
   <p>
     However, both of these situations can also be dealt with
     by working with Venn diagrams in which the sets are in
@@ -180,28 +128,18 @@
         the empty regions when
         <ul>
           <li>
-            <title>a)</title>
             <p>
               The sets are disjoint.
             </p>
           </li>
-
           <li>
-            <title>b)</title>
             <p>
               <m>A</m> is contained in <m>B</m>.
             </p>
           </li>
         </ul>
       </p>
-      <image source="images/7eb2ab3e317b6a6fe9c0276b9cfef8c17feaca61.png"/>
-      <p>
-        \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-        \reset@font\fontsize{#1}{#2pt}
-        \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-        \selectfont}\fi
-      </p>
-      <image source="images/921c9ce55a5be071f4505f3423c97f54909925fa.png"/>
+      <image><latex-image>\input{figures/general_Venn.tex}</latex-image></image>
     </statement>
   </exercise>
   <p>
@@ -216,14 +154,7 @@
     We have put the arbitrary expression in disjunctive normal form when
     we express it as a union of the intersections that describe those regions.
   </p>
-  <image source="images/a31726c7eb1b1775b10a3d4c303108f2a500a172.png"/>
-  <p>
-    \ifx\SetFigFont\undefined\gdef\SetFigFont#1#2#3#4#5{
-    \reset@font\fontsize{#1}{#2pt}
-    \fontfamily{#3}\fontseries{#4}\fontshape{#5}
-    \selectfont}\fi
-  </p>
-  <image source="images/65fb40b67f07fd664a1eddc08093d4673ad715b0.png"/>
+  <image><latex-image>\input{figures/3set_Venn_gen_pos.tex}</latex-image></image>
   <exercises>
     <exercise>
       <statement>
@@ -232,7 +163,7 @@
         </p>
 
         <p>
-          <image width="75%" source="images/3set_Venn.png" />
+          <image><latex-image>\input{figures/3set_Venn.tex}</latex-image></image>
         </p>
       </statement>
       <hint>
@@ -282,7 +213,7 @@
         </p>
 
         <p>
-          <image width="73%" source="images/rectilinear.png" />
+          <image><latex-image>\input{figures/rectilinear.tex}</latex-image></image>
         </p>
 
         <p>
@@ -348,17 +279,35 @@
           The prototypes for the <em>modus ponens</em> and <em>modus tollens</em>
           argument forms are the following:
         </p>
+        <sidebyside>
         <tabular>
           <row>
-            <cell>\begin{minipage}{.3\textwidth}All men are mortal.  
-            Socrates is a man. 
-            Therefore Socrates is mortal.</cell>
-            <cell>and</cell>
-            <cell>\begin{minipage}{.3\textwidth}All men are mortal.  
-            Zeus is not mortal. 
-            Therefore Zeus is not a man.</cell>
+            <cell>All men are mortal.</cell>
+          </row> 
+          <row>
+            <cell>Socrates is a man.</cell>
+          </row> 
+          <row>
+            <cell>Therefore Socrates is mortal.</cell>
           </row>
         </tabular>
+        <tabular>
+          <row>
+            <cell><nbsp /><nbsp /><nbsp />and<nbsp /><nbsp /><nbsp /></cell>
+          </row>
+        </tabular>
+        <tabular>
+          <row>
+            <cell>All men are mortal.  </cell>
+          </row> 
+          <row>
+            <cell>Zeus is not mortal. </cell>
+          </row> 
+          <row>
+            <cell>Therefore Zeus is not a man.</cell>
+          </row>
+        </tabular>
+        </sidebyside>
         <p>
           Illustrate these arguments using Venn diagrams.
         </p>

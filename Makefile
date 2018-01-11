@@ -1,6 +1,6 @@
-PTX_HOME = /home/joe/Desktop/mathbook
-JING_HOME = /home/joe/Desktop/jing-trang
-BOOK_HOME = /home/joe/Desktop/Intro2Proof
+PTX_HOME = /Users/joefields/Desktop/mathbook
+JING_HOME = /Users/joefields/Desktop/jing-trang
+BOOK_HOME = /Users/joefields/Desktop/Intro2Proof
 
 all: svg pdf html
 pdf: pdf/i2p.pdf
